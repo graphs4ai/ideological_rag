@@ -1,0 +1,10 @@
+[2026-05-08 14:44:35,360][__main__][INFO] - Carregadas 1 perguntas de dados/pairs.json
+[2026-05-08 14:44:35,402][__main__][INFO] - Cache carregado com 199752 entradas
+[2026-05-08 14:44:36,410][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:44:36,411][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:44:36,413][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:44:36,416][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:44:36,531][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:44:36,532][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 14:44:36,581][__main__][INFO] - Cache salvo com 199752 entradas
+[2026-05-08 14:44:36,581][__main__][INFO] - Coleta de dados concluída!

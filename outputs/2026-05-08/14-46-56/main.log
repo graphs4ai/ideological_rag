@@ -1,0 +1,61 @@
+[2026-05-08 14:46:56,899][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-08 14:46:56,940][__main__][INFO] - Cache carregado com 199752 entradas
+[2026-05-08 14:46:57,878][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:57,882][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:57,882][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:57,882][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:57,883][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 14:46:57,883][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:57,887][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:57,888][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:57,890][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 14:46:57,898][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 14:46:58,162][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:58,166][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:58,168][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:58,170][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 14:46:58,174][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 14:46:58,175][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:58,188][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:58,190][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 14:46:58,195][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:58,196][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:58,440][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:58,449][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:58,461][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:58,465][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 14:46:58,466][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:58,467][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 14:46:58,474][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 14:46:58,481][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 14:46:58,483][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:58,485][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:58,755][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:58,758][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:58,758][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 14:46:58,761][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:58,767][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:58,768][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:58,774][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 14:46:58,778][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 14:46:58,780][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:59,042][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-08 14:46:59,091][__main__][INFO] - Cache salvo com 199752 entradas
+[2026-05-08 14:46:59,091][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:59,092][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:59,134][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:59,136][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 14:46:59,136][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:59,137][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:59,137][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:59,137][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:59,138][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:59,414][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:59,417][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:59,426][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:59,428][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:59,429][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:59,431][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 14:46:59,449][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 14:46:59,454][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:59,466][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente

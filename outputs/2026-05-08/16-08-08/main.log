@@ -1,0 +1,742 @@
+[2026-05-08 16:08:08,747][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 3], emb_model='google/embeddinggemma-300m'
+[2026-05-08 16:08:08,748][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-08 16:08:08,791][__main__][INFO] - Cache carregado com 204976 entradas
+[2026-05-08 16:08:11,166][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:11,962][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:12,885][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:13,619][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:14,452][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:15,487][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:16,367][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:17,121][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:17,836][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:18,722][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:19,458][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:20,452][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:21,253][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:22,203][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:23,068][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:23,875][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:24,958][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:24,959][openai._base_client][INFO] - Retrying request to /chat/completions in 0.377649 seconds
+[2026-05-08 16:08:24,959][openai._base_client][INFO] - Retrying request to /chat/completions in 0.396340 seconds
+[2026-05-08 16:08:24,960][openai._base_client][INFO] - Retrying request to /chat/completions in 0.375452 seconds
+[2026-05-08 16:08:26,298][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:27,056][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:08:27,782][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:27,801][openai._base_client][INFO] - Retrying request to /chat/completions in 0.387273 seconds
+[2026-05-08 16:08:28,593][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:08:29,678][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:30,481][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:31,521][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:32,341][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:33,090][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:33,838][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:34,982][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:35,708][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:36,472][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:08:37,576][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:38,384][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:38,394][openai._base_client][INFO] - Retrying request to /chat/completions in 0.849594 seconds
+[2026-05-08 16:08:38,396][openai._base_client][INFO] - Retrying request to /chat/completions in 0.753114 seconds
+[2026-05-08 16:08:38,400][openai._base_client][INFO] - Retrying request to /chat/completions in 0.818775 seconds
+[2026-05-08 16:08:38,409][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:38,409][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:38,410][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:38,410][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:38,411][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:08:38,411][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:08:39,293][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:40,196][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-08 16:08:40,261][__main__][INFO] - Cache salvo com 205016 entradas
+[2026-05-08 16:08:40,261][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:40,977][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:42,305][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:43,068][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:43,823][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:44,628][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:45,376][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:46,133][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:46,954][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:47,663][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:48,410][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:49,356][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:50,281][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:51,283][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:52,395][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:08:53,111][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:53,814][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:53,818][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:53,826][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:53,832][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:53,833][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:08:53,834][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:53,834][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:08:53,835][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:08:54,557][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:55,332][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:56,104][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:56,119][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:56,119][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:08:57,500][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:58,221][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:59,109][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:08:59,953][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:00,700][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:01,448][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:02,195][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:02,930][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:03,717][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:04,459][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:05,416][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:06,556][__main__][INFO] - Salvamento incremental (80 novas respostas)...
+[2026-05-08 16:09:06,624][__main__][INFO] - Cache salvo com 205056 entradas
+[2026-05-08 16:09:06,624][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:07,393][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,202][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,961][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,970][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,971][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,971][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,971][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,972][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,972][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,972][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:09:08,973][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:08,973][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:09:08,974][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:09:09,692][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:10,441][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:11,252][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:12,631][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:13,386][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:14,206][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:14,967][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:15,862][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:16,694][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:17,407][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:18,215][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:18,925][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:19,649][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:20,366][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:21,072][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:21,818][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:22,591][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:23,440][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:23,452][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:23,453][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:23,454][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:23,454][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:23,455][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:23,455][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:23,455][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:24,168][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:24,917][__main__][INFO] - Salvamento incremental (120 novas respostas)...
+[2026-05-08 16:09:24,995][__main__][INFO] - Cache salvo com 205096 entradas
+[2026-05-08 16:09:24,995][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:25,738][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:25,755][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:09:27,055][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:27,836][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:28,660][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:28,677][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:29,430][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:30,197][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:30,980][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:31,727][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:09:32,554][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:33,374][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:34,128][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:34,886][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:35,699][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:36,430][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:37,142][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:37,981][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:37,999][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:38,000][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:38,000][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:38,000][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:38,001][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:38,001][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:38,001][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:38,002][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:38,902][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:09:39,665][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:40,419][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:41,853][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:42,659][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:43,409][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:44,875][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:09:45,663][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:46,475][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:09:47,234][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:47,946][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:48,710][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:49,529][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:50,233][__main__][INFO] - Salvamento incremental (160 novas respostas)...
+[2026-05-08 16:09:50,293][__main__][INFO] - Cache salvo com 205136 entradas
+[2026-05-08 16:09:50,293][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:51,293][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:52,024][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:52,752][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:53,531][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:53,549][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:53,549][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:53,549][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:53,550][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:53,550][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:53,550][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:53,551][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:09:53,551][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:09:54,579][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:55,526][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:56,498][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:58,082][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:58,789][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:59,493][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:09:59,516][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:00,282][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:00,995][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:01,707][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:02,428][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:03,257][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:03,978][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:04,711][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:10:05,424][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:06,141][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:06,982][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:07,779][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:08,600][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:08,614][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:10:08,614][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:08,614][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:08,615][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:08,615][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:08,615][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:09,330][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:10,138][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:10,958][__main__][INFO] - Salvamento incremental (200 novas respostas)...
+[2026-05-08 16:10:11,015][__main__][INFO] - Cache salvo com 205176 entradas
+[2026-05-08 16:10:11,015][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:12,492][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:13,326][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:14,341][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:15,077][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:16,180][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:17,206][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:18,465][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:19,350][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:20,079][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:21,091][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:10:21,879][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:10:22,729][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:10:23,753][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:24,625][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:25,347][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:25,359][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:25,360][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:25,360][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:25,361][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:25,361][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:25,362][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:25,362][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:25,362][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:26,212][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:26,922][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:27,741][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:29,181][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:30,102][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:10:30,922][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:32,090][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:32,909][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:33,686][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:34,812][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:35,561][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:36,295][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:37,433][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:10:38,295][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:39,076][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:39,789][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:40,740][__main__][INFO] - Salvamento incremental (240 novas respostas)...
+[2026-05-08 16:10:40,804][__main__][INFO] - Cache salvo com 205216 entradas
+[2026-05-08 16:10:40,804][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:41,589][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:41,609][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:41,609][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:41,610][openai._base_client][INFO] - Retrying request to /chat/completions in 0.408995 seconds
+[2026-05-08 16:10:41,610][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:41,611][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:10:41,611][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:42,351][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:10:43,102][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:43,831][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:10:45,199][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:46,075][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:47,407][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:47,425][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:47,426][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:47,426][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:10:48,194][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:48,948][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:49,762][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:50,581][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:10:51,490][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:52,206][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:53,141][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:53,961][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:54,672][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:55,590][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:10:56,299][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:57,058][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:10:57,076][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:10:57,076][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:57,077][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:57,077][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:57,077][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:10:57,803][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:10:58,841][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:00,100][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:00,125][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:11:02,085][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:02,847][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:11:03,618][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:03,632][__main__][INFO] - Salvamento incremental (280 novas respostas)...
+[2026-05-08 16:11:03,688][__main__][INFO] - Cache salvo com 205256 entradas
+[2026-05-08 16:11:03,688][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:03,691][openai._base_client][INFO] - Retrying request to /embeddings in 0.498381 seconds
+[2026-05-08 16:11:05,314][openai._base_client][INFO] - Retrying request to /chat/completions in 0.495290 seconds
+[2026-05-08 16:11:05,407][openai._base_client][INFO] - Retrying request to /embeddings in 0.489789 seconds
+[2026-05-08 16:11:06,217][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:06,967][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:07,745][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:07,754][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:08,508][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:09,357][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:10,084][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:10,908][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:11,636][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:12,556][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:12,578][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:11:13,336][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:11:14,061][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:14,936][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:15,713][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:16,558][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:11:17,329][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:17,344][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:17,346][openai._base_client][INFO] - Retrying request to /chat/completions in 0.949139 seconds
+[2026-05-08 16:11:17,346][openai._base_client][INFO] - Retrying request to /embeddings in 0.799154 seconds
+[2026-05-08 16:11:17,899][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:19,476][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:20,688][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:21,514][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:22,429][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:22,444][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:22,444][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:23,248][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:24,011][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:24,858][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:25,826][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:26,935][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:27,753][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:28,593][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:11:29,347][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:11:30,315][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:11:30,324][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:30,328][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:30,328][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:30,331][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:30,332][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:31,135][__main__][INFO] - Salvamento incremental (320 novas respostas)...
+[2026-05-08 16:11:31,192][__main__][INFO] - Cache salvo com 205296 entradas
+[2026-05-08 16:11:31,192][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:31,972][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:32,771][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:32,775][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:11:33,731][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:33,731][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:11:34,512][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:34,512][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:11:35,331][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:35,331][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:11:35,331][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:11:35,331][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:11:35,335][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:35,341][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:11:35,343][openai._base_client][INFO] - Retrying request to /chat/completions in 0.432349 seconds
+[2026-05-08 16:11:35,344][openai._base_client][INFO] - Retrying request to /embeddings in 0.485792 seconds
+[2026-05-08 16:11:35,344][openai._base_client][INFO] - Retrying request to /chat/completions in 0.414772 seconds
+[2026-05-08 16:11:35,345][openai._base_client][INFO] - Retrying request to /embeddings in 0.396631 seconds
+[2026-05-08 16:11:35,345][openai._base_client][INFO] - Retrying request to /embeddings in 0.384936 seconds
+[2026-05-08 16:11:36,667][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:11:37,633][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:38,761][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:40,895][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:41,829][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:42,510][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:43,284][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:11:43,993][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:44,709][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:45,498][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:46,260][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:47,075][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:47,936][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:48,721][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:49,431][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:49,444][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:49,447][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:49,447][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:49,448][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:49,448][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:50,287][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:51,095][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:51,847][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:52,637][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:53,459][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:54,276][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:54,293][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:11:55,045][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:11:55,782][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:56,614][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:56,627][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:56,627][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:11:57,655][__main__][INFO] - Salvamento incremental (360 novas respostas)...
+[2026-05-08 16:11:57,723][__main__][INFO] - Cache salvo com 205336 entradas
+[2026-05-08 16:11:57,723][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:58,459][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:11:59,296][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:00,063][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:00,829][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:01,650][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:02,347][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:03,083][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:03,850][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:03,854][openai._base_client][INFO] - Retrying request to /embeddings in 0.434590 seconds
+[2026-05-08 16:12:03,864][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:03,867][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:04,583][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:05,424][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:06,472][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:06,477][openai._base_client][INFO] - Retrying request to /embeddings in 0.377162 seconds
+[2026-05-08 16:12:07,589][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:08,612][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:09,388][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:10,141][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:10,868][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:11,567][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:11,568][openai._base_client][INFO] - Retrying request to /chat/completions in 0.387190 seconds
+[2026-05-08 16:12:11,569][openai._base_client][INFO] - Retrying request to /chat/completions in 0.413834 seconds
+[2026-05-08 16:12:11,569][openai._base_client][INFO] - Retrying request to /chat/completions in 0.448485 seconds
+[2026-05-08 16:12:11,570][openai._base_client][INFO] - Retrying request to /chat/completions in 0.451506 seconds
+[2026-05-08 16:12:11,581][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:11,582][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:12:12,356][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:13,116][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:13,937][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:13,942][openai._base_client][INFO] - Retrying request to /embeddings in 0.782984 seconds
+[2026-05-08 16:12:13,944][openai._base_client][INFO] - Retrying request to /embeddings in 0.437627 seconds
+[2026-05-08 16:12:14,670][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:15,437][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:16,250][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:16,254][openai._base_client][INFO] - Retrying request to /embeddings in 0.951600 seconds
+[2026-05-08 16:12:16,268][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:16,270][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:17,142][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:18,033][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:19,056][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:19,805][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:20,697][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:21,779][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:21,789][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:21,790][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:22,530][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:12:23,358][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:24,303][__main__][INFO] - Salvamento incremental (400 novas respostas)...
+[2026-05-08 16:12:24,372][__main__][INFO] - Cache salvo com 205376 entradas
+[2026-05-08 16:12:24,372][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:24,374][openai._base_client][INFO] - Retrying request to /chat/completions in 0.779198 seconds
+[2026-05-08 16:12:24,374][openai._base_client][INFO] - Retrying request to /chat/completions in 0.856791 seconds
+[2026-05-08 16:12:24,374][openai._base_client][INFO] - Retrying request to /embeddings in 0.829701 seconds
+[2026-05-08 16:12:24,375][openai._base_client][INFO] - Retrying request to /chat/completions in 0.965708 seconds
+[2026-05-08 16:12:24,375][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:25,089][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:25,089][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:25,919][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:25,919][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:26,604][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:26,604][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:26,605][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:26,605][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:27,615][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:28,377][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:29,129][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:29,131][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:29,892][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:29,892][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:30,627][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:30,627][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:31,346][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:31,346][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:31,346][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:31,347][__main__][WARNING] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-08 16:12:31,359][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:12:31,359][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:32,172][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-08 16:12:32,894][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:34,015][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:34,024][openai._base_client][INFO] - Retrying request to /chat/completions in 0.456767 seconds
+[2026-05-08 16:12:34,843][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:35,645][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:36,420][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:36,422][openai._base_client][INFO] - Retrying request to /embeddings in 0.487813 seconds
+[2026-05-08 16:12:36,451][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:36,459][__main__][ERROR] - Erro ao consultar o modelo google/gemini-2.5-flash (tentativa 1/3): Request timed out.
+[2026-05-08 16:12:36,459][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-08 16:12:36,460][openai._base_client][INFO] - Retrying request to /embeddings in 0.403047 seconds
+[2026-05-08 16:12:36,460][__main__][ERROR] - Erro ao consultar o modelo google/gemini-2.5-flash (tentativa 1/3): Request timed out.
+[2026-05-08 16:12:36,460][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-08 16:12:36,461][openai._base_client][INFO] - Retrying request to /embeddings in 0.464708 seconds
+[2026-05-08 16:12:37,422][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:38,553][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:39,332][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:12:40,654][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:40,662][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:40,662][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:40,663][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:12:41,802][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:42,662][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:42,967][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:44,236][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:46,197][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:47,379][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:50,605][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:51,640][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:52,645][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:54,198][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:56,337][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:12:58,460][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:12:59,441][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:01,036][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:01,152][__main__][INFO] - Salvamento incremental (440 novas respostas)...
+[2026-05-08 16:13:01,220][__main__][INFO] - Cache salvo com 205416 entradas
+[2026-05-08 16:13:01,220][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:05,211][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:05,731][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:06,355][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:07,719][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:07,827][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:08,352][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:13:09,405][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:11,080][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:11,527][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:14,748][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:15,270][openai._base_client][INFO] - Retrying request to /chat/completions in 0.407645 seconds
+[2026-05-08 16:13:17,501][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:17,788][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:18,348][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:18,475][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:18,738][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:22,081][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:23,557][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:13:24,089][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:24,506][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:24,973][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:29,595][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:29,926][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:31,167][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:31,476][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:31,947][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:33,094][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:34,153][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:36,372][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:36,376][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:36,665][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:39,562][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:39,646][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:40,108][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:40,670][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:40,730][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:41,182][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:41,550][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:42,438][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:45,614][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:47,355][__main__][INFO] - Salvamento incremental (480 novas respostas)...
+[2026-05-08 16:13:47,505][__main__][INFO] - Cache salvo com 205456 entradas
+[2026-05-08 16:13:47,506][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:48,411][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:48,729][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:48,735][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:50,095][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:50,856][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:51,715][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:52,064][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:54,804][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:55,563][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:55,675][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:55,803][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:13:56,594][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:13:59,488][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:14:00,895][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:03,510][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-08 16:14:04,635][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:06,031][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:06,034][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:08,324][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:08,481][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:09,860][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:10,225][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:10,243][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:11,291][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:11,495][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:14,771][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:15,489][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:18,152][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:18,767][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:18,770][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:23,071][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:23,655][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:25,319][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:14:25,950][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:26,549][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:26,694][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:27,397][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:29,826][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:31,468][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:31,469][__main__][INFO] - Salvamento incremental (520 novas respostas)...
+[2026-05-08 16:14:31,528][__main__][INFO] - Cache salvo com 205496 entradas
+[2026-05-08 16:14:31,528][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:31,977][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:33,305][openai._base_client][INFO] - Retrying request to /chat/completions in 0.397193 seconds
+[2026-05-08 16:14:34,023][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:34,639][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:36,438][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:36,630][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:38,222][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:38,733][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:40,677][openai._base_client][INFO] - Retrying request to /chat/completions in 0.409382 seconds
+[2026-05-08 16:14:41,451][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:44,071][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:47,237][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:47,644][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:47,707][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:47,971][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:48,770][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:49,589][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:50,100][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:50,612][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:54,404][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:54,965][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:14:56,450][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:56,555][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:14:58,499][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:00,442][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:15:01,673][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:02,699][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:04,032][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:05,962][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:15:06,075][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:15:07,802][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:09,466][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:11,320][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:11,776][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:11,807][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:12,088][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:14,368][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:16,347][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:17,954][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:18,467][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:18,610][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:19,288][__main__][INFO] - Salvamento incremental (560 novas respostas)...
+[2026-05-08 16:15:19,356][__main__][INFO] - Cache salvo com 205536 entradas
+[2026-05-08 16:15:19,356][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:15:19,424][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:15:21,050][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:22,361][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:22,579][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:22,944][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:25,864][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:25,976][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:26,616][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:29,170][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:32,909][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:33,418][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:34,001][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:34,746][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:35,453][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:36,078][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:37,309][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:38,334][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:39,560][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:39,973][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:40,107][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:42,016][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:42,498][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:43,041][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:43,297][openai._base_client][INFO] - Retrying request to /chat/completions in 0.386175 seconds
+[2026-05-08 16:15:46,322][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:49,040][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:49,310][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:49,989][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:50,442][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:51,959][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:52,284][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:52,980][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:53,171][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:54,649][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:54,745][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:15:56,383][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:56,705][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:58,110][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:15:59,000][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:00,843][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:16:00,910][__main__][INFO] - Salvamento incremental (600 novas respostas)...
+[2026-05-08 16:16:00,971][__main__][INFO] - Cache salvo com 205576 entradas
+[2026-05-08 16:16:00,972][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:16:03,022][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:03,293][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:03,466][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:04,637][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:16:06,287][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:08,543][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:10,897][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:11,908][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:12,543][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:13,269][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:13,563][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:13,804][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:15,424][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:17,845][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:18,889][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:18,906][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:21,341][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:16:21,344][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:22,364][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:25,538][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:25,741][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:26,875][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:16:27,059][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:16:27,584][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:16:28,107][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:28,940][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:30,757][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:30,817][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:16:31,040][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:32,399][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:34,106][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:34,108][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:36,494][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:36,498][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:36,667][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:37,312][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:37,722][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 16:16:39,667][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:40,899][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:42,515][__main__][INFO] - Salvamento incremental (640 novas respostas)...
+[2026-05-08 16:16:42,571][__main__][INFO] - Cache salvo com 205616 entradas
+[2026-05-08 16:16:42,571][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:44,586][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:44,976][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:52,774][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 16:16:57,122][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 16:16:57,208][__main__][INFO] - Cache salvo com 205620 entradas
+[2026-05-08 16:16:57,208][__main__][INFO] - Coleta de dados concluída!

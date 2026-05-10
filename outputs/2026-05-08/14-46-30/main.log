@@ -1,0 +1,11 @@
+[2026-05-08 14:46:30,615][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[3], emb_model='google/embeddinggemma-300m'
+[2026-05-08 14:46:30,616][__main__][INFO] - Carregadas 1 perguntas de dados/pairs.json
+[2026-05-08 14:46:30,662][__main__][INFO] - Cache carregado com 199752 entradas
+[2026-05-08 14:46:33,118][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:33,129][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:33,131][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-08 14:46:33,153][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-08 14:46:33,154][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:33,169][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-08 14:46:33,227][__main__][INFO] - Cache salvo com 199752 entradas
+[2026-05-08 14:46:33,228][__main__][INFO] - Coleta de dados concluída!

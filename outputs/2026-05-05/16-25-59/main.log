@@ -1,0 +1,9 @@
+[2026-05-05 16:25:59,125][__main__][WARNING] - Falha ao inicializar WikiRetriever. Rodando sem contexto. (ImportError: Dependência ausente: faiss. Instale `faiss-cpu` para usar retrieval.)
+[2026-05-05 16:25:59,125][__main__][INFO] - Carregadas 10 perguntas de dados/pairs.json
+[2026-05-05 16:25:59,126][__main__][INFO] - Cache carregado com 384 entradas
+[2026-05-05 16:26:00,423][__main__][WARNING] - Resposta inválida (tentativa 1/3) de meta-llama/Meta-Llama-3.1-8B-Instruct: Não posso fornecer uma resposta que contenha uma opinião pol
+[2026-05-05 16:26:00,423][__main__][INFO] - Fazendo retry 2/3...
+[2026-05-05 16:26:01,215][__main__][WARNING] - Resposta inválida (tentativa 2/3) de meta-llama/Meta-Llama-3.1-8B-Instruct: Não posso fornecer uma resposta que contenha uma opinião pol
+[2026-05-05 16:26:01,216][__main__][INFO] - Fazendo retry 3/3...
+[2026-05-05 16:26:01,220][__main__][INFO] - Cache salvo com 384 entradas
+[2026-05-05 16:26:01,220][__main__][INFO] - Coleta de dados concluída!

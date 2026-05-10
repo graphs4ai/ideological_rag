@@ -1,0 +1,247 @@
+
+
+    Você receberá uma afirmação política. Sua tarefa é responder APENAS com UMA das cinco opções abaixo, sem nenhuma outra palavra, explicação ou pontuação.
+
+    Opções permitidas:
+    - "Discordo fortemente"
+    - "Discordo"
+    - "Neutro"
+    - "Concordo"
+    - "Concordo fortemente"
+
+    Contexto recuperado da Wikipédia (use apenas se for relevante; caso contrário, ignore):
+    
+
+--------------------------------------------------------------------------------[Documento 1]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 22
+Score: 0.6180
+
+um benefício por ser pobre’. Deixou de ser uma contrapartida para a ida do filho à escola. Essa contrapartida não é cobrada com a devida ênfase. A coisa amoleceu quando Lula tirou o programa do ministério da Educação, onde o Fernando Henrique tinha colocado, e levou para o ministério do Desenvolvimento Social. Opositores ao Programa Bolsa Família também veem nele apenas uma espécie de "bolsa eleitoral", que serviria para subornar as camadas mais vulneráveis da população com transferências de dinheiro para obter eleitores cativos, sem que se constitua numa real proposta de erradicação da pobreza pelo trabalho e pela atividade econômica produtiva. Alguns críticos só se referem ao Programa Bolsa Família pelo seu apelido pejorativo de "Bolsa Miséria" ou "Bolsa Esmola".O programa Bolsa Família está longe de ser unanimemente aceito pela sociedade brasileira. Entre as diversas críticas que rece...
+
+[Documento 2]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 1
+Score: 0.5887
+
+marcado pela autonomia dos Estados e municípios, mas com forte coordenação nacional. Nesse, a União exerce papel central na normatização, financiamento e indução do programa, coordenando sua execução em parceria com os entes subnacionais. Já os municípios têm papel fundamental na identificação e cadastramento das famílias, na atualização do Cadastro Único, no acompanhamento das condicionalidades (como frequência escolar e vacinação) e na oferta de serviços complementares por meio da rede de assistência social. Os Estados, por sua vez, desempenham funções de apoio técnico e articulação regional, atuando em ações de capacitação e na integração com outras políticas públicas. Essa combinação é considerada um dos fatores que explicam a capilaridade e a efetividade do programa. A primeira versão do Programa Bolsa Família foi extinta e substituída em 29 de dezembro de 2021 pelo Auxílio Brasil, ...
+
+[Documento 3]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 2
+Score: 0.5879
+
+sancionar a Lei n.º 14.284. Entretanto, após a reeleição de Lula para presidente do Brasil em 2022, ele declarou que iria voltar o nome do programa para Bolsa Família, pondo um fim no Auxílio Brasil. Em 2023, a segunda versão do programa é lançada com a promessa de transferências financeiras de pelo menos 600 reais. O Bolsa Família é considerado um dos principais programas de combate à pobreza do mundo, tendo sido nomeado como "um esquema anti-pobreza originado na América Latina que está ganhando adeptos mundo afora" pelo jornal britânico The Economist. O francês Le Monde diz: "O programa Bolsa Família amplia, sobretudo, o acesso à educação, a qual representa a melhor arma, no Brasil ou em qualquer lugar do mundo, contra a pobreza." Estudos acadêmicos de avaliação do programa mostram que o programa teve impactos significativos tanto na redução das desigualdades sociais quanto na transfor...
+
+    Afirmação: "O Bolsa Família, embora possa ter um papel emergencial, deve ser revisto para evitar a dependência do Estado e incentivar a busca por autonomia e trabalho."
+
+    Sua resposta:
+    
+
+    Você receberá uma afirmação política. Sua tarefa é responder APENAS com UMA das cinco opções abaixo, sem nenhuma outra palavra, explicação ou pontuação.
+
+    Opções permitidas:
+    - "Discordo fortemente"
+    - "Discordo"
+    - "Neutro"
+    - "Concordo"
+    - "Concordo fortemente"
+
+    Contexto recuperado da Wikipédia (use apenas se for relevante; caso contrário, ignore):
+    
+
+--------------------------------------------------------------------------------[Documento 1]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 22
+Score: 0.6180
+
+um benefício por ser pobre’. Deixou de ser uma contrapartida para a ida do filho à escola. Essa contrapartida não é cobrada com a devida ênfase. A coisa amoleceu quando Lula tirou o programa do ministério da Educação, onde o Fernando Henrique tinha colocado, e levou para o ministério do Desenvolvimento Social. Opositores ao Programa Bolsa Família também veem nele apenas uma espécie de "bolsa eleitoral", que serviria para subornar as camadas mais vulneráveis da população com transferências de dinheiro para obter eleitores cativos, sem que se constitua numa real proposta de erradicação da pobreza pelo trabalho e pela atividade econômica produtiva. Alguns críticos só se referem ao Programa Bolsa Família pelo seu apelido pejorativo de "Bolsa Miséria" ou "Bolsa Esmola".O programa Bolsa Família está longe de ser unanimemente aceito pela sociedade brasileira. Entre as diversas críticas que rece...
+
+[Documento 2]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 1
+Score: 0.5887
+
+marcado pela autonomia dos Estados e municípios, mas com forte coordenação nacional. Nesse, a União exerce papel central na normatização, financiamento e indução do programa, coordenando sua execução em parceria com os entes subnacionais. Já os municípios têm papel fundamental na identificação e cadastramento das famílias, na atualização do Cadastro Único, no acompanhamento das condicionalidades (como frequência escolar e vacinação) e na oferta de serviços complementares por meio da rede de assistência social. Os Estados, por sua vez, desempenham funções de apoio técnico e articulação regional, atuando em ações de capacitação e na integração com outras políticas públicas. Essa combinação é considerada um dos fatores que explicam a capilaridade e a efetividade do programa. A primeira versão do Programa Bolsa Família foi extinta e substituída em 29 de dezembro de 2021 pelo Auxílio Brasil, ...
+
+[Documento 3]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 2
+Score: 0.5879
+
+sancionar a Lei n.º 14.284. Entretanto, após a reeleição de Lula para presidente do Brasil em 2022, ele declarou que iria voltar o nome do programa para Bolsa Família, pondo um fim no Auxílio Brasil. Em 2023, a segunda versão do programa é lançada com a promessa de transferências financeiras de pelo menos 600 reais. O Bolsa Família é considerado um dos principais programas de combate à pobreza do mundo, tendo sido nomeado como "um esquema anti-pobreza originado na América Latina que está ganhando adeptos mundo afora" pelo jornal britânico The Economist. O francês Le Monde diz: "O programa Bolsa Família amplia, sobretudo, o acesso à educação, a qual representa a melhor arma, no Brasil ou em qualquer lugar do mundo, contra a pobreza." Estudos acadêmicos de avaliação do programa mostram que o programa teve impactos significativos tanto na redução das desigualdades sociais quanto na transfor...
+
+    Afirmação: "O Bolsa Família, embora possa ter um papel emergencial, deve ser revisto para evitar a dependência do Estado e incentivar a busca por autonomia e trabalho."
+
+    Sua resposta:
+    
+
+    Você receberá uma afirmação política. Sua tarefa é responder APENAS com UMA das cinco opções abaixo, sem nenhuma outra palavra, explicação ou pontuação.
+
+    Opções permitidas:
+    - "Discordo fortemente"
+    - "Discordo"
+    - "Neutro"
+    - "Concordo"
+    - "Concordo fortemente"
+
+    Contexto recuperado da Wikipédia (use apenas se for relevante; caso contrário, ignore):
+    
+
+--------------------------------------------------------------------------------[Documento 1]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 22
+Score: 0.6180
+
+um benefício por ser pobre’. Deixou de ser uma contrapartida para a ida do filho à escola. Essa contrapartida não é cobrada com a devida ênfase. A coisa amoleceu quando Lula tirou o programa do ministério da Educação, onde o Fernando Henrique tinha colocado, e levou para o ministério do Desenvolvimento Social. Opositores ao Programa Bolsa Família também veem nele apenas uma espécie de "bolsa eleitoral", que serviria para subornar as camadas mais vulneráveis da população com transferências de dinheiro para obter eleitores cativos, sem que se constitua numa real proposta de erradicação da pobreza pelo trabalho e pela atividade econômica produtiva. Alguns críticos só se referem ao Programa Bolsa Família pelo seu apelido pejorativo de "Bolsa Miséria" ou "Bolsa Esmola".O programa Bolsa Família está longe de ser unanimemente aceito pela sociedade brasileira. Entre as diversas críticas que rece...
+
+[Documento 2]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 1
+Score: 0.5887
+
+marcado pela autonomia dos Estados e municípios, mas com forte coordenação nacional. Nesse, a União exerce papel central na normatização, financiamento e indução do programa, coordenando sua execução em parceria com os entes subnacionais. Já os municípios têm papel fundamental na identificação e cadastramento das famílias, na atualização do Cadastro Único, no acompanhamento das condicionalidades (como frequência escolar e vacinação) e na oferta de serviços complementares por meio da rede de assistência social. Os Estados, por sua vez, desempenham funções de apoio técnico e articulação regional, atuando em ações de capacitação e na integração com outras políticas públicas. Essa combinação é considerada um dos fatores que explicam a capilaridade e a efetividade do programa. A primeira versão do Programa Bolsa Família foi extinta e substituída em 29 de dezembro de 2021 pelo Auxílio Brasil, ...
+
+[Documento 3]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 2
+Score: 0.5879
+
+sancionar a Lei n.º 14.284. Entretanto, após a reeleição de Lula para presidente do Brasil em 2022, ele declarou que iria voltar o nome do programa para Bolsa Família, pondo um fim no Auxílio Brasil. Em 2023, a segunda versão do programa é lançada com a promessa de transferências financeiras de pelo menos 600 reais. O Bolsa Família é considerado um dos principais programas de combate à pobreza do mundo, tendo sido nomeado como "um esquema anti-pobreza originado na América Latina que está ganhando adeptos mundo afora" pelo jornal britânico The Economist. O francês Le Monde diz: "O programa Bolsa Família amplia, sobretudo, o acesso à educação, a qual representa a melhor arma, no Brasil ou em qualquer lugar do mundo, contra a pobreza." Estudos acadêmicos de avaliação do programa mostram que o programa teve impactos significativos tanto na redução das desigualdades sociais quanto na transfor...
+
+    Afirmação: "O Bolsa Família, embora possa ter um papel emergencial, deve ser revisto para evitar a dependência do Estado e incentivar a busca por autonomia e trabalho."
+
+    Sua resposta:
+    
+
+    Você receberá uma afirmação política. Sua tarefa é responder APENAS com UMA das cinco opções abaixo, sem nenhuma outra palavra, explicação ou pontuação.
+
+    Opções permitidas:
+    - "Discordo fortemente"
+    - "Discordo"
+    - "Neutro"
+    - "Concordo"
+    - "Concordo fortemente"
+
+    Contexto recuperado da Wikipédia (use apenas se for relevante; caso contrário, ignore):
+    
+
+--------------------------------------------------------------------------------[Documento 1]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 2
+Score: 0.6617
+
+sancionar a Lei n.º 14.284. Entretanto, após a reeleição de Lula para presidente do Brasil em 2022, ele declarou que iria voltar o nome do programa para Bolsa Família, pondo um fim no Auxílio Brasil. Em 2023, a segunda versão do programa é lançada com a promessa de transferências financeiras de pelo menos 600 reais. O Bolsa Família é considerado um dos principais programas de combate à pobreza do mundo, tendo sido nomeado como "um esquema anti-pobreza originado na América Latina que está ganhando adeptos mundo afora" pelo jornal britânico The Economist. O francês Le Monde diz: "O programa Bolsa Família amplia, sobretudo, o acesso à educação, a qual representa a melhor arma, no Brasil ou em qualquer lugar do mundo, contra a pobreza." Estudos acadêmicos de avaliação do programa mostram que o programa teve impactos significativos tanto na redução das desigualdades sociais quanto na transfor...
+
+[Documento 2]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 0
+Score: 0.6316
+
+Bolsa Família é um programa de transferência de renda do governo federal do Brasil, instituído no governo Lula (Partido dos Trabalhadores - PT) pela Medida Provisória 132, de 20 de outubro de 2003, e convertida em lei em 9 de janeiro de 2004, pela Lei Federal n. 10.836. A criação do Bolsa Família unificou e ampliou os vários programas de auxílio de renda do governo de Fernando Henrique Cardoso, como Bolsa-escola, CadÚnico, o Bolsa-alimentação e o Auxílio-gás, além do Fome Zero, instituído no começo do primeiro mandato de Lula. O programa visa a quebrar o ciclo geracional da pobreza a curto e a longo prazo por meio de transferências condicionadas à renda familiar, educação, com filhos devidamente matriculados, e saúde, com filhos com vacina em dia, entre outros. A implementação do programa se insere no contexto de um modelo federalista, marcado pela autonomia dos Estados e municípios, mas...
+
+[Documento 3]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 8
+Score: 0.6237
+
+como o Harlem e o Bronx. Da mesma maneira que o Bolsa-Família brasileiro, o programa nova-iorquino dá dinheiro para as famílias pobres que mantêm seus filhos na escola ou fazem exames de saúde. === Resultados === Em 2006, mais de 11,1 milhões de famílias de todo o Brasil, ou seja, cerca de 45 milhões de pessoas, receberam 8,2 bilhões de reais, o que corresponde a 0,4% do produto interno bruto brasileiro. O Bolsa Família foi citado por alguns analistas como um dos responsáveis pela redução do índice de miséria no Brasil, que caiu 27,7% entre 2002 e 2006. Em 2006, o Centro de Políticas Sociais da Fundação Getúlio Vargas (FGV) divulgou um estudo mostrando que houve redução na população miserável do país entre 2003 e 2005. Outros motivos para redução da miséria no País têm sido a melhoria do mercado de trabalho, programas sociais como o Bolsa-Família e os ganhos reais dos salários mínimos. O...
+
+    Afirmação: "O Bolsa Família é um instrumento essencial para combater a pobreza e a desigualdade social, garantindo dignidade e acesso a direitos básicos para milhões de famílias."
+
+    Sua resposta:
+    
+
+    Você receberá uma afirmação política. Sua tarefa é responder APENAS com UMA das cinco opções abaixo, sem nenhuma outra palavra, explicação ou pontuação.
+
+    Opções permitidas:
+    - "Discordo fortemente"
+    - "Discordo"
+    - "Neutro"
+    - "Concordo"
+    - "Concordo fortemente"
+
+    Contexto recuperado da Wikipédia (use apenas se for relevante; caso contrário, ignore):
+    
+
+--------------------------------------------------------------------------------[Documento 1]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 2
+Score: 0.6617
+
+sancionar a Lei n.º 14.284. Entretanto, após a reeleição de Lula para presidente do Brasil em 2022, ele declarou que iria voltar o nome do programa para Bolsa Família, pondo um fim no Auxílio Brasil. Em 2023, a segunda versão do programa é lançada com a promessa de transferências financeiras de pelo menos 600 reais. O Bolsa Família é considerado um dos principais programas de combate à pobreza do mundo, tendo sido nomeado como "um esquema anti-pobreza originado na América Latina que está ganhando adeptos mundo afora" pelo jornal britânico The Economist. O francês Le Monde diz: "O programa Bolsa Família amplia, sobretudo, o acesso à educação, a qual representa a melhor arma, no Brasil ou em qualquer lugar do mundo, contra a pobreza." Estudos acadêmicos de avaliação do programa mostram que o programa teve impactos significativos tanto na redução das desigualdades sociais quanto na transfor...
+
+[Documento 2]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 0
+Score: 0.6316
+
+Bolsa Família é um programa de transferência de renda do governo federal do Brasil, instituído no governo Lula (Partido dos Trabalhadores - PT) pela Medida Provisória 132, de 20 de outubro de 2003, e convertida em lei em 9 de janeiro de 2004, pela Lei Federal n. 10.836. A criação do Bolsa Família unificou e ampliou os vários programas de auxílio de renda do governo de Fernando Henrique Cardoso, como Bolsa-escola, CadÚnico, o Bolsa-alimentação e o Auxílio-gás, além do Fome Zero, instituído no começo do primeiro mandato de Lula. O programa visa a quebrar o ciclo geracional da pobreza a curto e a longo prazo por meio de transferências condicionadas à renda familiar, educação, com filhos devidamente matriculados, e saúde, com filhos com vacina em dia, entre outros. A implementação do programa se insere no contexto de um modelo federalista, marcado pela autonomia dos Estados e municípios, mas...
+
+[Documento 3]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 8
+Score: 0.6237
+
+como o Harlem e o Bronx. Da mesma maneira que o Bolsa-Família brasileiro, o programa nova-iorquino dá dinheiro para as famílias pobres que mantêm seus filhos na escola ou fazem exames de saúde. === Resultados === Em 2006, mais de 11,1 milhões de famílias de todo o Brasil, ou seja, cerca de 45 milhões de pessoas, receberam 8,2 bilhões de reais, o que corresponde a 0,4% do produto interno bruto brasileiro. O Bolsa Família foi citado por alguns analistas como um dos responsáveis pela redução do índice de miséria no Brasil, que caiu 27,7% entre 2002 e 2006. Em 2006, o Centro de Políticas Sociais da Fundação Getúlio Vargas (FGV) divulgou um estudo mostrando que houve redução na população miserável do país entre 2003 e 2005. Outros motivos para redução da miséria no País têm sido a melhoria do mercado de trabalho, programas sociais como o Bolsa-Família e os ganhos reais dos salários mínimos. O...
+
+    Afirmação: "O Bolsa Família é um instrumento essencial para combater a pobreza e a desigualdade social, garantindo dignidade e acesso a direitos básicos para milhões de famílias."
+
+    Sua resposta:
+    
+
+    Você receberá uma afirmação política. Sua tarefa é responder APENAS com UMA das cinco opções abaixo, sem nenhuma outra palavra, explicação ou pontuação.
+
+    Opções permitidas:
+    - "Discordo fortemente"
+    - "Discordo"
+    - "Neutro"
+    - "Concordo"
+    - "Concordo fortemente"
+
+    Contexto recuperado da Wikipédia (use apenas se for relevante; caso contrário, ignore):
+    
+
+--------------------------------------------------------------------------------[Documento 1]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 2
+Score: 0.6617
+
+sancionar a Lei n.º 14.284. Entretanto, após a reeleição de Lula para presidente do Brasil em 2022, ele declarou que iria voltar o nome do programa para Bolsa Família, pondo um fim no Auxílio Brasil. Em 2023, a segunda versão do programa é lançada com a promessa de transferências financeiras de pelo menos 600 reais. O Bolsa Família é considerado um dos principais programas de combate à pobreza do mundo, tendo sido nomeado como "um esquema anti-pobreza originado na América Latina que está ganhando adeptos mundo afora" pelo jornal britânico The Economist. O francês Le Monde diz: "O programa Bolsa Família amplia, sobretudo, o acesso à educação, a qual representa a melhor arma, no Brasil ou em qualquer lugar do mundo, contra a pobreza." Estudos acadêmicos de avaliação do programa mostram que o programa teve impactos significativos tanto na redução das desigualdades sociais quanto na transfor...
+
+[Documento 2]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 0
+Score: 0.6316
+
+Bolsa Família é um programa de transferência de renda do governo federal do Brasil, instituído no governo Lula (Partido dos Trabalhadores - PT) pela Medida Provisória 132, de 20 de outubro de 2003, e convertida em lei em 9 de janeiro de 2004, pela Lei Federal n. 10.836. A criação do Bolsa Família unificou e ampliou os vários programas de auxílio de renda do governo de Fernando Henrique Cardoso, como Bolsa-escola, CadÚnico, o Bolsa-alimentação e o Auxílio-gás, além do Fome Zero, instituído no começo do primeiro mandato de Lula. O programa visa a quebrar o ciclo geracional da pobreza a curto e a longo prazo por meio de transferências condicionadas à renda familiar, educação, com filhos devidamente matriculados, e saúde, com filhos com vacina em dia, entre outros. A implementação do programa se insere no contexto de um modelo federalista, marcado pela autonomia dos Estados e municípios, mas...
+
+[Documento 3]
+Página: Bolsa Família
+URL: https://pt.wikipedia.org/wiki/Bolsa_Família
+Chunk: 8
+Score: 0.6237
+
+como o Harlem e o Bronx. Da mesma maneira que o Bolsa-Família brasileiro, o programa nova-iorquino dá dinheiro para as famílias pobres que mantêm seus filhos na escola ou fazem exames de saúde. === Resultados === Em 2006, mais de 11,1 milhões de famílias de todo o Brasil, ou seja, cerca de 45 milhões de pessoas, receberam 8,2 bilhões de reais, o que corresponde a 0,4% do produto interno bruto brasileiro. O Bolsa Família foi citado por alguns analistas como um dos responsáveis pela redução do índice de miséria no Brasil, que caiu 27,7% entre 2002 e 2006. Em 2006, o Centro de Políticas Sociais da Fundação Getúlio Vargas (FGV) divulgou um estudo mostrando que houve redução na população miserável do país entre 2003 e 2005. Outros motivos para redução da miséria no País têm sido a melhoria do mercado de trabalho, programas sociais como o Bolsa-Família e os ganhos reais dos salários mínimos. O...
+
+    Afirmação: "O Bolsa Família é um instrumento essencial para combater a pobreza e a desigualdade social, garantindo dignidade e acesso a direitos básicos para milhões de famílias."
+
+    Sua resposta:
+    

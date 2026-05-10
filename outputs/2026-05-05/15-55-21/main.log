@@ -1,0 +1,54 @@
+[2026-05-05 15:55:21,474][__main__][INFO] - Carregadas 2 perguntas de dados/pairs.json
+[2026-05-05 15:55:21,475][__main__][INFO] - Cache carregado com 12 entradas
+[2026-05-05 15:55:22,565][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 15:55:22,568][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:22,569][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 15:55:22,569][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 15:55:22,756][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 15:55:22,813][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:22,816][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:22,822][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:22,844][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:22,853][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:22,881][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 15:55:22,896][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:22,990][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:23,185][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:23,202][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:23,237][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:23,326][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:23,528][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:24,441][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:25,117][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 15:55:25,183][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:25,241][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 15:55:25,398][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:25,709][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 15:55:30,653][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:36,996][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:37,713][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:38,289][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:38,941][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:39,330][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:39,554][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:39,793][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:39,862][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:40,478][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:40,480][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 15:55:40,481][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:40,816][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 15:55:40,817][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:41,021][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:41,038][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-05 15:55:41,040][__main__][INFO] - Cache salvo com 52 entradas
+[2026-05-05 15:55:41,040][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:41,072][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:42,048][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:42,446][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 15:55:43,244][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:43,600][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 15:55:49,602][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 15:55:56,350][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 15:55:56,628][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 15:55:56,636][__main__][INFO] - Cache salvo com 60 entradas
+[2026-05-05 15:55:56,636][__main__][INFO] - Coleta de dados concluída!

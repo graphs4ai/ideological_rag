@@ -1,0 +1,159 @@
+[2026-05-05 16:13:04,580][__main__][INFO] - Carregadas 10 perguntas de dados/pairs.json
+[2026-05-05 16:13:04,581][__main__][INFO] - Cache carregado com 60 entradas
+[2026-05-05 16:13:05,768][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:05,772][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:05,772][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:05,773][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:05,778][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:05,778][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:05,788][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:06,116][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,119][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,126][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:06,129][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,135][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,462][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,480][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,483][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:06,486][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,521][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:06,759][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:06,844][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,888][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,914][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:06,970][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:07,280][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:07,282][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:07,325][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:07,425][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:07,686][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:07,691][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:07,803][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:13:08,054][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:08,063][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:13:08,129][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:08,390][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:08,532][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:08,591][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:08,669][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:13:08,884][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:08,940][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:09,003][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:13:09,216][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-05 16:13:09,218][__main__][INFO] - Cache salvo com 100 entradas
+[2026-05-05 16:13:09,218][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:09,271][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:13:09,284][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:09,436][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:09,584][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:10,500][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:10,505][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:10,523][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:13:10,646][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:15,828][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:16,965][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:18,083][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:18,897][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:20,231][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:22,380][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:23,200][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:23,538][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:25,349][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:26,593][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:27,781][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:28,801][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:31,187][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:13:31,443][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:32,107][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:13:32,979][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:33,575][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:34,360][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:35,999][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:36,185][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:13:37,228][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:40,402][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:40,514][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:40,842][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo
+[2026-05-05 16:13:41,056][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:45,420][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:13:45,425][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:46,804][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:13:46,827][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:47,157][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:48,287][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:13:49,004][__main__][INFO] - Salvamento incremental (80 novas respostas)...
+[2026-05-05 16:13:49,006][__main__][INFO] - Cache salvo com 140 entradas
+[2026-05-05 16:13:49,006][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:13:52,999][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:53,005][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:13:53,006][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:13:53,509][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:55,046][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:57,225][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:13:59,346][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:13:59,716][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:00,473][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:01,394][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:02,112][__main__][WARNING] - Resposta inválida (tentativa 1/3) de meta-llama/Meta-Llama-3.1-8B-Instruct: Não posso fornecer uma resposta que contenha uma opinião pol
+[2026-05-05 16:14:02,112][__main__][INFO] - Fazendo retry 2/3...
+[2026-05-05 16:14:02,438][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:02,600][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:02,922][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:02,936][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:14:03,403][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:03,409][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:03,954][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:04,036][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:04,075][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:14:04,141][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:14:04,521][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:04,527][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:04,547][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:04,858][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:04,865][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:04,960][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:04,964][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:05,199][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:14:05,300][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:05,314][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:05,337][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:05,553][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:05,626][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:05,656][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:05,671][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:05,679][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:05,863][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:05,909][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:06,008][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:06,011][__main__][INFO] - Salvamento incremental (120 novas respostas)...
+[2026-05-05 16:14:06,012][__main__][INFO] - Cache salvo com 180 entradas
+[2026-05-05 16:14:06,012][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:06,013][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:06,274][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:06,337][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:06,342][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:06,343][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:06,365][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:06,403][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:06,615][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-05 16:14:06,696][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-05 16:14:06,715][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:06,727][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:06,731][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:06,742][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:07,747][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:07,748][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:07,749][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:07,753][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:07,754][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:07,944][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:09,177][__main__][WARNING] - Resposta inválida (tentativa 2/3) de meta-llama/Meta-Llama-3.1-8B-Instruct: Não posso fornecer uma resposta que contenha uma opinião pol
+[2026-05-05 16:14:09,178][__main__][INFO] - Fazendo retry 3/3...
+[2026-05-05 16:14:09,996][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-05 16:14:10,206][__main__][WARNING] - Resposta inválida (tentativa 3/3) de meta-llama/Meta-Llama-3.1-8B-Instruct: Não posso fornecer uma resposta que contenha uma opinião pol
+[2026-05-05 16:14:10,206][__main__][ERROR] - Máximo de tentativas (3) atingido para resposta inválida
+[2026-05-05 16:14:12,147][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:14:18,804][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:14:19,315][__main__][INFO] - ✓ [openai/gpt-oss-20b] Temp=0.0 Rep=1 → Neutro
+[2026-05-05 16:14:19,327][__main__][INFO] - Cache salvo com 204 entradas
+[2026-05-05 16:14:19,328][__main__][INFO] - Coleta de dados concluída!

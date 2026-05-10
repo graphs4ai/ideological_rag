@@ -1,0 +1,18 @@
+modelo	temperatura	std_ip_repeticao
+Qwen/Qwen3-14B	0.0	
+Qwen/Qwen3-235B-A22B-Instruct-2507	0.0	
+Qwen/Qwen3-32B	0.0	
+deepseek-ai/DeepSeek-V3.2	0.0	
+google/gemini-2.5-flash	0.0	
+google/gemma-3-12b-it	0.0	
+google/gemma-3-27b-it	0.0	
+google/gemma-3-4b-it	0.0	
+meta-llama/Llama-4-Scout-17B-16E-Instruct	0.0	
+meta-llama/Meta-Llama-3.1-70B-Instruct	0.0	
+meta-llama/Meta-Llama-3.1-8B-Instruct	0.0	
+microsoft/phi-4	0.0	
+mistralai/Mistral-Small-3.2-24B-Instruct-2506	0.0	
+mistralai/Mixtral-8x7B-Instruct-v0.1	0.0	
+nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL	0.0	
+openai/gpt-oss-120b	0.0	
+sabia-3.1	0.0	
