@@ -635,6 +635,50 @@ def plot_ipi_media_tendencias_pre_pos_retriever(df_ip: pd.DataFrame, cfg: DictCo
     save_fig(fig, 'figure_retriever_ipi_means_by_tendency', cfg)
     plt.close()
 
+
+def plot_rag_main_effect_ci(df_ip: pd.DataFrame, cfg: DictConfig):
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_use = df_ip.copy()
+    df_use['condicao'] = df_use.apply(_map_rag_condition, axis=1)
+    df_use = df_use[df_use['condicao'].notna()]
+    if df_use.empty:
+        return
+
+    df_ci = _compute_ci_from_ip(df_use, group_cols=['modelo', 'condicao'])
+    if df_ci.empty:
+        return
+
+    df_ci = df_ci.rename(columns={'chameleon_index': 'ci'})
+    summary = df_ci.groupby('condicao')['ci'].agg(['mean', 'std', 'count']).reset_index()
+    summary['sem'] = summary['std'] / summary['count'].clip(lower=1).pow(0.5)
+    summary['ci95'] = 1.96 * summary['sem']
+
+    order = [c for c in _RAG_CONDITION_ORDER if c in summary['condicao'].tolist()]
+    summary['condicao'] = pd.Categorical(summary['condicao'], categories=order, ordered=True)
+    summary = summary.sort_values('condicao')
+
+    colors = ["#5a6f80" if c != "Baseline" else "#2f3b45" for c in summary['condicao']]
+
+    fig, ax = plt.subplots(figsize=(12, 7))
+    ax.bar(
+        summary['condicao'],
+        summary['mean'],
+        yerr=summary['ci95'],
+        color=colors,
+        capsize=4,
+        alpha=0.9,
+    )
+    ax.set_ylabel('Chameleon Index (CI)', fontsize=14, fontweight='bold')
+    ax.set_xlabel('RAG Condition', fontsize=14, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=12)
+    ax.tick_params(axis='y', labelsize=12)
+    ax.grid(axis='y', alpha=0.3, linestyle=':')
+    plt.tight_layout()
+    save_fig(fig, 'figure_rag_main_effect_ci', cfg)
+    plt.close()
+
 def plot_figure2_topic_variation(df_pares: pd.DataFrame, cfg: DictConfig):
     """
     Figure 2: Topic-Level Variation
