@@ -45,9 +45,15 @@ def calcular_indice_polarizacao(df_validos: pd.DataFrame):
         retrieval_cols.append('top_n_chunks')
     if 'com_retriever' in df_validos.columns:
         retrieval_cols.append('com_retriever')
+    if 'top_k' in df_validos.columns:
+        retrieval_cols.append('top_k')
+    if 'rag_relevante' in df_validos.columns:
+        retrieval_cols.append('rag_relevante')
+    if 'rag_url' in df_validos.columns:
+        retrieval_cols.append('rag_url')
 
     cols_group = ['modelo', 'eixo', 'pair_id', 'tipo_pergunta', 'temperatura', 'tendencia'] + retrieval_cols
-    df_medias = df_validos.groupby(cols_group)['pontuacao'].mean().reset_index()
+    df_medias = df_validos.groupby(cols_group, dropna=False)['pontuacao'].mean().reset_index()
 
     # Separa P+ e P-
     df_p_plus = df_medias[df_medias['tipo_pergunta'] == 'P+'].rename(columns={'pontuacao': 'media_R_plus'})
@@ -61,7 +67,7 @@ def calcular_indice_polarizacao(df_validos: pd.DataFrame):
     df_pares['diferenca_R'] = df_pares['media_R_plus'] - df_pares['media_R_minus']
     
     # IP Médio
-    df_ip = df_pares.groupby(['modelo', 'temperatura', 'tendencia'] + retrieval_cols)['diferenca_R'].mean().reset_index()
+    df_ip = df_pares.groupby(['modelo', 'temperatura', 'tendencia'] + retrieval_cols, dropna=False)['diferenca_R'].mean().reset_index()
     df_ip = df_ip.rename(columns={'diferenca_R': 'indice_polarizacao'})
     
     return df_pares, df_ip

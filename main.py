@@ -70,7 +70,6 @@ def build_rag_modes(top_n_chunks_list, pair_wiki_url, irrelevant_urls):
 
     return modes
 
-
 def iter_rag_contexts(perguntas, top_n_chunks_list, irrelevant_urls):
     for pair in perguntas:
         pair_wiki_url = pair.get("wiki", "")
@@ -171,7 +170,7 @@ async def obter_resposta_modelo(
     prompt_formatado = "\n".join(prompt_partes)
     
     try:
-        print(prompt_formatado)
+        # print(prompt_formatado)
         response = await chamar_api_provider(abordagem, modelo, temperatura, tendencia_prompt, prompt_formatado)
         resposta_limpa = response.strip().replace('"', '').replace('.', '')
         resultado = validar_resposta(resposta_limpa, list(MAPEAMENTO_LIKERT.keys()))

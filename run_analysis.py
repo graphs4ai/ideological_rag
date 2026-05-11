@@ -1,5 +1,5 @@
 import hydra
-from omegaconf import DictConfig, OmegaConf
+from omegaconf import DictConfig
 import os
 import sys
 
@@ -35,39 +35,17 @@ def main(cfg: DictConfig) -> None:
     plotting.plot_rag_ipi_dumbbell(df_ip, cfg)
     plotting.plot_rag_topic_delta_ci(df_pares, cfg)
 
-    # Figura original (1A/1B). Se houver múltiplos modos, roda só no baseline (top_n_chunks==0) para não misturar.
+    # Figura original. Se houver múltiplos modos, roda só no baseline (top_n_chunks==0) para não misturar.
     if 'top_n_chunks' in df_ip.columns:
         df_ip_baseline = df_ip[df_ip['top_n_chunks'] == 0].copy()
         if not df_ip_baseline.empty:
-            plotting.plot_figure1_user_shifts_chameleon(df_ip_baseline, cfg)
+            plotting.plot_user_shifts_chameleon(df_ip_baseline, cfg)
     else:
-        plotting.plot_figure1_user_shifts_chameleon(df_ip, cfg)
-    # plotting.plot_figure2_topic_variation(df_pares, cfg)
-    # plotting.plot_figure3_likert_distribution(df_validos, cfg)
+        plotting.plot_user_shifts_chameleon(df_ip, cfg)
 
-    # Figuras comparativas Original vs Negado
-    # df_orig, df_neg = processing.carregar_e_processar_ambos(cfg)
-    # plotting.plot_figure3_1_likert_comparison_by_tendency(df_orig, df_neg, cfg)
-    # plotting.plot_figure3_2_likert_proportion_shift(df_orig, df_neg, cfg)
-    # plotting.plot_figure3_3_likert_comparison_aggregated(df_orig, df_neg, cfg)
-    # plotting.plot_figure4_temperature_robustness(df_ip, cfg)
-    # plotting.plot_figure4_2_temperature_deltas(df_ip, cfg)
-    # plotting.plot_figure4_1_temperature_mixed(df_ip, cfg)
-    # plotting.plot_figure4_1_1_temperature_mixed_aligned(df_ip, cfg)
-    # plotting.plot_figure4_3_temperature_ipi(df_ip, cfg)
-    # plotting.plot_figure4_4_temperature_ipi_aligned(df_ip, cfg)
-    # plotting.plot_figure4_5_temperature_deltas_aligned(df_ip, cfg)
-    # plotting.plot_figure5_topic_dot_panel(df_pares, cfg)
-    # plotting.plot_figure5_5_topic_dot_separate(df_pares, cfg)
-    # plotting.plot_figure2_and_5_combined(df_pares, cfg)
-    # plotting.plot_figure6_size_vs_chameleon(df_ip, cfg)
-    # plotting.plot_figure6_1_size_vs_ipi_nocontext(df_ip, cfg)
-    # plotting.plot_figure7_agreement_heatmap(df_validos, cfg)
-    # plotting.plot_figure7_5_agreement_heatmap_topic(df_validos, cfg)
-    # plotting.plot_figure7_7_combined_heatmap(df_validos, cfg)
-    # plotting.plot_figure8_swing_asymmetry(df_ip, cfg)
-    # plotting.plot_figure9_judge_vs_nonjudge(df_ip, df_validos, cfg)
-    # plotting.plot_figure10_pipeline_role_neutrality(df_ip, df_validos, cfg)
+    plotting.plot_topic_variation(df_pares, cfg)
+    plotting.plot_likert_distribution(df_validos, cfg)
+    plotting.plot_topic_dot_panel(df_pares, cfg)
 
     statistics.std_v(cfg)
 

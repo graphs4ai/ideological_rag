@@ -1,0 +1,313 @@
+[2026-05-10 23:39:33,197][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-10 23:39:33,197][__main__][INFO] - Carregadas 3 perguntas de dados/pairs.json
+[2026-05-10 23:39:33,243][__main__][INFO] - Cache carregado com 206988 entradas
+[2026-05-10 23:39:35,103][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,119][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,123][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,209][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,223][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,224][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,227][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,346][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:35,413][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:35,432][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:35,517][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,571][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:35,577][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,670][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,872][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,915][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,943][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:35,979][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:36,006][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:36,117][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:36,162][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:36,386][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:36,454][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:36,532][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:36,535][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:36,536][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:36,666][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:36,737][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:36,740][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:36,781][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:37,119][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,129][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,144][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,159][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,184][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,228][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,298][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:37,492][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,523][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,626][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-10 23:39:37,691][__main__][INFO] - Cache salvo com 207028 entradas
+[2026-05-10 23:39:37,692][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:37,694][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,694][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,764][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,868][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,887][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,899][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:37,904][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:37,905][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:38,044][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:38,055][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:38,217][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:38,270][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:38,317][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:38,344][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 23:39:38,403][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:38,643][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:38,668][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:38,743][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:38,901][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:38,920][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,022][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,036][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,064][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,122][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:39,197][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:39,201][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,543][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:39,580][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 23:39:39,586][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,616][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:39,650][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,804][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,806][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,891][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:39,898][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:39,939][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:40,152][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:40,172][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:40,187][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:40,321][__main__][INFO] - Salvamento incremental (80 novas respostas)...
+[2026-05-10 23:39:40,401][__main__][INFO] - Cache salvo com 207068 entradas
+[2026-05-10 23:39:40,401][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:40,403][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 23:39:40,403][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:40,423][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:40,481][__main__][WARNING] - Resposta inválida (tentativa 1/3) de meta-llama/Meta-Llama-3.1-8B-Instruct: Não posso fornecer uma resposta para essa afirmação Posso aj
+[2026-05-10 23:39:40,481][__main__][INFO] - Fazendo retry 2/3...
+[2026-05-10 23:39:40,510][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:40,717][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:40,720][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:40,801][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:40,860][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:40,876][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:40,906][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:40,941][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:40,987][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:41,025][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:41,109][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:41,182][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:41,294][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:41,298][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:41,395][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:41,433][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:41,890][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:41,903][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:41,926][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:41,951][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,038][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,046][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,058][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,089][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:42,134][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,136][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:42,235][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:42,278][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:42,281][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:42,301][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:42,532][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,543][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,571][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,587][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,589][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,973][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:42,999][__main__][INFO] - Salvamento incremental (120 novas respostas)...
+[2026-05-10 23:39:43,054][__main__][INFO] - Cache salvo com 207108 entradas
+[2026-05-10 23:39:43,054][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,056][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,064][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,101][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:43,116][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,145][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,148][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,313][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,395][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:43,409][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,422][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,597][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,719][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,722][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,737][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:43,773][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:43,950][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,075][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,146][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,173][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,253][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,313][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:44,377][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,465][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,478][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,493][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,700][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:44,775][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,882][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:44,970][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,979][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:44,998][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:45,021][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:45,112][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:45,152][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:45,167][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:45,274][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:45,468][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:45,527][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:45,578][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:45,609][__main__][INFO] - Salvamento incremental (160 novas respostas)...
+[2026-05-10 23:39:45,665][__main__][INFO] - Cache salvo com 207148 entradas
+[2026-05-10 23:39:45,665][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:45,667][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:45,779][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:46,080][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:46,164][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:46,172][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:46,278][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:46,284][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:46,488][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:46,490][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:46,499][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:46,506][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:46,594][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:46,612][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:46,935][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,093][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,136][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,173][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:47,202][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,224][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,238][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,277][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,386][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,459][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:47,587][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,654][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:47,722][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,723][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,750][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:47,856][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:47,874][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:48,069][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:48,102][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:48,338][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:48,412][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:48,478][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 23:39:48,512][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:48,515][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:48,608][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:48,655][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:48,698][__main__][INFO] - Salvamento incremental (200 novas respostas)...
+[2026-05-10 23:39:48,748][__main__][INFO] - Cache salvo com 207188 entradas
+[2026-05-10 23:39:48,748][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:48,879][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:48,909][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:48,911][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:48,936][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:49,036][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:49,074][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:49,106][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:49,188][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:49,195][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:49,205][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:49,247][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:49,323][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:49,353][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:49,378][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:49,450][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:49,671][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:49,694][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:49,719][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:50,021][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:50,061][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:50,157][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:50,162][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:50,183][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:50,296][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:50,301][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:50,353][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:50,359][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:50,415][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:50,629][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:50,634][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:50,716][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:50,776][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:50,838][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:51,011][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:51,069][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:51,081][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:51,147][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:51,148][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:51,243][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:51,288][__main__][INFO] - Salvamento incremental (240 novas respostas)...
+[2026-05-10 23:39:51,340][__main__][INFO] - Cache salvo com 207228 entradas
+[2026-05-10 23:39:51,340][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:51,342][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:51,439][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:51,471][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:51,533][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:51,674][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:51,689][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:51,711][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:51,793][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:51,814][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:52,033][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:52,100][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:52,195][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:52,257][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:52,261][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:52,323][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:52,326][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:52,334][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:52,493][__main__][WARNING] - Resposta inválida (tentativa 1/3) de meta-llama/Meta-Llama-3.1-8B-Instruct: Não posso fornecer uma resposta para essa pergunta Posso aju
+[2026-05-10 23:39:52,494][__main__][INFO] - Fazendo retry 2/3...
+[2026-05-10 23:39:52,562][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:52,568][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:52,586][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:52,921][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:52,922][__main__][WARNING] - Resposta inválida (tentativa 1/3) de meta-llama/Meta-Llama-3.1-8B-Instruct: Não é possível responder a essa pergunta, pois não está rela
+[2026-05-10 23:39:52,923][__main__][INFO] - Fazendo retry 2/3...
+[2026-05-10 23:39:52,972][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:52,982][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Discordo
+[2026-05-10 23:39:53,084][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:53,165][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:53,192][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:53,385][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:53,388][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:53,402][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:53,458][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Discordo
+[2026-05-10 23:39:53,481][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:53,785][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:53,904][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:54,082][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:54,088][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:54,092][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:54,094][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:54,143][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:54,152][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:54,159][__main__][INFO] - Salvamento incremental (280 novas respostas)...
+[2026-05-10 23:39:54,213][__main__][INFO] - Cache salvo com 207268 entradas
+[2026-05-10 23:39:54,213][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:54,383][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:54,384][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:54,428][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 23:39:54,671][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:54,919][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:54,957][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:54,993][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 23:39:55,165][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 23:39:55,222][__main__][INFO] - Cache salvo com 207276 entradas
+[2026-05-10 23:39:55,222][__main__][INFO] - Coleta de dados concluída!
