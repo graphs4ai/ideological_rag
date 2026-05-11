@@ -156,6 +156,29 @@ def _map_rag_condition(row: dict) -> str | None:
     return None
 
 
+def _compute_ci_by_condition(df_ip: pd.DataFrame) -> pd.DataFrame:
+    df_use = df_ip.copy()
+    df_use["condicao"] = df_use.apply(_map_rag_condition, axis=1)
+    df_use = df_use[df_use["condicao"].notna()]
+
+    df_shifts = (
+        df_use.groupby(["condicao", "tendencia"])["indice_polarizacao"]
+        .mean()
+        .reset_index()
+    )
+    df_pivot = df_shifts.pivot_table(index="condicao", columns="tendencia", values="indice_polarizacao")
+    df_pivot = df_pivot.reset_index()
+
+    if not {"esquerda", "neutro", "direita"}.issubset(set(df_pivot.columns)):
+        return pd.DataFrame(columns=["condicao", "ci"])
+
+    df_pivot["shift_left"] = (df_pivot["esquerda"] - df_pivot["neutro"]).abs()
+    df_pivot["shift_right"] = (df_pivot["direita"] - df_pivot["neutro"]).abs()
+    df_pivot["ci"] = df_pivot["shift_left"] + df_pivot["shift_right"]
+
+    return df_pivot[["condicao", "ci"]]
+
+
 def _compute_ci_from_ip(df_ip: pd.DataFrame, group_cols: list[str]) -> pd.DataFrame:
     """Compute Chameleon Index from df_ip aggregated per tendency."""
     df_shifts = df_ip.groupby(group_cols + ['tendencia'])['indice_polarizacao'].agg(['mean', 'std']).reset_index()
