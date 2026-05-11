@@ -150,6 +150,14 @@ class WikiRetriever:
     def fingerprint(self) -> str | None:
         return self._store.fingerprint
 
+    def has_url(self, url: str) -> bool:
+        return url in self._url_to_indices
+
+    def ensure_urls(self, urls: list[str]) -> None:
+        missing = [u for u in urls if u not in self._url_to_indices]
+        if missing:
+            raise RuntimeError(f"URL(s) não encontradas no índice: {missing}")
+
     async def _embed_query(self, text: str) -> np.ndarray:
         async with self._embed_semaphore:
             try:
