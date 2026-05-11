@@ -258,8 +258,9 @@ class WikiRetriever:
         *,
         top_n: int = 5,
         max_chars_per_chunk: int = 9000,
+        page_url: str | None = None,
     ) -> str:
-        chunks = await self.retrieve(query, top_n=int(top_n))
+        chunks = await self.retrieve(query, top_n=int(top_n), page_url=page_url)
         if not chunks:
             return ""
 
@@ -271,4 +272,5 @@ class WikiRetriever:
 
             blocks.append("\n".join(["- " + text]))
 
-        return "\n" + f"Página: {c.title}" + "\n" + f"URL: {c.url}" + "\n\n" + "\n\n".join(blocks)
+        first = chunks[0]
+        return "\n" + f"Página: {first.title}" + "\n" + f"URL: {first.url}" + "\n\n" + "\n\n".join(blocks)
