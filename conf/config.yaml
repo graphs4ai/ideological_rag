@@ -1,8 +1,8 @@
 MODELOS_A_AVALIAR:
   - ["google/gemma-3-27b-it", "deepinfra"]
-  # - ["mistralai/Mistral-Small-3.2-24B-Instruct-2506", "deepinfra"]
-  # - ["openai/gpt-oss-120b", "deepinfra"]
-  # - ["Qwen/Qwen3-32B", "deepinfra"]
+  - ["mistralai/Mistral-Small-3.2-24B-Instruct-2506", "deepinfra"]
+  - ["openai/gpt-oss-120b", "deepinfra"]
+  - ["Qwen/Qwen3-32B", "deepinfra"]
   - ["meta-llama/Meta-Llama-3.1-8B-Instruct", "deepinfra"]
   - ["deepseek-ai/DeepSeek-V3.2", "deepinfra"]
   
