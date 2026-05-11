@@ -6,7 +6,7 @@ from pathlib import Path
 
 import numpy as np
 
-from main import build_rag_modes
+from main import build_rag_modes, iter_rag_contexts
 from src.main.wiki_retrieval import WikiRetriever
 
 
@@ -54,6 +54,23 @@ class RagUrlValidationTests(unittest.TestCase):
 
             with self.assertRaises(RuntimeError):
                 retriever.ensure_urls(["u1", "missing"])
+
+
+class RagContextTests(unittest.TestCase):
+    def test_iter_rag_contexts_emits_all_modes(self):
+        pair = {"wiki": "wiki", "pair_id": 1, "eixo": "x", "p_plus": "p+", "p_minus": "p-"}
+        top_n = [0, 1, 3, 5]
+        irrelevant = ["u1", "u2", "u3"]
+
+        contexts = list(iter_rag_contexts([pair], top_n, irrelevant))
+
+        self.assertEqual(len(contexts), 7)
+        self.assertTrue(any(c["top_k"] == 0 and c["rag_url"] == "" for c in contexts))
+        self.assertTrue(any(c["top_k"] == 1 and c["rag_url"] == "wiki" and c["rag_relevante"] for c in contexts))
+        self.assertEqual(
+            [c["rag_url"] for c in contexts if c["top_k"] == 3 and not c["rag_relevante"]],
+            irrelevant,
+        )
 
 
 if __name__ == "__main__":

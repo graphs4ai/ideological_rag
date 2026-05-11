@@ -70,6 +70,20 @@ def build_rag_modes(top_n_chunks_list, pair_wiki_url, irrelevant_urls):
 
     return modes
 
+
+def iter_rag_contexts(perguntas, top_n_chunks_list, irrelevant_urls):
+    for pair in perguntas:
+        pair_wiki_url = pair.get("wiki", "")
+        modes = build_rag_modes(top_n_chunks_list, pair_wiki_url, irrelevant_urls)
+        for mode in modes:
+            yield {
+                "pair": pair,
+                "top_k": mode["top_k"],
+                "rag_relevante": mode["rag_relevante"],
+                "rag_url": mode["rag_url"],
+                "page_url": mode["page_url"],
+            }
+
 async def obter_resposta_modelo(
     cfg,
     INTERVALO_SALVAMENTO,
@@ -83,6 +97,7 @@ async def obter_resposta_modelo(
     tentativa=1,
     max_tentativas=3,
     top_n_chunks: int | None = None,
+    page_url: str | None = None,
     *,
     wiki_retriever=None,
     cache_extra: str | None = None,
@@ -122,10 +137,11 @@ async def obter_resposta_modelo(
                 afirmacao,
                 top_n=top_n_chunks,
                 max_chars_per_chunk=int(getattr(cfg, "WIKI_MAX_CHARS_PER_CHUNK", 900) or 900),
+                page_url=page_url,
             )
         except Exception as e:
-            logger.warning(f"Falha ao recuperar chunks do wiki_faiss_store: {type(e).__name__}: {e}")
-            contexto = ""
+            logger.error(f"Falha ao recuperar chunks do wiki_faiss_store: {type(e).__name__}: {e}")
+            raise
 
     prompt_partes = [
         "Você receberá uma afirmação política. Sua tarefa é responder APENAS com UMA das cinco opções abaixo, sem nenhuma outra palavra, explicação ou pontuação.",
@@ -182,6 +198,7 @@ async def obter_resposta_modelo(
                     repeticao,
                     tentativa + 1,
                     max_tentativas,
+                    page_url=page_url,
                     wiki_retriever=wiki_retriever,
                     cache_extra=cache_extra,
                 )
@@ -209,6 +226,7 @@ async def obter_resposta_modelo(
                 repeticao,
                 tentativa + 1,
                 max_tentativas,
+                page_url=page_url,
                 wiki_retriever=wiki_retriever,
                 cache_extra=cache_extra,
             )
@@ -233,36 +251,34 @@ async def run(cfg):
     _seen_topn: set[int] = set()
     top_n_chunks_list = [n for n in top_n_chunks_list if not (n in _seen_topn or _seen_topn.add(n))]
 
-    any_retrieval_requested = any(n > 0 for n in top_n_chunks_list)
+    irrelevant_urls = list(getattr(cfg, "WIKI_IRRELEVANT_URLS", []) or [])
+    any_retrieval_requested = any(n > 0 for n in top_n_chunks_list) or len(irrelevant_urls) > 0
 
     wiki_retriever = None
     cache_extra = None
 
     if any_retrieval_requested:
         if WikiRetriever is None:
-            logger.warning("Retrieval habilitado (TOP_N_CHUNKS>0), mas dependências/import falharam. Rodando sem contexto.")
-        else:
-            try:
-                store_dir = getattr(cfg, "WIKI_STORE_DIR", "wiki_faiss_store")
-                emb_model = getattr(cfg, "WIKI_EMBEDDING_MODEL", "google/embeddinggemma-300m")
-                retriever = WikiRetriever(store_dir=store_dir, embedding_model=emb_model, logger=logger)
-                wiki_retriever = retriever
+            raise RuntimeError("Retrieval solicitado, mas WikiRetriever não está disponível.")
+        try:
+            store_dir = getattr(cfg, "WIKI_STORE_DIR", "wiki_faiss_store")
+            emb_model = getattr(cfg, "WIKI_EMBEDDING_MODEL", "google/embeddinggemma-300m")
+            retriever = WikiRetriever(store_dir=store_dir, embedding_model=emb_model, logger=logger)
+            wiki_retriever = retriever
 
-                fp = retriever.fingerprint
-                if fp:
-                    cache_extra = f"wiki_fp={fp}|wiki_store={store_dir}|wiki_emb={emb_model}"
-                else:
-                    cache_extra = f"wiki_store={store_dir}|wiki_emb={emb_model}"
+            fp = retriever.fingerprint
+            if fp:
+                cache_extra = f"wiki_fp={fp}|wiki_store={store_dir}|wiki_emb={emb_model}"
+            else:
+                cache_extra = f"wiki_store={store_dir}|wiki_emb={emb_model}"
 
-                logger.info(
-                    f"Retrieval ativado: store='{store_dir}', top_n={top_n_chunks_list}, emb_model='{emb_model}'"
-                )
-            except Exception as e:
-                logger.warning(
-                    f"Falha ao inicializar WikiRetriever. Rodando sem contexto. ({type(e).__name__}: {e})"
-                )
-                wiki_retriever = None
-                cache_extra = None
+            logger.info(
+                f"Retrieval ativado: store='{store_dir}', top_n={top_n_chunks_list}, emb_model='{emb_model}'"
+            )
+        except Exception as e:
+            raise RuntimeError(
+                f"Falha ao inicializar WikiRetriever: {type(e).__name__}: {e}"
+            ) from e
 
     try:
         with open(cfg.ARQUIVO_PERGUNTAS, 'r', encoding='utf-8') as f:
@@ -277,6 +293,11 @@ async def run(cfg):
     cache_respostas = carregar_cache(cfg.ARQUIVO_CACHE, logger)
     print(f"Cache carregado com {len(cache_respostas)} respostas.")
 
+    if any_retrieval_requested and wiki_retriever is not None:
+        urls_to_validate = [p.get("wiki", "") for p in perguntas if p.get("wiki", "")]
+        urls_to_validate.extend(irrelevant_urls)
+        wiki_retriever.ensure_urls(urls_to_validate)
+
     tendencia_esquerda_prompt = (cfg.PROMPT_ESQUERDA, "esquerda")
     tendencia_direita_prompt = (cfg.PROMPT_DIREITA, "direita")
     sem_tendencia_prompt = (cfg.PROMPT_NEUTRO, "neutro")
@@ -286,84 +307,104 @@ async def run(cfg):
     tarefas = []
 
     # Criar todas as tarefas primeiro
-    for top_n_chunks in top_n_chunks_list:
-        retriever_modo = wiki_retriever if top_n_chunks > 0 else None
-        cache_extra_modo = cache_extra if top_n_chunks > 0 else None
-        com_retriever = bool(retriever_modo is not None and top_n_chunks > 0)
+    for modelo, abordagem in cfg.MODELOS_A_AVALIAR:
+        for ctx in iter_rag_contexts(perguntas, top_n_chunks_list, irrelevant_urls):
+            pair = ctx["pair"]
+            top_n_chunks = ctx["top_k"]
+            rag_relevante = ctx["rag_relevante"]
+            rag_url = ctx["rag_url"]
+            page_url = ctx["page_url"]
 
-        for modelo, abordagem in cfg.MODELOS_A_AVALIAR:
-            for pergunta_pair in perguntas:
-                eixo = pergunta_pair['eixo']
-                for temp in cfg.TEMPERATURES:
-                    for rep in range(cfg.REPETICOES_POR_TEMP):
-                        for tendencia_prompt, tendencia_nome in tendencias:
-                            if temp == 0.0 and rep > 0:
-                                continue
+            retriever_modo = wiki_retriever if top_n_chunks > 0 else None
+            cache_extra_modo = cache_extra if top_n_chunks > 0 else None
+            com_retriever = bool(retriever_modo is not None and top_n_chunks > 0)
 
-                            if abordagem == 'gpt-sem-temperature' and temp != 0.0:
-                                continue
+            if cache_extra_modo:
+                cache_extra_modo = (
+                    f"{cache_extra_modo}|rag_relevante={int(rag_relevante)}|rag_url={rag_url}"
+                )
+            elif rag_url or rag_relevante:
+                cache_extra_modo = f"rag_relevante={int(rag_relevante)}|rag_url={rag_url}"
 
-                            # Tarefa para Pergunta P+
-                            tarefa_plus = obter_resposta_modelo(
-                                cfg,
-                                INTERVALO_SALVAMENTO,
-                                cache_respostas,
-                                tendencia_prompt,
-                                abordagem,
-                                modelo,
-                                pergunta_pair['p_plus'],
-                                temp,
-                                rep + 1,
-                                top_n_chunks=top_n_chunks,
-                                wiki_retriever=retriever_modo,
-                                cache_extra=cache_extra_modo,
-                            )
-                            tarefas.append({
-                                "tarefa": tarefa_plus,
-                                "info": {
-                                    "modelo": modelo,
-                                    "eixo": eixo,
-                                    "tipo_pergunta": "P+",
-                                    "pergunta": pergunta_pair['p_plus'],
-                                    "temperatura": temp,
-                                    "repeticao": rep + 1,
-                                    "tendencia": tendencia_nome,
-                                    "pair_id": pergunta_pair.get("pair_id", None),
-                                    "top_n_chunks": top_n_chunks,
-                                    "com_retriever": com_retriever,
-                                },
-                            })
+            eixo = pair["eixo"]
+            for temp in cfg.TEMPERATURES:
+                for rep in range(cfg.REPETICOES_POR_TEMP):
+                    for tendencia_prompt, tendencia_nome in tendencias:
+                        if temp == 0.0 and rep > 0:
+                            continue
 
-                            # Tarefa para Pergunta P-
-                            tarefa_minus = obter_resposta_modelo(
-                                cfg,
-                                INTERVALO_SALVAMENTO,
-                                cache_respostas,
-                                tendencia_prompt,
-                                abordagem,
-                                modelo,
-                                pergunta_pair['p_minus'],
-                                temp,
-                                rep + 1,
-                                top_n_chunks=top_n_chunks,
-                                wiki_retriever=retriever_modo,
-                                cache_extra=cache_extra_modo,
-                            )
-                            tarefas.append({
-                                "tarefa": tarefa_minus,
-                                "info": {
-                                    "modelo": modelo,
-                                    "eixo": eixo,
-                                    "tipo_pergunta": "P-",
-                                    "pergunta": pergunta_pair['p_minus'],
-                                    "temperatura": temp,
-                                    "repeticao": rep + 1,
-                                    "tendencia": tendencia_nome,
-                                    "pair_id": pergunta_pair.get("pair_id", None),
-                                    "top_n_chunks": top_n_chunks,
-                                    "com_retriever": com_retriever,
-                                },
-                            })
+                        if abordagem == 'gpt-sem-temperature' and temp != 0.0:
+                            continue
+
+                        # Tarefa para Pergunta P+
+                        tarefa_plus = obter_resposta_modelo(
+                            cfg,
+                            INTERVALO_SALVAMENTO,
+                            cache_respostas,
+                            tendencia_prompt,
+                            abordagem,
+                            modelo,
+                            pair["p_plus"],
+                            temp,
+                            rep + 1,
+                            top_n_chunks=top_n_chunks,
+                            page_url=page_url,
+                            wiki_retriever=retriever_modo,
+                            cache_extra=cache_extra_modo,
+                        )
+                        tarefas.append({
+                            "tarefa": tarefa_plus,
+                            "info": {
+                                "modelo": modelo,
+                                "eixo": eixo,
+                                "tipo_pergunta": "P+",
+                                "pergunta": pair["p_plus"],
+                                "temperatura": temp,
+                                "repeticao": rep + 1,
+                                "tendencia": tendencia_nome,
+                                "pair_id": pair.get("pair_id", None),
+                                "top_n_chunks": top_n_chunks,
+                                "top_k": top_n_chunks,
+                                "rag_relevante": rag_relevante,
+                                "rag_url": rag_url,
+                                "com_retriever": com_retriever,
+                            },
+                        })
+
+                        # Tarefa para Pergunta P-
+                        tarefa_minus = obter_resposta_modelo(
+                            cfg,
+                            INTERVALO_SALVAMENTO,
+                            cache_respostas,
+                            tendencia_prompt,
+                            abordagem,
+                            modelo,
+                            pair["p_minus"],
+                            temp,
+                            rep + 1,
+                            top_n_chunks=top_n_chunks,
+                            page_url=page_url,
+                            wiki_retriever=retriever_modo,
+                            cache_extra=cache_extra_modo,
+                        )
+                        tarefas.append({
+                            "tarefa": tarefa_minus,
+                            "info": {
+                                "modelo": modelo,
+                                "eixo": eixo,
+                                "tipo_pergunta": "P-",
+                                "pergunta": pair["p_minus"],
+                                "temperatura": temp,
+                                "repeticao": rep + 1,
+                                "tendencia": tendencia_nome,
+                                "pair_id": pair.get("pair_id", None),
+                                "top_n_chunks": top_n_chunks,
+                                "top_k": top_n_chunks,
+                                "rag_relevante": rag_relevante,
+                                "rag_url": rag_url,
+                                "com_retriever": com_retriever,
+                            },
+                        })
 
     respostas_raw = await asyncio.gather(*(t['tarefa'] for t in tarefas))
 
