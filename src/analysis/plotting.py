@@ -679,6 +679,60 @@ def plot_rag_main_effect_ci(df_ip: pd.DataFrame, cfg: DictConfig):
     save_fig(fig, 'figure_rag_main_effect_ci', cfg)
     plt.close()
 
+
+def plot_rag_ipi_dumbbell(df_ip: pd.DataFrame, cfg: DictConfig):
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_use = df_ip.copy()
+    df_use['condicao'] = df_use.apply(_map_rag_condition, axis=1)
+    df_use = df_use[df_use['condicao'].isin(["Baseline", "Top-3 Rel", "Top-3 Irrel"])].copy()
+    if df_use.empty:
+        return
+
+    df_mean = (
+        df_use.groupby(['condicao', 'tendencia'])['indice_polarizacao']
+        .mean()
+        .reset_index()
+    )
+
+    cond_order = ["Baseline", "Top-3 Rel", "Top-3 Irrel"]
+    tend_order = ["esquerda", "neutro", "direita"]
+    colors = {"esquerda": "#e74c3c", "neutro": "#95a5a6", "direita": "#3498db"}
+    labels = {"esquerda": "Left-Wing User", "neutro": "No-Context User", "direita": "Right-Wing User"}
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    y_positions = {c: i for i, c in enumerate(cond_order)}
+
+    for cond in cond_order:
+        subset = df_mean[df_mean['condicao'] == cond]
+        if subset.empty:
+            continue
+        xs = [
+            subset[subset['tendencia'] == t]['indice_polarizacao'].mean()
+            for t in tend_order
+        ]
+        ax.plot(xs, [y_positions[cond]] * len(xs), color='#b0b0b0', linewidth=2, zorder=1)
+        for t, x in zip(tend_order, xs):
+            ax.scatter(x, y_positions[cond], color=colors[t], s=120, zorder=2)
+
+    ax.axvline(0, color='black', linestyle='--', linewidth=1.2, alpha=0.6)
+    ax.set_yticks(list(y_positions.values()))
+    ax.set_yticklabels(["Baseline (No RAG)", "Top-3 Relevant", "Top-3 Irrelevant"], fontsize=12)
+    ax.set_xlabel('Ideological Position Index (IPI)', fontsize=14, fontweight='bold')
+    ax.set_xlim(-4, 4)
+    ax.grid(axis='x', alpha=0.3, linestyle=':')
+
+    handles = [
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=colors[t], markersize=10, label=labels[t])
+        for t in tend_order
+    ]
+    ax.legend(handles=handles, loc='upper center', bbox_to_anchor=(0.5, -0.08), ncol=3, frameon=False)
+
+    plt.tight_layout()
+    save_fig(fig, 'figure_rag_ipi_dumbbell', cfg)
+    plt.close()
+
 def plot_figure2_topic_variation(df_pares: pd.DataFrame, cfg: DictConfig):
     """
     Figure 2: Topic-Level Variation
