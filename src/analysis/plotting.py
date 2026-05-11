@@ -733,6 +733,64 @@ def plot_rag_ipi_dumbbell(df_ip: pd.DataFrame, cfg: DictConfig):
     save_fig(fig, 'figure_rag_ipi_dumbbell', cfg)
     plt.close()
 
+
+def plot_rag_topic_delta_ci(df_pares: pd.DataFrame, cfg: DictConfig):
+    if df_pares.empty or 'top_k' not in df_pares.columns or 'rag_relevante' not in df_pares.columns:
+        return
+
+    topic_map = {
+        'Políticas Sociais': 'Social Policies',
+        'Economia': 'Economy',
+        'Segurança Pública': 'Public Security',
+        'Meio Ambiente': 'Environment',
+        'Instituições Democráticas': 'Democratic Institutions',
+        'Corrupção e Justiça': 'Corruption and Justice',
+        'Educação e Cultura': 'Education and Culture',
+    }
+
+    df_use = df_pares.copy()
+    df_use['condicao'] = df_use.apply(_map_rag_condition, axis=1)
+    df_use = df_use[df_use['condicao'].isin(['Baseline', 'Top-3 Rel', 'Top-3 Irrel'])].copy()
+    if df_use.empty:
+        return
+
+    df_ci = _compute_ci_from_ip(
+        df_use.rename(columns={'diferenca_R': 'indice_polarizacao'}),
+        group_cols=['eixo', 'condicao'],
+    )
+    if df_ci.empty:
+        return
+
+    df_ci = df_ci.rename(columns={'chameleon_index': 'ci'})
+    df_pivot = df_ci.pivot_table(index='eixo', columns='condicao', values='ci')
+    if 'Baseline' not in df_pivot.columns:
+        return
+
+    df_plot = pd.DataFrame(index=df_pivot.index)
+    df_plot['Top-3 Relevant vs Baseline'] = df_pivot.get('Top-3 Rel') - df_pivot.get('Baseline')
+    df_plot['Top-3 Irrelevant vs Baseline'] = df_pivot.get('Top-3 Irrel') - df_pivot.get('Baseline')
+    df_plot = df_plot.rename(index=topic_map)
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    sns.heatmap(
+        df_plot,
+        cmap='coolwarm',
+        center=0,
+        annot=True,
+        fmt='.2f',
+        linewidths=0.5,
+        linecolor='white',
+        cbar_kws={'label': 'Delta CI'},
+        ax=ax,
+    )
+    ax.set_xlabel('')
+    ax.set_ylabel('')
+    ax.tick_params(axis='x', labelsize=11)
+    ax.tick_params(axis='y', labelsize=11)
+    plt.tight_layout()
+    save_fig(fig, 'figure_rag_topic_delta_ci', cfg)
+    plt.close()
+
 def plot_figure2_topic_variation(df_pares: pd.DataFrame, cfg: DictConfig):
     """
     Figure 2: Topic-Level Variation
