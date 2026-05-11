@@ -31,6 +31,9 @@ def main(cfg: DictConfig) -> None:
     plotting.plot_ipi_com_vs_sem_retriever(df_ip, cfg)
     plotting.plot_ipi_com_vs_sem_retriever_2(df_ip, cfg)
     plotting.plot_ipi_media_tendencias_pre_pos_retriever(df_ip, cfg)
+    plotting.plot_rag_main_effect_ci(df_ip, cfg)
+    plotting.plot_rag_ipi_dumbbell(df_ip, cfg)
+    plotting.plot_rag_topic_delta_ci(df_pares, cfg)
 
     # Figura original (1A/1B). Se houver múltiplos modos, roda só no baseline (top_n_chunks==0) para não misturar.
     if 'top_n_chunks' in df_ip.columns:
