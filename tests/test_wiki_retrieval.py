@@ -75,6 +75,10 @@ class WikiRetrieverUrlFilterTests(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(chunks)
         self.assertTrue(all(c.url == self.url1 for c in chunks))
 
+    async def test_retrieve_raises_on_missing_url(self):
+        with self.assertRaises(RuntimeError):
+            await self.retriever.retrieve("query", top_n=1, page_url="https://missing")
+
 
 if __name__ == "__main__":
     unittest.main()
