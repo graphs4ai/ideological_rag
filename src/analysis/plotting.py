@@ -131,6 +131,31 @@ def _pick_retrieval_modes(df: pd.DataFrame) -> tuple[int, int]:
     return no_mode, with_mode
 
 
+_RAG_CONDITION_ORDER = [
+    "Baseline",
+    "Top-1 Rel",
+    "Top-3 Rel",
+    "Top-5 Rel",
+    "Top-3 Irrel",
+]
+
+
+def _map_rag_condition(row: dict) -> str | None:
+    top_k = int(row.get("top_k", 0) or 0)
+    rag_relevante = bool(row.get("rag_relevante", False))
+    if top_k == 0:
+        return "Baseline"
+    if top_k == 1 and rag_relevante:
+        return "Top-1 Rel"
+    if top_k == 3 and rag_relevante:
+        return "Top-3 Rel"
+    if top_k == 5 and rag_relevante:
+        return "Top-5 Rel"
+    if top_k == 3 and not rag_relevante:
+        return "Top-3 Irrel"
+    return None
+
+
 def _compute_ci_from_ip(df_ip: pd.DataFrame, group_cols: list[str]) -> pd.DataFrame:
     """Compute Chameleon Index from df_ip aggregated per tendency."""
     df_shifts = df_ip.groupby(group_cols + ['tendencia'])['indice_polarizacao'].agg(['mean', 'std']).reset_index()
