@@ -7,6 +7,7 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+from urllib.parse import unquote
 
 try:
     import numpy as np
@@ -126,9 +127,14 @@ class WikiRetriever:
         self._url_to_indices: dict[str, np.ndarray] = {}
         for idx, doc in enumerate(self._store.docs):
             url = str(doc.get("url", ""))
-            if not url:
-                continue
-            self._url_to_indices.setdefault(url, []).append(idx)
+            source_page = str(doc.get("source_page", ""))
+            candidates = [url, source_page]
+            if source_page:
+                candidates.append(unquote(source_page))
+            for candidate in candidates:
+                if not candidate:
+                    continue
+                self._url_to_indices.setdefault(candidate, []).append(idx)
         self._url_to_indices = {
             url: np.array(indices, dtype=np.int64)
             for url, indices in self._url_to_indices.items()

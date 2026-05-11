@@ -84,6 +84,33 @@ class WikiRetrieverUrlFilterTests(unittest.IsolatedAsyncioTestCase):
         self.assertIn(self.url2, ctx)
         self.assertNotIn(self.url1, ctx)
 
+    async def test_ensure_urls_accepts_source_page(self):
+        os.environ["DEEPINFRA_API_KEY"] = "test"
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Path(tmp)
+
+            decoded = "https://pt.wikipedia.org/wiki/Bolsa_Família"
+            encoded = "https://pt.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia"
+
+            docs = [
+                {
+                    "doc_id": "d1",
+                    "page_key": "p1",
+                    "title": "Page 1",
+                    "url": decoded,
+                    "source_page": encoded,
+                    "chunk_id": 0,
+                    "text": "x",
+                }
+            ]
+            with (store / "docs.jsonl").open("w", encoding="utf-8") as f:
+                for doc in docs:
+                    f.write(json.dumps(doc) + "\n")
+            np.save(store / "embeddings.npy", np.array([[1.0, 0.0]], dtype=np.float32))
+
+            retriever = WikiRetriever(store_dir=store, embedding_model="dummy")
+            retriever.ensure_urls([encoded])
+
 
 if __name__ == "__main__":
     unittest.main()
