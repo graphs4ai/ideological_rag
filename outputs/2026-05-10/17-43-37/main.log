@@ -1,0 +1,23 @@
+[2026-05-10 17:43:37,748][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 3], emb_model='google/embeddinggemma-300m'
+[2026-05-10 17:43:37,748][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-10 17:43:37,790][__main__][INFO] - Cache carregado com 205956 entradas
+[2026-05-10 17:43:39,670][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 17:43:39,683][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 17:43:39,687][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:39,707][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 17:43:39,717][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:39,747][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:39,762][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:39,763][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:39,772][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:39,781][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:40,117][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:40,121][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:40,154][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:40,163][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:40,165][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:40,167][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:40,183][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:40,189][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 17:43:40,193][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 17:43:40,277][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Discordo fortemente

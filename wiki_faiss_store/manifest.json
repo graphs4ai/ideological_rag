@@ -2,7 +2,7 @@
   "model": "google/embeddinggemma-300m",
   "faiss_index_type": "IndexFlatIP",
   "similarity": "cosine_similarity_via_l2_normalized_inner_product",
-  "updated_at": "2026-05-05T14:07:08",
-  "num_docs": 1764,
+  "updated_at": "2026-05-10T17:40:51",
+  "num_docs": 1818,
   "embedding_dim": 768
 }

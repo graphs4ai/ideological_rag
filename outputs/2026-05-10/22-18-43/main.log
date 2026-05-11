@@ -1,0 +1,49 @@
+[2026-05-10 22:18:43,349][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-10 22:18:43,349][__main__][INFO] - Carregadas 1 perguntas de dados/pairs.json
+[2026-05-10 22:18:43,395][__main__][INFO] - Cache carregado com 206988 entradas
+[2026-05-10 22:18:44,294][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 22:18:44,300][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:44,318][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-10 22:18:44,319][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-10 22:18:44,337][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:44,367][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:44,850][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 22:18:44,852][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 22:18:44,932][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:44,933][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 22:18:45,165][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:45,171][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:45,535][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:45,662][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 22:18:45,663][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 22:18:45,683][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:45,705][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:45,708][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:45,710][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:45,883][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 22:18:45,967][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 22:18:46,284][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 22:18:47,145][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 22:18:47,189][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:47,204][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 22:18:47,649][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-10 22:18:48,046][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 22:18:48,070][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 22:18:48,095][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:48,100][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 22:18:48,107][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:48,246][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:48,249][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 22:18:48,270][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:48,274][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 22:18:48,274][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 22:18:48,495][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 22:18:48,560][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 22:18:48,570][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-10 22:18:48,571][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-10 22:18:48,648][__main__][INFO] - Cache salvo com 206988 entradas
+[2026-05-10 22:18:48,648][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-10 22:18:48,649][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-10 22:18:48,825][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-10 22:18:48,894][__main__][INFO] - Cache salvo com 206988 entradas
+[2026-05-10 22:18:48,894][__main__][INFO] - Coleta de dados concluída!

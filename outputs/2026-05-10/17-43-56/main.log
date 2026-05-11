@@ -1,0 +1,5 @@
+[2026-05-10 17:43:56,518][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 3], emb_model='google/embeddinggemma-300m'
+[2026-05-10 17:43:56,518][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-10 17:43:56,566][__main__][INFO] - Cache carregado com 205956 entradas
+[2026-05-10 17:43:56,636][__main__][INFO] - Cache salvo com 205956 entradas
+[2026-05-10 17:43:56,636][__main__][INFO] - Coleta de dados concluída!
