@@ -34,6 +34,42 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 logging.getLogger("httpx").setLevel(logging.WARNING)
 
+
+def build_rag_modes(top_n_chunks_list, pair_wiki_url, irrelevant_urls):
+    modes = []
+    for top_n in top_n_chunks_list:
+        top_k = int(top_n or 0)
+        if top_k <= 0:
+            modes.append(
+                {
+                    "top_k": 0,
+                    "rag_relevante": False,
+                    "rag_url": "",
+                    "page_url": None,
+                }
+            )
+        else:
+            modes.append(
+                {
+                    "top_k": top_k,
+                    "rag_relevante": True,
+                    "rag_url": pair_wiki_url,
+                    "page_url": pair_wiki_url,
+                }
+            )
+
+    for url in irrelevant_urls:
+        modes.append(
+            {
+                "top_k": 3,
+                "rag_relevante": False,
+                "rag_url": url,
+                "page_url": url,
+            }
+        )
+
+    return modes
+
 async def obter_resposta_modelo(
     cfg,
     INTERVALO_SALVAMENTO,
