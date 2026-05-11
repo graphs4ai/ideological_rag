@@ -123,6 +123,17 @@ class WikiRetriever:
         self._store = load_store(store_dir)
         self.embedding_model = embedding_model
 
+        self._url_to_indices: dict[str, np.ndarray] = {}
+        for idx, doc in enumerate(self._store.docs):
+            url = str(doc.get("url", ""))
+            if not url:
+                continue
+            self._url_to_indices.setdefault(url, []).append(idx)
+        self._url_to_indices = {
+            url: np.array(indices, dtype=np.int64)
+            for url, indices in self._url_to_indices.items()
+        }
+
         api_key = deepinfra_api_key or os.getenv("DEEPINFRA_API_KEY") or os.getenv("DEEPINFRA_TOKEN")
         if not api_key:
             raise RuntimeError(
@@ -132,7 +143,7 @@ class WikiRetriever:
         self._client = AsyncOpenAI(api_key=api_key, base_url=deepinfra_base_url)
         self._embed_semaphore = asyncio.Semaphore(int(max_concurrent_embeddings))
 
-        self._result_cache: dict[tuple[str, int], asyncio.Future[list[WikiChunk]]] = {}
+        self._result_cache: dict[tuple[str, int, str], asyncio.Future[list[WikiChunk]]] = {}
         self._cache_lock = asyncio.Lock()
 
     @property
@@ -158,7 +169,12 @@ class WikiRetriever:
         query_emb = np.array([emb], dtype=np.float32)
         return l2_normalize(query_emb).astype(np.float32)
 
-    async def _retrieve_uncached(self, query: str, top_n: int) -> list[WikiChunk]:
+    async def _retrieve_uncached(
+        self,
+        query: str,
+        top_n: int,
+        page_url: str | None = None,
+    ) -> list[WikiChunk]:
         if top_n <= 0:
             return []
 
@@ -166,6 +182,39 @@ class WikiRetriever:
             raise RuntimeError("O índice está vazio (docs.jsonl sem entradas).")
 
         query_embedding = await self._embed_query(query)
+
+        if page_url:
+            indices = self._url_to_indices.get(page_url)
+            if indices is None:
+                raise RuntimeError(f"URL não encontrada no índice: {page_url}")
+
+            subset = self._store.embeddings[indices]
+            scores = (subset @ query_embedding.T).reshape(-1)
+            k = min(int(top_n), int(scores.shape[0]))
+            if k <= 0:
+                return []
+
+            top_local = np.argpartition(-scores, k - 1)[:k]
+            top_local = top_local[np.argsort(-scores[top_local])]
+
+            results: list[WikiChunk] = []
+            for rank, local_idx in enumerate(top_local, start=1):
+                global_idx = int(indices[int(local_idx)])
+                doc = self._store.docs[global_idx]
+                results.append(
+                    WikiChunk(
+                        rank=rank,
+                        score=float(scores[int(local_idx)]),
+                        doc_id=str(doc.get("doc_id", "")),
+                        page_key=str(doc.get("page_key", "")),
+                        title=str(doc.get("title", "")),
+                        url=str(doc.get("url", "")),
+                        chunk_id=int(doc.get("chunk_id", -1)),
+                        text=str(doc.get("text", "")),
+                    )
+                )
+
+            return results
 
         k = min(int(top_n), len(self._store.docs))
         scores, idxs = self._store.index.search(query_embedding, k)
@@ -190,13 +239,15 @@ class WikiRetriever:
 
         return results
 
-    async def retrieve(self, query: str, *, top_n: int = 5) -> list[WikiChunk]:
-        key = (query, int(top_n))
+    async def retrieve(self, query: str, *, top_n: int = 5, page_url: str | None = None) -> list[WikiChunk]:
+        key = (query, int(top_n), page_url or "")
 
         async with self._cache_lock:
             fut = self._result_cache.get(key)
             if fut is None:
-                fut = asyncio.create_task(self._retrieve_uncached(query, int(top_n)))
+                fut = asyncio.create_task(
+                    self._retrieve_uncached(query, int(top_n), page_url=page_url)
+                )
                 self._result_cache[key] = fut
 
         return await fut
