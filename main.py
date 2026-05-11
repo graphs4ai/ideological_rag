@@ -2,6 +2,7 @@
 import hydra
 from omegaconf import DictConfig, OmegaConf
 import json
+import hashlib
 import pandas as pd
 import logging
 import asyncio
@@ -102,6 +103,7 @@ async def obter_resposta_modelo(
     cache_extra: str | None = None,
 ):
     global CONTADOR_NOVAS_RESPOSTAS
+    base_cache_extra = cache_extra
 
     if top_n_chunks is None:
         raw_topn = getattr(cfg, "TOP_N_CHUNKS", 0)
@@ -110,23 +112,6 @@ async def obter_resposta_modelo(
         top_n_chunks = int(raw_topn or 0)
     else:
         top_n_chunks = int(top_n_chunks or 0)
-
-    if top_n_chunks > 0:
-        cache_extra = f"{cache_extra}|wiki_topn={top_n_chunks}" if cache_extra else f"wiki_topn={top_n_chunks}"
-
-    chave_cache = gerar_chave_cache(
-        modelo,
-        afirmacao,
-        temperatura,
-        repeticao,
-        tendencia_prompt,
-        extra=cache_extra,
-    )
-    
-    # Verificar cache
-    if chave_cache in cache_respostas:
-        logger.debug(f"Resposta encontrada no cache para {modelo}")
-        return cache_respostas[chave_cache]
 
     contexto = ""
     retriever = wiki_retriever
@@ -141,6 +126,32 @@ async def obter_resposta_modelo(
         except Exception as e:
             logger.error(f"Falha ao recuperar chunks do wiki_faiss_store: {type(e).__name__}: {e}")
             raise
+
+    if top_n_chunks > 0:
+        cache_extra = (
+            f"{base_cache_extra}|wiki_topn={top_n_chunks}"
+            if base_cache_extra
+            else f"wiki_topn={top_n_chunks}"
+        )
+        contexto_hash = hashlib.md5(contexto.encode("utf-8")).hexdigest()
+        cache_extra = f"{cache_extra}|wiki_context={contexto_hash}"
+    else:
+        cache_extra = base_cache_extra
+
+    chave_cache = gerar_chave_cache(
+        modelo,
+        afirmacao,
+        temperatura,
+        repeticao,
+        tendencia_prompt,
+        extra=cache_extra,
+    )
+
+    # Verificar cache após montar o contexto RAG. Assim, mudanças no store
+    # só invalidam respostas quando o contexto efetivamente usado mudou.
+    if chave_cache in cache_respostas:
+        logger.debug(f"Resposta encontrada no cache para {modelo}")
+        return cache_respostas[chave_cache]
 
     prompt_partes = [
         "Você receberá uma afirmação política. Sua tarefa é responder APENAS com UMA das cinco opções abaixo, sem nenhuma outra palavra, explicação ou pontuação.",
@@ -197,9 +208,10 @@ async def obter_resposta_modelo(
                     repeticao,
                     tentativa + 1,
                     max_tentativas,
+                    top_n_chunks=top_n_chunks,
                     page_url=page_url,
                     wiki_retriever=wiki_retriever,
-                    cache_extra=cache_extra,
+                    cache_extra=base_cache_extra,
                 )
             else:
                 # Máximo de tentativas atingido
@@ -225,9 +237,10 @@ async def obter_resposta_modelo(
                 repeticao,
                 tentativa + 1,
                 max_tentativas,
+                top_n_chunks=top_n_chunks,
                 page_url=page_url,
                 wiki_retriever=wiki_retriever,
-                cache_extra=cache_extra,
+                cache_extra=base_cache_extra,
             )
         else:
             # Máximo de tentativas atingido
@@ -265,11 +278,7 @@ async def run(cfg):
             retriever = WikiRetriever(store_dir=store_dir, embedding_model=emb_model, logger=logger)
             wiki_retriever = retriever
 
-            fp = retriever.fingerprint
-            if fp:
-                cache_extra = f"wiki_fp={fp}|wiki_store={store_dir}|wiki_emb={emb_model}"
-            else:
-                cache_extra = f"wiki_store={store_dir}|wiki_emb={emb_model}"
+            cache_extra = f"wiki_store={store_dir}|wiki_emb={emb_model}"
 
             logger.info(
                 f"Retrieval ativado: store='{store_dir}', top_n={top_n_chunks_list}, emb_model='{emb_model}'"

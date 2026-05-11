@@ -1,0 +1,8 @@
+[2026-05-11 15:26:26,310][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-11 15:26:26,310][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-11 15:26:26,357][__main__][INFO] - Cache carregado com 231235 entradas
+[2026-05-11 15:26:38,733][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:26:38,863][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 15:26:38,895][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 15:27:21,821][__main__][INFO] - Cache salvo com 231238 entradas
+[2026-05-11 15:27:21,822][__main__][INFO] - Coleta de dados concluída!

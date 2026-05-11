@@ -119,6 +119,7 @@ async def chamar_api_provider(abordagem, modelo, temperatura, system_prompt, use
         
         gpt_resposta = client_openai.responses.create(**kwargs)
         response_content = gpt_resposta.output_text
+    
     elif abordagem == 'deepinfra':
         async with deepinfra_semaphore:
             deepinfra_resposta = await client_deepinfra.chat.completions.create(

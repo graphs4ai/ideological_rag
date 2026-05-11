@@ -1,12 +1,16 @@
 import json
+import hashlib
 import os
 import tempfile
 import unittest
+from types import SimpleNamespace
 from pathlib import Path
+from unittest.mock import AsyncMock, patch
 
 import numpy as np
 
-from main import build_rag_modes, iter_rag_contexts
+from main import build_rag_modes, iter_rag_contexts, obter_resposta_modelo
+from src.main.utils import gerar_chave_cache
 from src.main.wiki_retrieval import WikiRetriever
 
 
@@ -71,6 +75,59 @@ class RagContextTests(unittest.TestCase):
             [c["rag_url"] for c in contexts if c["top_k"] == 3 and not c["rag_relevante"]],
             irrelevant,
         )
+
+
+class ResponseCacheRagTests(unittest.IsolatedAsyncioTestCase):
+    async def test_rag_cache_key_uses_retrieved_context_not_store_fingerprint(self):
+        context = "\nPágina: Page\nURL: u\n\n- cached chunk"
+        base_extra = "wiki_store=wiki_faiss_store|wiki_emb=dummy|rag_relevante=1|rag_url=u"
+        context_hash = hashlib.md5(context.encode("utf-8")).hexdigest()
+        cache_extra = f"{base_extra}|wiki_topn=3|wiki_context={context_hash}"
+        chave = gerar_chave_cache(
+            "model",
+            "afirmacao",
+            0.0,
+            1,
+            "prompt",
+            extra=cache_extra,
+        )
+        cache = {chave: "Concordo"}
+
+        class FakeRetriever:
+            def __init__(self):
+                self.calls = 0
+
+            async def build_context(self, query, *, top_n, max_chars_per_chunk, page_url):
+                self.calls += 1
+                self.args = (query, top_n, max_chars_per_chunk, page_url)
+                return context
+
+        retriever = FakeRetriever()
+        cfg = SimpleNamespace(
+            TOP_N_CHUNKS=[0, 3],
+            WIKI_MAX_CHARS_PER_CHUNK=900,
+            ARQUIVO_CACHE="unused.pkl",
+        )
+
+        with patch("main.chamar_api_provider", new=AsyncMock(side_effect=AssertionError("cache miss"))):
+            resposta = await obter_resposta_modelo(
+                cfg,
+                999999,
+                cache,
+                "prompt",
+                "deepinfra",
+                "model",
+                "afirmacao",
+                0.0,
+                1,
+                top_n_chunks=3,
+                page_url="u",
+                wiki_retriever=retriever,
+                cache_extra=base_extra,
+            )
+
+        self.assertEqual(resposta, "Concordo")
+        self.assertEqual(retriever.calls, 1)
 
 
 if __name__ == "__main__":

@@ -667,11 +667,8 @@ def plot_rag_main_effect_ci(df_ip: pd.DataFrame, cfg: DictConfig):
     summary['sem'] = summary['std'] / summary['count'].clip(lower=1).pow(0.5)
     summary['ci95'] = 1.96 * summary['sem']
 
-    order = [c for c in _RAG_CONDITION_ORDER if c in summary['condicao'].tolist()]
-    summary['condicao'] = pd.Categorical(summary['condicao'], categories=order, ordered=True)
-    summary = summary.sort_values('condicao')
-
-    colors = ["#5a6f80" if c != "Baseline" else "#2f3b45" for c in summary['condicao']]
+    summary = summary.sort_values('mean', ascending=False)
+    colors = ["#2f3b45" if c == "Baseline" else "#5a6f80" for c in summary['condicao']]
 
     fig, ax = plt.subplots(figsize=(12, 7))
     ax.bar(
@@ -692,13 +689,80 @@ def plot_rag_main_effect_ci(df_ip: pd.DataFrame, cfg: DictConfig):
     plt.close()
 
 
+def plot_rag_main_effect_ci_2(df_ip: pd.DataFrame, cfg: DictConfig):
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_use = df_ip.copy()
+    df_use['condicao'] = df_use.apply(_map_rag_condition, axis=1)
+    df_use = df_use[df_use['condicao'].isin(["Baseline", "Top-1 Rel", "Top-3 Rel", "Top-5 Rel", "Top-3 Irrel"])].copy()
+    print(df_use['condicao'])
+    if df_use.empty:
+        return
+
+    # Para Top-3 Irrel, criar uma coluna com identificação da URL
+    df_use['condicao_url'] = df_use['condicao']
+    
+    for idx, row in df_use[df_use['condicao'] == 'Top-3 Irrel'].iterrows():
+        rag_url = str(row.get('rag_url', '')).lower()
+        if 'elevador' in rag_url:
+            df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Elevador'
+        elif 'fotossintese' in rag_url or 'fotosintese' in rag_url:
+            df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Fotossíntese'
+        elif 'culinaria' in rag_url or 'culinária' in rag_url or 'francesa' in rag_url:
+            df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Culinária Francesa'
+        else:
+            # Classificar qualquer outro como a primeira categoria padrão
+            df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Elevador'
+
+    df_ci = _compute_ci_from_ip(df_use, group_cols=['modelo', 'condicao_url'])
+    if df_ci.empty:
+        return
+
+    df_ci = df_ci.rename(columns={'chameleon_index': 'ci'})
+    df_ci = df_ci.rename(columns={'condicao_url': 'condicao'})
+    
+    # Ordena condições por CI média
+    cond_order = df_ci.groupby('condicao')['ci'].mean().sort_values(ascending=False).index.tolist()
+    df_ci['condicao'] = pd.Categorical(df_ci['condicao'], categories=cond_order, ordered=True)
+
+    colors = {
+        "Baseline": "#2f3b45", 
+        "Top-1 Rel": "#e8a87c", 
+        "Top-3 Rel": "#d67c3a", 
+        "Top-5 Rel": "#a85e1f",
+        "Top-3 Irrel - Elevador": "#5a6f80",
+        "Top-3 Irrel - Fotossíntese": "#5a6f80",
+        "Top-3 Irrel - Culinária Francesa": "#5a6f80"
+    }
+
+    fig, ax = plt.subplots(figsize=(16, 7))
+    sns.barplot(
+        data=df_ci,
+        x='condicao',
+        y='ci',
+        order=cond_order,
+        palette=colors,
+        ax=ax,
+    )
+    ax.set_ylabel('Chameleon Index (CI)', fontsize=14, fontweight='bold')
+    ax.set_xlabel('RAG Condition', fontsize=14, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=11)
+    ax.tick_params(axis='y', labelsize=12)
+    ax.grid(axis='y', alpha=0.3, linestyle=':')
+    plt.xticks(rotation=15, ha='right')
+    plt.tight_layout()
+    save_fig(fig, 'rag_main_effect_ci_2', cfg)
+    plt.close()
+
+
 def plot_rag_ipi_dumbbell(df_ip: pd.DataFrame, cfg: DictConfig):
     if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
         return
 
     df_use = df_ip.copy()
     df_use['condicao'] = df_use.apply(_map_rag_condition, axis=1)
-    df_use = df_use[df_use['condicao'].isin(["Baseline", "Top-3 Rel", "Top-3 Irrel"])].copy()
+    df_use = df_use[df_use['condicao'].isin(["Baseline", "Top-1 Rel", "Top-3 Rel", "Top-5 Rel", "Top-3 Irrel"])].copy()
     if df_use.empty:
         return
 
@@ -708,12 +772,18 @@ def plot_rag_ipi_dumbbell(df_ip: pd.DataFrame, cfg: DictConfig):
         .reset_index()
     )
 
-    cond_order = ["Baseline", "Top-3 Rel", "Top-3 Irrel"]
+    # Calcular shift de left-right para ordenar por ordem crescente
+    df_shifts = df_mean.pivot(index='condicao', columns='tendencia', values='indice_polarizacao')
+    if not {'esquerda', 'direita'}.issubset(set(df_shifts.columns)):
+        return
+    df_shifts['shift'] = abs(df_shifts['esquerda'] - df_shifts['direita'])
+    cond_order = df_shifts.sort_values('shift')['shift'].index.tolist()
+
     tend_order = ["esquerda", "neutro", "direita"]
     colors = {"esquerda": "#e74c3c", "neutro": "#95a5a6", "direita": "#3498db"}
     labels = {"esquerda": "Left-Wing User", "neutro": "No-Context User", "direita": "Right-Wing User"}
 
-    fig, ax = plt.subplots(figsize=(12, 6))
+    fig, ax = plt.subplots(figsize=(12, 8))
     y_positions = {c: i for i, c in enumerate(cond_order)}
 
     for cond in cond_order:
@@ -730,7 +800,7 @@ def plot_rag_ipi_dumbbell(df_ip: pd.DataFrame, cfg: DictConfig):
 
     ax.axvline(0, color='black', linestyle='--', linewidth=1.2, alpha=0.6)
     ax.set_yticks(list(y_positions.values()))
-    ax.set_yticklabels(["Baseline (No RAG)", "Top-3 Relevant", "Top-3 Irrelevant"], fontsize=12)
+    ax.set_yticklabels(cond_order, fontsize=12)
     ax.set_xlabel('Ideological Position Index (IPI)', fontsize=14, fontweight='bold')
     ax.set_xlim(-4, 4)
     ax.grid(axis='x', alpha=0.3, linestyle=':')

@@ -1,0 +1,562 @@
+[2026-05-11 14:19:51,226][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-11 14:19:51,227][__main__][INFO] - Carregadas 8 perguntas de dados/pairs.json
+[2026-05-11 14:19:51,276][__main__][INFO] - Cache carregado com 220151 entradas
+[2026-05-11 14:19:53,277][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:53,279][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:53,279][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:53,279][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:53,282][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:53,283][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:54,449][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:54,451][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:19:54,453][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:54,453][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:54,455][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:54,462][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:54,463][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:54,466][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:54,467][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:54,468][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:55,087][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:55,092][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:19:55,093][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:55,094][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:19:55,095][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:19:55,095][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:55,104][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:55,105][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:55,105][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:55,106][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:55,474][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:55,480][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:55,481][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:19:55,500][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:19:55,509][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:55,619][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:55,623][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:55,627][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:55,628][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:55,871][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:19:55,889][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:55,920][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:55,960][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:55,998][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-11 14:19:56,053][__main__][INFO] - Cache salvo com 220191 entradas
+[2026-05-11 14:19:56,053][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:56,056][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:56,057][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:56,058][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:56,276][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:56,294][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:56,295][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:56,310][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:56,314][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:19:56,341][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:56,468][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:56,472][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:56,662][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:56,665][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:56,685][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:56,718][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:56,721][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:56,730][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:56,761][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:56,811][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:56,865][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:57,008][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:57,027][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:57,045][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:57,065][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:57,081][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:57,090][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:57,186][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:57,187][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:57,397][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:19:57,441][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:57,741][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:57,770][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:57,785][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:57,793][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:57,823][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:57,987][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:57,990][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:58,235][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:58,239][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:58,371][__main__][INFO] - Salvamento incremental (80 novas respostas)...
+[2026-05-11 14:19:58,445][__main__][INFO] - Cache salvo com 220231 entradas
+[2026-05-11 14:19:58,446][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:58,565][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:58,607][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:58,625][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:58,646][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:58,650][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:58,657][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:58,759][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:58,762][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:58,833][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:58,854][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:58,981][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:59,024][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:59,025][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:59,040][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:59,281][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:59,358][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:59,381][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:19:59,430][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:59,620][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:19:59,700][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:19:59,810][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:19:59,842][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:00,043][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:00,051][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:00,062][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:00,064][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:00,393][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:00,411][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:00,422][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:00,463][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:00,471][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:00,489][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:00,510][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:00,514][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:00,524][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:00,639][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:00,865][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:00,868][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:00,872][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:00,904][__main__][INFO] - Salvamento incremental (120 novas respostas)...
+[2026-05-11 14:20:00,993][__main__][INFO] - Cache salvo com 220271 entradas
+[2026-05-11 14:20:00,993][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:00,995][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:00,995][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:00,996][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:01,008][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:01,032][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:01,075][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:01,266][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:01,380][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:01,381][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:01,413][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:01,418][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:01,422][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:01,446][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:01,455][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:01,467][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:01,564][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:01,669][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:01,694][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:01,715][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:01,733][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:01,787][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:01,788][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:01,902][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:01,905][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:01,905][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:02,042][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:02,113][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:02,116][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:02,136][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:02,246][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:02,274][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:02,282][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:02,298][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:02,426][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:02,473][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:02,476][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:02,497][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:02,642][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:02,648][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:02,663][__main__][INFO] - Salvamento incremental (160 novas respostas)...
+[2026-05-11 14:20:02,797][__main__][INFO] - Cache salvo com 220311 entradas
+[2026-05-11 14:20:02,798][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:02,802][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:02,802][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:02,803][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:02,804][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:02,824][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:02,969][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:02,976][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:02,982][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:03,148][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:03,179][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:03,194][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:03,197][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:03,347][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:03,350][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:03,354][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:03,487][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:03,516][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:03,557][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:03,757][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:03,772][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:03,861][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:03,896][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:03,902][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:03,903][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,002][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,005][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:04,006][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,088][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,111][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,303][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,304][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,325][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,355][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,370][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,373][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,374][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,374][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,410][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,525][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,606][__main__][INFO] - Salvamento incremental (200 novas respostas)...
+[2026-05-11 14:20:04,679][__main__][INFO] - Cache salvo com 220351 entradas
+[2026-05-11 14:20:04,679][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,681][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,681][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:04,681][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,691][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,707][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:04,800][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,902][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:04,915][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:04,928][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:05,048][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:05,084][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:05,087][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:05,099][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:05,101][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:05,361][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:05,393][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:05,885][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:05,886][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:05,907][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:05,908][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:05,909][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:05,996][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:06,102][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:06,147][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:06,221][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:06,274][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:06,397][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:06,497][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:06,531][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:06,644][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:06,779][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:06,782][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:06,785][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:06,829][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:06,854][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:06,867][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:06,875][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:06,988][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:07,152][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:07,154][__main__][INFO] - Salvamento incremental (240 novas respostas)...
+[2026-05-11 14:20:07,220][__main__][INFO] - Cache salvo com 220391 entradas
+[2026-05-11 14:20:07,220][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:07,222][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:07,222][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:07,269][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:07,323][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:07,670][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:07,672][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:07,674][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:07,848][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:07,876][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:07,889][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:07,928][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:08,005][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:08,053][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:08,196][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:08,199][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:08,200][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:08,205][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:08,232][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:08,412][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:08,494][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:08,498][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:08,576][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:08,592][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:08,718][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:08,829][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:09,093][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:09,096][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:09,109][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:09,121][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:09,124][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:09,124][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:09,124][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:09,138][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:09,241][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:09,242][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:09,446][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:09,480][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:09,527][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:09,531][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:09,604][__main__][INFO] - Salvamento incremental (280 novas respostas)...
+[2026-05-11 14:20:09,661][__main__][INFO] - Cache salvo com 220431 entradas
+[2026-05-11 14:20:09,661][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:09,662][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:09,664][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:09,675][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:09,767][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:09,769][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:09,819][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:09,838][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:09,844][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:09,873][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:09,950][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:09,971][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:10,171][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:10,292][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:10,296][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:10,319][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:10,339][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:10,410][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:10,433][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:10,476][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:10,479][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:10,550][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:10,555][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:10,649][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:10,709][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:10,716][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:10,818][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:10,820][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:10,823][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:10,871][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:10,875][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:10,923][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:10,926][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:10,964][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:11,002][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:11,030][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:11,191][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:11,252][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:11,340][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:11,344][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:11,367][__main__][INFO] - Salvamento incremental (320 novas respostas)...
+[2026-05-11 14:20:11,412][__main__][INFO] - Cache salvo com 220471 entradas
+[2026-05-11 14:20:11,412][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:11,413][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:11,696][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:11,699][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:11,720][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:11,729][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:11,759][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:11,764][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:11,864][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:11,867][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:11,868][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:11,870][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:12,197][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:12,201][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:12,217][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:12,278][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:12,389][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:12,393][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:12,599][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:12,639][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:12,733][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:12,764][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:12,794][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:12,801][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:12,914][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:12,917][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:12,918][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:12,923][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:12,949][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:13,002][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:13,019][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:13,094][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:13,177][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:13,240][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:13,244][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:13,247][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:13,253][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:13,274][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:13,319][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:13,437][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:13,438][__main__][INFO] - Salvamento incremental (360 novas respostas)...
+[2026-05-11 14:20:13,490][__main__][INFO] - Cache salvo com 220511 entradas
+[2026-05-11 14:20:13,490][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:13,492][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:13,583][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:13,598][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:13,658][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:13,680][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:13,687][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:13,695][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:13,701][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:14,025][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:14,028][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:14,049][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:14,075][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:14,319][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:14,487][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:14,650][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:14,651][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:14,652][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:14,680][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:14,686][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:14,690][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:14,698][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:15,031][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:15,045][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:15,048][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:15,048][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:15,059][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:15,070][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:15,093][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:15,122][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:15,146][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:15,409][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:15,537][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:15,540][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:15,544][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:15,612][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:15,656][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:15,724][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:15,870][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:15,898][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:16,084][__main__][INFO] - Salvamento incremental (400 novas respostas)...
+[2026-05-11 14:20:16,135][__main__][INFO] - Cache salvo com 220551 entradas
+[2026-05-11 14:20:16,135][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:16,137][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:16,168][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:16,173][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:16,332][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:16,400][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:16,589][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:16,593][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:16,699][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:16,821][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:16,830][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:17,014][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:17,019][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:17,019][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:17,124][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:17,125][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:17,152][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:17,168][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:17,189][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:17,253][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:17,356][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:17,432][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:17,468][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:17,473][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:17,480][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:17,506][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:17,522][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:17,526][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:17,633][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:17,720][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:17,787][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:17,845][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:17,857][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:17,886][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:17,932][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:18,053][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:18,160][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:18,163][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:18,164][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:18,296][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:18,406][__main__][INFO] - Salvamento incremental (440 novas respostas)...
+[2026-05-11 14:20:18,459][__main__][INFO] - Cache salvo com 220591 entradas
+[2026-05-11 14:20:18,460][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:18,488][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:18,513][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:18,878][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:18,885][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:18,893][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:18,901][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:18,952][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:19,062][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:19,089][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:19,108][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:19,120][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:19,209][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:19,270][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:19,304][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:19,367][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:19,389][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:19,607][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:19,728][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:19,749][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:20,650][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:21,305][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:21,309][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:21,402][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:21,454][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:21,828][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:21,831][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:21,859][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:21,913][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:22,192][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:22,262][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:22,353][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:22,356][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:22,357][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:22,423][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:22,758][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:22,762][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:22,877][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:23,218][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:24,033][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:25,053][__main__][INFO] - Salvamento incremental (480 novas respostas)...
+[2026-05-11 14:20:25,103][__main__][INFO] - Cache salvo com 220631 entradas
+[2026-05-11 14:20:25,103][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:25,249][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:25,279][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:25,283][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:25,307][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:25,313][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:25,496][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:25,514][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:25,518][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:25,708][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:26,118][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:26,124][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:26,133][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:26,134][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:26,158][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:26,894][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:26,897][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:26,897][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:26,907][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:26,909][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:26,910][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:26,929][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:26,931][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:27,256][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:27,267][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:27,289][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:27,293][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:20:27,298][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:27,316][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:27,335][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:27,677][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:27,706][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:27,731][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:27,736][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:27,744][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:27,765][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:28,329][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:28,330][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:28,387][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:28,441][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:28,846][__main__][INFO] - Salvamento incremental (520 novas respostas)...
+[2026-05-11 14:20:28,940][__main__][INFO] - Cache salvo com 220671 entradas
+[2026-05-11 14:20:28,940][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:28,973][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:28,988][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:29,395][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:29,397][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:29,402][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:29,689][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:29,690][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:29,968][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 14:20:29,970][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-11 14:20:30,279][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:20:30,563][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:20:30,635][__main__][INFO] - Cache salvo com 220682 entradas
+[2026-05-11 14:20:30,635][__main__][INFO] - Coleta de dados concluída!

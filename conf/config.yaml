@@ -1,9 +1,9 @@
 MODELOS_A_AVALIAR:
   - ["google/gemma-3-27b-it", "deepinfra"]
   - ["mistralai/Mistral-Small-3.2-24B-Instruct-2506", "deepinfra"]
-  - ["openai/gpt-oss-120b", "deepinfra"]
-  - ["Qwen/Qwen3-32B", "deepinfra"]
   - ["meta-llama/Meta-Llama-3.1-8B-Instruct", "deepinfra"]
+  - ["Qwen/Qwen3-32B", "deepinfra"]
+  - ["openai/gpt-oss-120b", "deepinfra"]
   - ["deepseek-ai/DeepSeek-V3.2", "deepinfra"]
   
   
@@ -46,5 +46,5 @@ WIKI_EMBEDDING_MODEL: "google/embeddinggemma-300m"
 WIKI_MAX_CHARS_PER_CHUNK: 900
 WIKI_IRRELEVANT_URLS:
   - "https://pt.wikipedia.org/wiki/Elevador"
-  - "https://pt.wikipedia.org/wiki/Culin%C3%A1ria_da_Fran%C3%A7a"
   - "https://pt.wikipedia.org/wiki/Fotoss%C3%ADntese"
+  - "https://pt.wikipedia.org/wiki/Jogo_da_velha"

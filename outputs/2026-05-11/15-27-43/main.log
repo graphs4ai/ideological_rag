@@ -1,0 +1,93 @@
+[2026-05-11 15:27:43,120][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-11 15:27:43,120][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-11 15:27:43,172][__main__][INFO] - Cache carregado com 231238 entradas
+[2026-05-11 15:27:51,350][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:27:53,128][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:27:53,481][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:27:53,937][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:27:54,177][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:27:54,299][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:27:54,391][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:27:55,258][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:27:58,594][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:27:59,183][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:27:59,418][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:27:59,421][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:00,580][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:01,005][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:03,097][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:03,625][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:04,181][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:04,386][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:04,502][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:04,668][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:05,592][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:06,119][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:07,439][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:09,666][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:09,714][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 15:28:10,301][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 15:28:10,960][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:11,679][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 15:28:13,263][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:14,119][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:14,312][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:14,439][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:14,625][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:14,626][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:14,704][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 15:28:14,867][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:17,116][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:17,631][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:17,773][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:18,094][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-11 15:28:18,161][__main__][INFO] - Cache salvo com 231278 entradas
+[2026-05-11 15:28:18,161][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:18,165][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:19,155][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:19,386][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:21,100][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:21,283][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:23,189][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:23,634][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:24,757][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:24,979][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:26,541][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:26,682][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:28,523][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:30,061][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:32,185][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:32,215][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:32,783][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:33,392][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 15:28:33,793][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:34,044][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 15:28:34,401][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:34,956][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:35,496][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:35,897][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 15:28:36,138][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:37,339][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:39,002][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:39,800][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:39,912][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:40,366][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:41,920][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:42,632][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:42,635][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:42,722][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:43,614][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:45,166][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:45,292][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:45,379][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:45,616][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:45,760][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Neutro
+[2026-05-11 15:28:46,078][__main__][WARNING] - Resposta inválida (tentativa 1/3) de meta-llama/Meta-Llama-3.1-8B-Instruct: Não posso fornecer uma resposta para essa afirmação Posso aj
+[2026-05-11 15:28:46,079][__main__][INFO] - Fazendo retry 2/3...
+[2026-05-11 15:28:47,547][__main__][INFO] - Salvamento incremental (80 novas respostas)...
+[2026-05-11 15:28:47,609][__main__][INFO] - Cache salvo com 231318 entradas
+[2026-05-11 15:28:47,609][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 15:28:47,754][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:48,191][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 15:28:48,215][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 15:28:49,403][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Discordo

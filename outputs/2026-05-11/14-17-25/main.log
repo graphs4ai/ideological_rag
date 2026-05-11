@@ -1,0 +1,14 @@
+[2026-05-11 14:17:25,332][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-11 14:17:25,333][__main__][INFO] - Carregadas 8 perguntas de dados/pairs.json
+[2026-05-11 14:17:25,378][__main__][INFO] - Cache carregado com 220084 entradas
+[2026-05-11 14:17:27,389][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:17:27,403][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo
+[2026-05-11 14:17:27,518][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:17:27,532][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:17:27,533][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo
+[2026-05-11 14:17:27,536][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:17:27,991][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:17:28,008][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:17:28,035][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:17:28,338][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-11 14:17:28,467][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo
