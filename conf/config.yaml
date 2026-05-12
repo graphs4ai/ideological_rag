@@ -5,23 +5,17 @@ MODELOS_A_AVALIAR:
   - ["Qwen/Qwen3-32B", "deepinfra"]
   - ["openai/gpt-oss-120b", "deepinfra"]
   - ["deepseek-ai/DeepSeek-V3.2", "deepinfra"]
-  
-  
-  # - ["sabia-3.1", "maritaca"]
   - ["google/gemma-3-4b-it", "deepinfra"]
   - ["google/gemma-3-12b-it", "deepinfra"]
-  # - ["google/gemini-2.5-flash", "deepinfra"]
-
   - ["mistralai/Mixtral-8x7B-Instruct-v0.1", "deepinfra"]
-
-  # - ["openai/gpt-oss-20b", "deepinfra"]
-  
   - ["Qwen/Qwen3-14B", "deepinfra"]
   - ["Qwen/Qwen3-235B-A22B-Instruct-2507", "deepinfra"]
-
   - ["meta-llama/Meta-Llama-3.1-70B-Instruct", "deepinfra"]
   - ["meta-llama/Llama-4-Scout-17B-16E-Instruct", "deepinfra"]
+  - ["sabia-3.1", "maritaca"]
 
+  # - ["openai/gpt-oss-20b", "deepinfra"]
+  # - ["google/gemini-2.5-flash", "deepinfra"]
   # - ["microsoft/phi-4", "deepinfra"]
   # - ["nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL", "deepinfra"]
   

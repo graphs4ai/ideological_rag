@@ -1,0 +1,348 @@
+[2026-05-12 19:14:09,881][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-12 19:14:09,882][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-12 19:14:09,937][__main__][INFO] - Cache carregado com 250012 entradas
+[2026-05-12 19:14:55,490][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:14:55,575][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:14:56,232][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:14:56,776][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:14:56,919][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:14:57,546][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:14:57,575][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:14:58,261][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:14:58,459][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:14:58,921][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:14:59,488][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:14:59,652][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:00,261][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:00,377][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:00,924][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:01,039][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:01,707][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:01,735][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:02,789][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:02,794][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:03,488][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:03,923][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:04,188][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:04,940][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:05,132][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:05,781][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:06,408][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:06,526][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:07,109][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:07,187][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:07,771][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:07,851][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:08,524][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:08,564][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:09,235][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:09,480][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:09,894][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:10,135][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:10,560][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:10,800][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-12 19:15:10,884][__main__][INFO] - Cache salvo com 250052 entradas
+[2026-05-12 19:15:10,884][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:11,227][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:11,564][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:11,909][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:12,245][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:12,594][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:13,286][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:13,412][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:13,971][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:14,181][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:14,651][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:14,917][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:15,333][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:15,599][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:16,009][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:16,504][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:16,667][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:17,184][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:17,342][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:17,876][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:18,177][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:18,560][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:19,061][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:19,253][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:19,946][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:20,037][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:20,663][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:20,734][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:21,397][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:22,097][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:22,235][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:22,759][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:23,118][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:15:23,432][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:23,786][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:24,475][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:24,607][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:25,249][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:25,327][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:15:26,003][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:26,098][__main__][INFO] - Salvamento incremental (80 novas respostas)...
+[2026-05-12 19:15:26,173][__main__][INFO] - Cache salvo com 250092 entradas
+[2026-05-12 19:15:26,173][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:26,780][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:26,903][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:27,491][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:27,599][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:15:28,182][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:28,649][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:28,989][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:29,375][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:29,783][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:30,329][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:30,451][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:31,137][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:15:31,193][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:31,812][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:31,891][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:15:32,726][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:32,784][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:33,385][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:33,558][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:34,283][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:34,339][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:34,940][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:34,999][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:35,697][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:15:36,028][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:36,356][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:36,831][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:37,027][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:37,505][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:37,697][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:38,176][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:38,368][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:38,842][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:39,141][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:39,650][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:39,833][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:40,346][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:40,525][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:41,032][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:41,214][__main__][INFO] - Salvamento incremental (120 novas respostas)...
+[2026-05-12 19:15:41,282][__main__][INFO] - Cache salvo com 250132 entradas
+[2026-05-12 19:15:41,282][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:41,722][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:41,970][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:42,409][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:42,667][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:43,097][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:43,330][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:43,753][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:44,184][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:44,872][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:45,263][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:45,561][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:46,111][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:46,328][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:47,158][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:47,303][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:47,482][openai._base_client][INFO] - Retrying request to /chat/completions in 0.474989 seconds
+[2026-05-12 19:15:47,839][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:48,020][openai._base_client][INFO] - Retrying request to /chat/completions in 0.427067 seconds
+[2026-05-12 19:15:48,138][openai._base_client][INFO] - Retrying request to /chat/completions in 0.898546 seconds
+[2026-05-12 19:15:48,632][openai._base_client][INFO] - Retrying request to /chat/completions in 0.832706 seconds
+[2026-05-12 19:15:49,218][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 981 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127124 input tokens/min and 620 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:15:49,219][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:15:49,398][openai._base_client][INFO] - Retrying request to /chat/completions in 0.409414 seconds
+[2026-05-12 19:15:49,648][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1065 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127124 input tokens/min and 620 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:15:49,648][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:15:49,824][openai._base_client][INFO] - Retrying request to /chat/completions in 0.465348 seconds
+[2026-05-12 19:15:49,985][openai._base_client][INFO] - Retrying request to /chat/completions in 0.788667 seconds
+[2026-05-12 19:15:50,469][openai._base_client][INFO] - Retrying request to /chat/completions in 0.756469 seconds
+[2026-05-12 19:15:50,954][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1064 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127124 input tokens/min and 620 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:15:50,954][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:15:51,315][openai._base_client][INFO] - Retrying request to /chat/completions in 0.445942 seconds
+[2026-05-12 19:15:51,426][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1044 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127124 input tokens/min and 620 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:15:51,426][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:15:51,606][openai._base_client][INFO] - Retrying request to /chat/completions in 0.394572 seconds
+[2026-05-12 19:15:51,945][openai._base_client][INFO] - Retrying request to /chat/completions in 0.826350 seconds
+[2026-05-12 19:15:52,185][openai._base_client][INFO] - Retrying request to /chat/completions in 0.910688 seconds
+[2026-05-12 19:15:52,949][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1063 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127124 input tokens/min and 620 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:15:52,949][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:15:53,130][openai._base_client][INFO] - Retrying request to /chat/completions in 0.395761 seconds
+[2026-05-12 19:15:53,707][openai._base_client][INFO] - Retrying request to /chat/completions in 0.888205 seconds
+[2026-05-12 19:15:53,829][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1062 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127124 input tokens/min and 620 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:15:53,829][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:15:54,504][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:55,399][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:55,637][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:56,091][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:56,803][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:56,936][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:57,464][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:57,623][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:58,305][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:58,452][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:58,977][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:59,113][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:15:59,636][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:00,078][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:00,333][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:01,060][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:01,279][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:01,751][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:01,981][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:02,414][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:02,600][openai._base_client][INFO] - Retrying request to /chat/completions in 0.453130 seconds
+[2026-05-12 19:16:03,088][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:03,713][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:03,893][openai._base_client][INFO] - Retrying request to /chat/completions in 0.493291 seconds
+[2026-05-12 19:16:04,098][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:04,977][__main__][INFO] - Salvamento incremental (160 novas respostas)...
+[2026-05-12 19:16:05,042][__main__][INFO] - Cache salvo com 250172 entradas
+[2026-05-12 19:16:05,042][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:05,754][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:05,955][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:16:06,434][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:06,775][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:07,182][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:07,697][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:16:08,076][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:08,367][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:08,892][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:09,031][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:09,587][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:09,732][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:16:10,491][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:10,578][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:11,164][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:11,250][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:11,914][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:12,064][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:12,566][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:13,256][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:13,390][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:13,950][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:14,185][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:14,674][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:15,367][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:15,499][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:16,184][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:16,302][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:17,273][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:17,687][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:17,966][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:18,399][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:18,631][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:19,061][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:19,328][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:19,999][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:20,144][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:16:20,848][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:20,880][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:16:21,523][__main__][INFO] - Salvamento incremental (200 novas respostas)...
+[2026-05-12 19:16:21,596][__main__][INFO] - Cache salvo com 250212 entradas
+[2026-05-12 19:16:21,596][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:21,792][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:22,479][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:22,523][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:16:23,288][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:23,349][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:23,951][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:24,048][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:24,611][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:24,713][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:25,323][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:16:25,383][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:25,986][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:26,525][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:16:26,668][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:27,215][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:27,392][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:27,965][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:28,117][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:28,809][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:28,813][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:29,544][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:29,675][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:16:30,234][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:30,363][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:30,953][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:31,078][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:31,746][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:31,902][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:32,412][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:32,561][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:33,112][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:33,437][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:33,779][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:34,421][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:16:34,880][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:35,366][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:35,607][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:36,060][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:36,677][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:36,788][__main__][INFO] - Salvamento incremental (240 novas respostas)...
+[2026-05-12 19:16:36,856][__main__][INFO] - Cache salvo com 250252 entradas
+[2026-05-12 19:16:36,856][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:37,345][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:37,524][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:38,135][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:38,275][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:38,797][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:38,955][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:16:39,631][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:39,654][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:40,492][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:40,584][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:41,265][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:16:41,378][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:41,939][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:42,050][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:42,635][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:43,092][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:43,291][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:43,751][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:16:43,954][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:44,411][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:44,648][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:45,074][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:45,307][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:45,735][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:16:45,983][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:46,444][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:46,681][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:16:47,105][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:47,346][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:47,831][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:16:48,024][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:48,643][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:16:48,723][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:49,423][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:16:49,503][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:50,085][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:16:50,157][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:50,758][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:16:51,004][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:51,424][__main__][INFO] - Salvamento incremental (280 novas respostas)...
+[2026-05-12 19:16:51,482][__main__][INFO] - Cache salvo com 250292 entradas
+[2026-05-12 19:16:51,483][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:51,666][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:51,667][openai._base_client][INFO] - Retrying request to /chat/completions in 0.484119 seconds
+[2026-05-12 19:16:51,854][openai._base_client][INFO] - Retrying request to /chat/completions in 0.429569 seconds
+[2026-05-12 19:16:52,466][openai._base_client][INFO] - Retrying request to /chat/completions in 0.765964 seconds
+[2026-05-12 19:16:52,487][openai._base_client][INFO] - Retrying request to /chat/completions in 0.840297 seconds
+[2026-05-12 19:16:53,503][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 2/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 981 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127807 input tokens/min and 688 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:16:53,503][__main__][INFO] - Fazendo retry 3/3 após erro...
+[2026-05-12 19:16:53,677][openai._base_client][INFO] - Retrying request to /chat/completions in 0.431367 seconds
+[2026-05-12 19:16:54,184][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:54,369][openai._base_client][INFO] - Retrying request to /chat/completions in 0.431631 seconds
+[2026-05-12 19:16:54,773][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:54,958][openai._base_client][INFO] - Retrying request to /chat/completions in 0.434578 seconds
+[2026-05-12 19:16:55,571][openai._base_client][INFO] - Retrying request to /chat/completions in 0.905029 seconds
+[2026-05-12 19:16:55,757][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:55,938][openai._base_client][INFO] - Retrying request to /chat/completions in 0.495797 seconds
+[2026-05-12 19:16:56,748][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 2/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1063 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127893 input tokens/min and 688 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:16:56,748][__main__][INFO] - Fazendo retry 3/3 após erro...
+[2026-05-12 19:16:56,927][openai._base_client][INFO] - Retrying request to /chat/completions in 0.458670 seconds
+[2026-05-12 19:16:57,312][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:57,979][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:58,062][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:16:58,142][__main__][INFO] - Cache salvo com 250299 entradas
+[2026-05-12 19:16:58,142][__main__][INFO] - Coleta de dados concluída!

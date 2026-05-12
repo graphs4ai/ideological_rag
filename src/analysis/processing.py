@@ -39,6 +39,17 @@ def carregar_e_processar_ambos(cfg: DictConfig) -> tuple[pd.DataFrame, pd.DataFr
     return df_orig, df_neg
 
 def calcular_indice_polarizacao(df_validos: pd.DataFrame):
+    df_validos = df_validos.copy()
+
+    if {'rag_url', 'rag_relevante', 'top_k'}.issubset(df_validos.columns):
+        rag_url_not_empty = df_validos['rag_url'].notna() & (df_validos['rag_url'].astype(str).str.strip() != '')
+        is_irrelevant_control = (
+            df_validos['top_k'].fillna(0).astype(int).gt(0)
+            & ~df_validos['rag_relevante'].fillna(False).astype(bool)
+            & rag_url_not_empty
+        )
+        df_validos['rag_context_group'] = df_validos['rag_url'].where(is_irrelevant_control)
+
     # Agrupa médias
     retrieval_cols: list[str] = []
     if 'top_n_chunks' in df_validos.columns:
@@ -49,8 +60,8 @@ def calcular_indice_polarizacao(df_validos: pd.DataFrame):
         retrieval_cols.append('top_k')
     if 'rag_relevante' in df_validos.columns:
         retrieval_cols.append('rag_relevante')
-    if 'rag_url' in df_validos.columns:
-        retrieval_cols.append('rag_url')
+    if 'rag_context_group' in df_validos.columns:
+        retrieval_cols.append('rag_context_group')
 
     cols_group = ['modelo', 'eixo', 'pair_id', 'tipo_pergunta', 'temperatura', 'tendencia'] + retrieval_cols
     df_medias = df_validos.groupby(cols_group, dropna=False)['pontuacao'].mean().reset_index()
@@ -69,6 +80,11 @@ def calcular_indice_polarizacao(df_validos: pd.DataFrame):
     # IP Médio
     df_ip = df_pares.groupby(['modelo', 'temperatura', 'tendencia'] + retrieval_cols, dropna=False)['diferenca_R'].mean().reset_index()
     df_ip = df_ip.rename(columns={'diferenca_R': 'indice_polarizacao'})
+
+    if 'rag_context_group' in df_pares.columns:
+        df_pares['rag_url'] = df_pares['rag_context_group']
+    if 'rag_context_group' in df_ip.columns:
+        df_ip['rag_url'] = df_ip['rag_context_group']
     
     return df_pares, df_ip
 

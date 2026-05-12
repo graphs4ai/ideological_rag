@@ -1,0 +1,378 @@
+[2026-05-12 19:06:19,332][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-12 19:06:19,333][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-12 19:06:19,383][__main__][INFO] - Cache carregado com 249692 entradas
+[2026-05-12 19:06:56,073][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:56,091][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:56,164][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:06:56,183][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:06:56,195][__main__][INFO] - ✓ [mistralai/Mistral-Small-3.2-24B-Instruct-2506] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:06:56,201][__main__][INFO] - ✓ [google/gemma-3-27b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:56,258][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:56,258][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:56,467][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:57,117][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:57,778][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:06:58,131][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:58,180][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:58,199][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:58,351][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-8B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:58,418][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:58,505][__main__][INFO] - ✓ [google/gemma-3-4b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:58,534][__main__][INFO] - ✓ [google/gemma-3-4b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:06:58,653][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:58,655][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:58,662][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:06:58,664][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:58,665][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:58,667][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:06:58,681][__main__][INFO] - ✓ [google/gemma-3-4b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:58,699][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:58,870][__main__][INFO] - ✓ [google/gemma-3-12b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:58,872][__main__][INFO] - ✓ [google/gemma-3-12b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:06:58,879][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:58,883][__main__][INFO] - ✓ [deepseek-ai/DeepSeek-V3.2] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:06:58,964][__main__][INFO] - ✓ [google/gemma-3-12b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:06:59,026][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:59,314][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:59,370][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:59,376][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:59,404][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:59,421][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:06:59,452][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:59,481][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:06:59,509][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-12 19:06:59,588][__main__][INFO] - Cache salvo com 249732 entradas
+[2026-05-12 19:06:59,588][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:59,589][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:59,589][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:59,626][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:59,695][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:06:59,962][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:06:59,966][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:00,037][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,075][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,085][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,097][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:00,166][__main__][INFO] - ✓ [openai/gpt-oss-120b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:00,174][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:07:00,274][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,323][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,498][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,507][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,709][__main__][INFO] - ✓ [Qwen/Qwen3-235B-A22B-Instruct-2507] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:00,859][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,860][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,862][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,863][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,867][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:00,977][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:01,066][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:07:01,071][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:01,338][__main__][INFO] - ✓ [Qwen/Qwen3-235B-A22B-Instruct-2507] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:07:01,359][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:01,360][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:01,529][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:01,560][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:01,620][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:01,621][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:01,657][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:01,724][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-70B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:01,727][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:01,816][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:07:01,828][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:01,917][__main__][INFO] - ✓ [openai/gpt-oss-120b] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:01,975][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:07:02,304][__main__][INFO] - Salvamento incremental (80 novas respostas)...
+[2026-05-12 19:07:02,370][__main__][INFO] - Cache salvo com 249772 entradas
+[2026-05-12 19:07:02,370][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:02,371][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:02,376][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-70B-Instruct] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:07:02,377][__main__][INFO] - ✓ [meta-llama/Llama-4-Scout-17B-16E-Instruct] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:07:02,428][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:02,469][__main__][INFO] - ✓ [meta-llama/Llama-4-Scout-17B-16E-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:02,496][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:02,497][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:02,499][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:02,508][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:02,695][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:02,695][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:02,747][__main__][INFO] - ✓ [meta-llama/Llama-4-Scout-17B-16E-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:02,798][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:02,898][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-70B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:03,048][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:03,049][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:03,102][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:03,189][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:03,296][__main__][INFO] - ✓ [Qwen/Qwen3-235B-A22B-Instruct-2507] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:03,383][__main__][INFO] - ✓ [Qwen/Qwen3-32B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:03,735][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:03,735][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:07:03,763][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:03,774][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:03,786][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:03,798][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:07:03,799][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:03,806][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:07:03,855][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:03,947][__main__][INFO] - ✓ [Qwen/Qwen3-14B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:04,002][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:04,409][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:04,437][__main__][INFO] - ✓ [Qwen/Qwen3-14B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:04,441][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:04,455][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:04,605][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:04,620][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:04,622][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:04,866][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:04,867][__main__][INFO] - Salvamento incremental (120 novas respostas)...
+[2026-05-12 19:07:04,939][__main__][INFO] - Cache salvo com 249812 entradas
+[2026-05-12 19:07:04,939][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:05,009][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:05,132][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:05,138][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:05,167][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:05,244][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:05,319][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:05,479][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:05,489][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:05,743][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:05,765][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:05,845][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:05,881][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:05,882][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:05,941][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:05,951][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:06,039][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:06,102][__main__][INFO] - ✓ [Qwen/Qwen3-14B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:06,319][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:06,465][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:07:06,522][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:06,560][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:06,560][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 19:07:06,661][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:06,682][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:07:06,693][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:06,795][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:06,994][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:07,002][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:07,220][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:07,236][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:07,242][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:07:07,332][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:07,375][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:07,417][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:07,483][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:07,567][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:07,915][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:07,964][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:07,966][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:07,975][__main__][INFO] - Salvamento incremental (160 novas respostas)...
+[2026-05-12 19:07:08,046][__main__][INFO] - Cache salvo com 249852 entradas
+[2026-05-12 19:07:08,047][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:08,048][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:08,088][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:08,174][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:08,266][openai._base_client][INFO] - Retrying request to /chat/completions in 0.464549 seconds
+[2026-05-12 19:07:08,291][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 19:07:08,324][openai._base_client][INFO] - Retrying request to /chat/completions in 0.475345 seconds
+[2026-05-12 19:07:08,340][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:08,351][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:08,351][openai._base_client][INFO] - Retrying request to /chat/completions in 0.479982 seconds
+[2026-05-12 19:07:08,472][openai._base_client][INFO] - Retrying request to /chat/completions in 0.422394 seconds
+[2026-05-12 19:07:08,517][openai._base_client][INFO] - Retrying request to /chat/completions in 0.472924 seconds
+[2026-05-12 19:07:08,677][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:08,699][openai._base_client][INFO] - Retrying request to /chat/completions in 0.471628 seconds
+[2026-05-12 19:07:08,721][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:08,744][__main__][INFO] - ✓ [openai/gpt-oss-120b] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 19:07:08,753][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 19:07:08,856][openai._base_client][INFO] - Retrying request to /chat/completions in 0.499667 seconds
+[2026-05-12 19:07:08,901][openai._base_client][INFO] - Retrying request to /chat/completions in 0.474079 seconds
+[2026-05-12 19:07:08,909][openai._base_client][INFO] - Retrying request to /chat/completions in 0.948818 seconds
+[2026-05-12 19:07:08,939][openai._base_client][INFO] - Retrying request to /chat/completions in 0.391894 seconds
+[2026-05-12 19:07:09,010][openai._base_client][INFO] - Retrying request to /chat/completions in 0.946193 seconds
+[2026-05-12 19:07:09,072][openai._base_client][INFO] - Retrying request to /chat/completions in 0.866636 seconds
+[2026-05-12 19:07:09,079][openai._base_client][INFO] - Retrying request to /chat/completions in 0.953301 seconds
+[2026-05-12 19:07:09,250][openai._base_client][INFO] - Retrying request to /chat/completions in 0.996734 seconds
+[2026-05-12 19:07:09,266][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 19:07:09,354][openai._base_client][INFO] - Retrying request to /chat/completions in 0.957622 seconds
+[2026-05-12 19:07:09,449][openai._base_client][INFO] - Retrying request to /chat/completions in 0.404787 seconds
+[2026-05-12 19:07:09,535][openai._base_client][INFO] - Retrying request to /chat/completions in 0.777904 seconds
+[2026-05-12 19:07:09,552][openai._base_client][INFO] - Retrying request to /chat/completions in 0.882657 seconds
+[2026-05-12 19:07:09,906][openai._base_client][INFO] - Retrying request to /chat/completions in 0.801295 seconds
+[2026-05-12 19:07:10,028][openai._base_client][INFO] - Retrying request to /chat/completions in 0.911948 seconds
+[2026-05-12 19:07:10,126][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 861 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:10,126][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:10,134][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 901 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:10,135][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:10,210][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 882 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:10,210][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:10,293][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 900 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:10,294][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:10,318][openai._base_client][INFO] - Retrying request to /chat/completions in 0.454195 seconds
+[2026-05-12 19:07:10,387][openai._base_client][INFO] - Retrying request to /chat/completions in 0.400298 seconds
+[2026-05-12 19:07:10,426][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 880 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:10,427][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:10,462][openai._base_client][INFO] - Retrying request to /chat/completions in 0.446070 seconds
+[2026-05-12 19:07:10,491][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1071 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:10,492][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:10,556][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1072 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:10,556][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:10,600][openai._base_client][INFO] - Retrying request to /chat/completions in 0.485408 seconds
+[2026-05-12 19:07:10,612][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1051 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:10,612][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:10,629][openai._base_client][INFO] - Retrying request to /chat/completions in 0.476394 seconds
+[2026-05-12 19:07:10,740][openai._base_client][INFO] - Retrying request to /chat/completions in 0.377844 seconds
+[2026-05-12 19:07:10,790][openai._base_client][INFO] - Retrying request to /chat/completions in 0.430278 seconds
+[2026-05-12 19:07:10,799][openai._base_client][INFO] - Retrying request to /chat/completions in 0.424150 seconds
+[2026-05-12 19:07:10,948][openai._base_client][INFO] - Retrying request to /chat/completions in 0.777439 seconds
+[2026-05-12 19:07:10,962][openai._base_client][INFO] - Retrying request to /chat/completions in 0.881375 seconds
+[2026-05-12 19:07:10,969][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1010 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:10,969][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:11,094][openai._base_client][INFO] - Retrying request to /chat/completions in 0.759444 seconds
+[2026-05-12 19:07:11,139][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1009 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:11,139][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:11,257][openai._base_client][INFO] - Retrying request to /chat/completions in 0.820368 seconds
+[2026-05-12 19:07:11,288][openai._base_client][INFO] - Retrying request to /chat/completions in 0.940523 seconds
+[2026-05-12 19:07:11,295][openai._base_client][INFO] - Retrying request to /chat/completions in 0.905253 seconds
+[2026-05-12 19:07:11,303][openai._base_client][INFO] - Retrying request to /chat/completions in 0.382507 seconds
+[2026-05-12 19:07:11,470][openai._base_client][INFO] - Retrying request to /chat/completions in 0.460362 seconds
+[2026-05-12 19:07:11,629][openai._base_client][INFO] - Retrying request to /chat/completions in 0.923227 seconds
+[2026-05-12 19:07:11,629][openai._base_client][INFO] - Retrying request to /chat/completions in 0.863768 seconds
+[2026-05-12 19:07:11,863][openai._base_client][INFO] - Retrying request to /chat/completions in 0.785524 seconds
+[2026-05-12 19:07:11,899][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 570 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:11,899][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:12,022][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 569 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:12,022][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:12,034][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 989 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:12,034][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:12,073][openai._base_client][INFO] - Retrying request to /chat/completions in 0.426868 seconds
+[2026-05-12 19:07:12,106][openai._base_client][INFO] - Retrying request to /chat/completions in 0.868966 seconds
+[2026-05-12 19:07:12,209][openai._base_client][INFO] - Retrying request to /chat/completions in 0.417415 seconds
+[2026-05-12 19:07:12,209][openai._base_client][INFO] - Retrying request to /chat/completions in 0.403779 seconds
+[2026-05-12 19:07:12,254][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 983 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:12,254][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:12,381][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 962 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:12,381][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:12,414][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 549 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:12,414][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:12,430][openai._base_client][INFO] - Retrying request to /chat/completions in 0.387128 seconds
+[2026-05-12 19:07:12,558][openai._base_client][INFO] - Retrying request to /chat/completions in 0.488512 seconds
+[2026-05-12 19:07:12,588][openai._base_client][INFO] - Retrying request to /chat/completions in 0.490670 seconds
+[2026-05-12 19:07:12,666][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 403 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:12,666][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:12,676][openai._base_client][INFO] - Retrying request to /chat/completions in 0.931974 seconds
+[2026-05-12 19:07:12,727][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 982 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:12,728][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:12,800][openai._base_client][INFO] - Retrying request to /chat/completions in 0.779962 seconds
+[2026-05-12 19:07:12,842][openai._base_client][INFO] - Retrying request to /chat/completions in 0.483006 seconds
+[2026-05-12 19:07:12,844][openai._base_client][INFO] - Retrying request to /chat/completions in 0.896854 seconds
+[2026-05-12 19:07:12,896][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 402 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:12,896][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:12,996][openai._base_client][INFO] - Retrying request to /chat/completions in 0.925472 seconds
+[2026-05-12 19:07:13,010][openai._base_client][INFO] - Retrying request to /chat/completions in 0.464936 seconds
+[2026-05-12 19:07:13,156][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 382 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:13,156][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:13,177][openai._base_client][INFO] - Retrying request to /chat/completions in 0.426816 seconds
+[2026-05-12 19:07:13,255][openai._base_client][INFO] - Retrying request to /chat/completions in 0.976046 seconds
+[2026-05-12 19:07:13,335][openai._base_client][INFO] - Retrying request to /chat/completions in 0.453867 seconds
+[2026-05-12 19:07:13,348][openai._base_client][INFO] - Retrying request to /chat/completions in 0.957301 seconds
+[2026-05-12 19:07:13,517][openai._base_client][INFO] - Retrying request to /chat/completions in 0.909846 seconds
+[2026-05-12 19:07:13,658][openai._base_client][INFO] - Retrying request to /chat/completions in 0.853445 seconds
+[2026-05-12 19:07:13,759][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 402 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:13,759][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:13,784][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 403 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:13,784][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:13,921][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 382 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:13,921][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:13,928][openai._base_client][INFO] - Retrying request to /chat/completions in 0.824938 seconds
+[2026-05-12 19:07:13,963][openai._base_client][INFO] - Retrying request to /chat/completions in 0.488223 seconds
+[2026-05-12 19:07:13,973][openai._base_client][INFO] - Retrying request to /chat/completions in 0.779527 seconds
+[2026-05-12 19:07:14,096][openai._base_client][INFO] - Retrying request to /chat/completions in 0.487144 seconds
+[2026-05-12 19:07:14,103][openai._base_client][INFO] - Retrying request to /chat/completions in 0.379480 seconds
+[2026-05-12 19:07:14,273][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 853 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:14,273][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:14,441][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 832 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:14,441][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:14,454][openai._base_client][INFO] - Retrying request to /chat/completions in 0.449445 seconds
+[2026-05-12 19:07:14,484][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 852 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:14,484][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:14,614][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 853 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:14,614][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:14,631][openai._base_client][INFO] - Retrying request to /chat/completions in 0.817070 seconds
+[2026-05-12 19:07:14,662][openai._base_client][INFO] - Retrying request to /chat/completions in 0.398603 seconds
+[2026-05-12 19:07:14,670][openai._base_client][INFO] - Retrying request to /chat/completions in 0.771252 seconds
+[2026-05-12 19:07:14,763][openai._base_client][INFO] - Retrying request to /chat/completions in 0.827911 seconds
+[2026-05-12 19:07:14,937][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 832 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:14,937][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:14,939][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1367 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:14,939][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:14,956][openai._base_client][INFO] - Retrying request to /chat/completions in 0.410388 seconds
+[2026-05-12 19:07:14,957][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 852 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:14,957][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:15,085][openai._base_client][INFO] - Retrying request to /chat/completions in 0.964533 seconds
+[2026-05-12 19:07:15,118][openai._base_client][INFO] - Retrying request to /chat/completions in 0.487895 seconds
+[2026-05-12 19:07:15,118][openai._base_client][INFO] - Retrying request to /chat/completions in 0.454082 seconds
+[2026-05-12 19:07:15,127][openai._base_client][INFO] - Retrying request to /chat/completions in 0.497215 seconds
+[2026-05-12 19:07:15,243][openai._base_client][INFO] - Retrying request to /chat/completions in 0.950650 seconds
+[2026-05-12 19:07:15,606][openai._base_client][INFO] - Retrying request to /chat/completions in 0.414403 seconds
+[2026-05-12 19:07:15,750][openai._base_client][INFO] - Retrying request to /chat/completions in 0.797539 seconds
+[2026-05-12 19:07:15,771][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1367 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:15,771][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:15,783][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1346 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:15,783][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:15,800][openai._base_client][INFO] - Retrying request to /chat/completions in 0.956479 seconds
+[2026-05-12 19:07:15,895][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1366 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:15,895][openai._base_client][INFO] - Retrying request to /chat/completions in 0.870619 seconds
+[2026-05-12 19:07:15,896][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:15,950][openai._base_client][INFO] - Retrying request to /chat/completions in 0.422335 seconds
+[2026-05-12 19:07:15,958][openai._base_client][INFO] - Retrying request to /chat/completions in 0.902579 seconds
+[2026-05-12 19:07:16,081][openai._base_client][INFO] - Retrying request to /chat/completions in 0.478064 seconds
+[2026-05-12 19:07:16,130][openai._base_client][INFO] - Retrying request to /chat/completions in 0.486643 seconds
+[2026-05-12 19:07:16,257][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1366 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:16,257][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:16,304][openai._base_client][INFO] - Retrying request to /chat/completions in 0.899322 seconds
+[2026-05-12 19:07:16,550][openai._base_client][INFO] - Retrying request to /chat/completions in 0.757331 seconds
+[2026-05-12 19:07:16,598][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 893 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:16,598][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:16,727][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 872 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:16,727][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:16,794][openai._base_client][INFO] - Retrying request to /chat/completions in 0.837335 seconds
+[2026-05-12 19:07:16,900][openai._base_client][INFO] - Retrying request to /chat/completions in 0.834788 seconds
+[2026-05-12 19:07:16,941][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1346 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:16,941][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:17,038][openai._base_client][INFO] - Retrying request to /chat/completions in 0.429495 seconds
+[2026-05-12 19:07:17,041][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 893 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:17,041][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:17,074][openai._base_client][INFO] - Retrying request to /chat/completions in 0.443522 seconds
+[2026-05-12 19:07:17,087][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 892 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:17,087][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:17,210][openai._base_client][INFO] - Retrying request to /chat/completions in 0.459941 seconds
+[2026-05-12 19:07:17,248][openai._base_client][INFO] - Retrying request to /chat/completions in 0.377764 seconds
+[2026-05-12 19:07:17,381][openai._base_client][INFO] - Retrying request to /chat/completions in 0.384208 seconds
+[2026-05-12 19:07:17,414][openai._base_client][INFO] - Retrying request to /chat/completions in 0.388588 seconds
+[2026-05-12 19:07:17,550][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 892 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:17,550][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:17,582][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 872 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:17,582][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:17,646][openai._base_client][INFO] - Retrying request to /chat/completions in 0.772775 seconds
+[2026-05-12 19:07:17,726][openai._base_client][INFO] - Retrying request to /chat/completions in 0.401470 seconds
+[2026-05-12 19:07:17,805][openai._base_client][INFO] - Retrying request to /chat/completions in 0.895531 seconds
+[2026-05-12 19:07:17,810][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1002 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:17,810][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:17,846][openai._base_client][INFO] - Retrying request to /chat/completions in 0.849510 seconds
+[2026-05-12 19:07:17,896][openai._base_client][INFO] - Retrying request to /chat/completions in 0.972271 seconds
+[2026-05-12 19:07:17,944][openai._base_client][INFO] - Retrying request to /chat/completions in 0.992988 seconds
+[2026-05-12 19:07:17,977][openai._base_client][INFO] - Retrying request to /chat/completions in 0.492904 seconds
+[2026-05-12 19:07:18,009][openai._base_client][INFO] - Retrying request to /chat/completions in 0.970629 seconds
+[2026-05-12 19:07:18,066][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 1001 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:18,066][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:18,149][openai._base_client][INFO] - Retrying request to /chat/completions in 0.377597 seconds
+[2026-05-12 19:07:18,306][openai._base_client][INFO] - Retrying request to /chat/completions in 0.842647 seconds
+[2026-05-12 19:07:18,320][openai._base_client][INFO] - Retrying request to /chat/completions in 0.377541 seconds
+[2026-05-12 19:07:18,601][__main__][ERROR] - Erro ao consultar o modelo sabia-3.1 (tentativa 1/3): Error code: 429 - {'detail': 'Rate limit exceeded. You requested 981 input tokens. The current rate limiting for input and output tokens is 128000 input tokens/min and 10000 output tokens/min. Your current usage is 127686 input tokens/min and 634 output tokens/min. Please try again later. You were not charged for this request.'}
+[2026-05-12 19:07:18,601][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-12 19:07:18,651][openai._base_client][INFO] - Retrying request to /chat/completions in 0.993665 seconds
+[2026-05-12 19:07:18,770][openai._base_client][INFO] - Retrying request to /chat/completions in 0.901762 seconds
+[2026-05-12 19:07:18,940][openai._base_client][INFO] - Retrying request to /chat/completions in 0.459100 seconds
+[2026-05-12 19:07:19,053][openai._base_client][INFO] - Retrying request to /chat/completions in 0.959334 seconds
+[2026-05-12 19:07:19,575][openai._base_client][INFO] - Retrying request to /chat/completions in 0.852321 seconds

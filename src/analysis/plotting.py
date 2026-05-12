@@ -3,11 +3,75 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 import os
+import re
 from omegaconf import DictConfig
+
+RAG_COLORS = {
+    "Baseline": "#334155",
+    "Without retriever": "#334155",
+    "Top-1 Rel": "#7aa6c2",
+    "Top-3 Rel": "#3f7f9f",
+    "Top-5 Rel": "#1f5f7a",
+    "With relevant retriever": "#1f5f7a",
+    "Top-3 Irrel": "#c47a32",
+    "Top-3 Irrel - Elevador": "#c47a32",
+    "Top-3 Irrel - Fotossíntese": "#c47a32",
+    "Top-3 Irrel - Jogo da Velha": "#c47a32",
+    "Top-3 Irrel - Outro": "#c47a32",
+}
+
+USER_COLORS = {
+    "esquerda": "#b94a48",
+    "neutro": "#64748b",
+    "direita": "#2f6f9f",
+}
 
 def setup_style():
     sns.set_theme(style="whitegrid")
-    plt.rcParams.update({'figure.max_open_warning': 0})
+    plt.rcParams.update({
+        'figure.max_open_warning': 0,
+        'font.size': 18,
+        'axes.labelsize': 20,
+        'axes.titlesize': 22,
+        'xtick.labelsize': 17,
+        'ytick.labelsize': 17,
+        'legend.fontsize': 18,
+        'figure.dpi': 150,
+        'savefig.dpi': 300,
+    })
+
+
+def _model_short_name(model_name: str) -> str:
+    short = str(model_name).split("/")[-1]
+
+    replacements = {
+        "Meta-Llama-": "Llama-",
+        "Instruct-2506": "Instruct",
+    }
+    for old, new in replacements.items():
+        short = short.replace(old, new)
+
+    suffix_patterns = [
+        r"[-_]?Instruct(?:-[A-Za-z0-9.]+)?$",
+        r"[-_]?it$",
+        r"[-_]?IT$",
+        r"[-_]?Reasoning$",
+    ]
+    for pattern in suffix_patterns:
+        short = re.sub(pattern, "", short)
+
+    return short.strip("-_ ")
+
+
+def _prepare_rag_main_effect_summary(df_ci: pd.DataFrame) -> pd.DataFrame:
+    if df_ci.empty:
+        return pd.DataFrame(columns=["condicao", "mean", "std", "count", "sem", "ci95"])
+
+    summary = df_ci.rename(columns={"chameleon_index": "ci"})
+    summary = summary.groupby("condicao")["ci"].agg(["mean", "std", "count"]).reset_index()
+    summary["sem"] = summary["std"] / summary["count"].clip(lower=1).pow(0.5)
+    summary["ci95"] = 1.96 * summary["sem"].fillna(0)
+    return summary.sort_values("mean", ascending=False).reset_index(drop=True)
 
 def save_fig(fig, name: str, cfg: DictConfig):
     if cfg.analysis.save_plots:
@@ -137,10 +201,6 @@ _RAG_CONDITION_ORDER = [
 
 
 def _map_rag_condition(row: dict) -> str | None:
-    rag_url = row.get("rag_url")
-    if rag_url is not None and (pd.isna(rag_url) or str(rag_url).strip() == ""):
-        return "Baseline"
-
     top_k = int(row.get("top_k", 0) or 0)
     rag_relevante = bool(row.get("rag_relevante", False))
     if top_k == 0:
@@ -157,26 +217,15 @@ def _map_rag_condition(row: dict) -> str | None:
 
 
 def _compute_ci_by_condition(df_ip: pd.DataFrame) -> pd.DataFrame:
-    df_use = df_ip.copy()
-    df_use["condicao"] = df_use.apply(_map_rag_condition, axis=1)
-    df_use = df_use[df_use["condicao"].notna()]
-
-    df_shifts = (
-        df_use.groupby(["condicao", "tendencia"])["indice_polarizacao"]
-        .mean()
-        .reset_index()
-    )
-    df_pivot = df_shifts.pivot_table(index="condicao", columns="tendencia", values="indice_polarizacao")
-    df_pivot = df_pivot.reset_index()
-
-    if not {"esquerda", "neutro", "direita"}.issubset(set(df_pivot.columns)):
+    df_ci = _prepare_rag_ci_by_model(df_ip)
+    if df_ci.empty:
         return pd.DataFrame(columns=["condicao", "ci"])
 
-    df_pivot["shift_left"] = (df_pivot["esquerda"] - df_pivot["neutro"]).abs()
-    df_pivot["shift_right"] = (df_pivot["direita"] - df_pivot["neutro"]).abs()
-    df_pivot["ci"] = df_pivot["shift_left"] + df_pivot["shift_right"]
-
-    return df_pivot[["condicao", "ci"]]
+    return (
+        df_ci.groupby("condicao", as_index=False)["chameleon_index"]
+        .mean()
+        .rename(columns={"chameleon_index": "ci"})
+    )
 
 
 def _compute_ci_from_ip(df_ip: pd.DataFrame, group_cols: list[str]) -> pd.DataFrame:
@@ -192,6 +241,61 @@ def _compute_ci_from_ip(df_ip: pd.DataFrame, group_cols: list[str]) -> pd.DataFr
     df_pivot['shift_right'] = (df_pivot['direita'] - df_pivot['neutro']).abs()
     df_pivot['chameleon_index'] = df_pivot['shift_left'] + df_pivot['shift_right']
     return df_pivot
+
+
+def _prepare_rag_ci_by_model(df_ip: pd.DataFrame) -> pd.DataFrame:
+    """Compute CI by model and RAG condition following validacao.ipynb.
+
+    Relevant RAG conditions are computed directly per model. The irrelevant
+    control is first computed separately for each irrelevant page and only then
+    averaged by model, preserving the notebook's order of operations.
+    """
+    if df_ip.empty:
+        return pd.DataFrame(columns=['modelo', 'condicao', 'chameleon_index'])
+
+    df_use = df_ip.copy()
+    if 'modelo' not in df_use.columns:
+        df_use['modelo'] = '__all__'
+
+    df_use['condicao'] = df_use.apply(_map_rag_condition, axis=1)
+    df_use = df_use[df_use['condicao'].notna()]
+    if df_use.empty:
+        return pd.DataFrame(columns=['modelo', 'condicao', 'chameleon_index'])
+
+    df_main = df_use[df_use['condicao'].isin(['Baseline', 'Top-1 Rel', 'Top-3 Rel', 'Top-5 Rel'])].copy()
+    frames = []
+    if not df_main.empty:
+        frames.append(_compute_ci_from_ip(df_main, group_cols=['modelo', 'condicao']))
+
+    df_irrel = df_use[df_use['condicao'] == 'Top-3 Irrel'].copy()
+    if not df_irrel.empty:
+        source_col = None
+        for candidate_col in ['rag_context_group', 'rag_url']:
+            if candidate_col in df_irrel.columns:
+                source_col = candidate_col
+                break
+        if source_col:
+            df_irrel_ci = _compute_ci_from_ip(df_irrel, group_cols=['modelo', source_col])
+            if not df_irrel_ci.empty:
+                value_cols = [
+                    col for col in df_irrel_ci.columns
+                    if col not in ['modelo', source_col]
+                    and pd.api.types.is_numeric_dtype(df_irrel_ci[col])
+                ]
+                df_irrel_avg = df_irrel_ci.groupby('modelo', as_index=False)[value_cols].mean()
+                df_irrel_avg['condicao'] = 'Top-3 Irrel'
+                frames.append(df_irrel_avg)
+        else:
+            frames.append(_compute_ci_from_ip(df_irrel, group_cols=['modelo', 'condicao']))
+
+    if not frames:
+        return pd.DataFrame(columns=['modelo', 'condicao', 'chameleon_index'])
+
+    df_ci = pd.concat(frames, ignore_index=True, sort=False)
+    cond_order = {cond: idx for idx, cond in enumerate(_RAG_CONDITION_ORDER)}
+    df_ci['_cond_order'] = df_ci['condicao'].map(cond_order).fillna(len(cond_order))
+    df_ci = df_ci.sort_values(['_cond_order', 'modelo']).drop(columns=['_cond_order']).reset_index(drop=True)
+    return df_ci
 
 
 def _prepare_retriever_ci_comparison(df_ip: pd.DataFrame) -> pd.DataFrame:
@@ -211,7 +315,10 @@ def _prepare_retriever_ci_comparison(df_ip: pd.DataFrame) -> pd.DataFrame:
     if df_compare.empty:
         return pd.DataFrame(columns=['modelo', 'retriever', 'chameleon_index'])
 
-    return _compute_ci_from_ip(df_compare, group_cols=['modelo', 'retriever'])
+    df_ci = _compute_ci_from_ip(df_compare, group_cols=['modelo', 'retriever'])
+    if not df_ci.empty:
+        df_ci['modelo_curto'] = df_ci['modelo'].map(_model_short_name)
+    return df_ci
 
 
 def plot_ci_geral_por_modelo_com_vs_sem_retriever(df_ip: pd.DataFrame, cfg: DictConfig):
@@ -234,24 +341,29 @@ def plot_ci_geral_por_modelo_com_vs_sem_retriever(df_ip: pd.DataFrame, cfg: Dict
         .tolist()
     )
 
-    fig, ax = plt.subplots(figsize=(18, max(6, 0.6 * len(order))))
+    df_ci['modelo_curto'] = df_ci['modelo'].map(_model_short_name)
+    label_by_model = df_ci.drop_duplicates('modelo').set_index('modelo')['modelo_curto'].to_dict()
+
+    fig, ax = plt.subplots(figsize=(11.5, max(9, 0.85 * len(order))))
     sns.barplot(
         data=df_ci,
         y='modelo',
         x='chameleon_index',
         hue='retriever',
         order=order,
+        palette=RAG_COLORS,
         ax=ax,
         orient='h',
         dodge=True,
     )
-    ax.set_xlabel('Chameleon Index (CI)', fontsize=16, fontweight='bold')
-    ax.set_ylabel('Model', fontsize=16, fontweight='bold')
-    ax.tick_params(axis='x', labelsize=12)
-    ax.tick_params(axis='y', labelsize=12)
+    ax.set_yticks(np.arange(len(order)))
+    ax.set_yticklabels([label_by_model.get(model, model) for model in order], fontsize=16)
+    ax.set_xlabel('Chameleon Index (CI)', fontsize=22, fontweight='bold')
+    ax.set_ylabel('')
+    ax.tick_params(axis='x', labelsize=18)
     ax.grid(axis='x', alpha=0.3, linestyle=':')
-    ax.legend(title=None, fontsize=12, frameon=False)
-    plt.tight_layout()
+    ax.legend(title=None, fontsize=18, frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.10), ncol=2)
+    fig.subplots_adjust(left=0.29, bottom=0.16)
     save_fig(fig, 'ci_geral_por_modelo_com_vs_sem_retriever', cfg)
     plt.close()
 
@@ -333,13 +445,13 @@ def plot_ci_por_area_com_vs_sem_retriever(df_pares: pd.DataFrame, cfg: DictConfi
             vmax=vmax,
         )
         ax.set_title(labels[mode], fontsize=22, fontweight='bold')
-        ax.set_xlabel('Topic', fontsize=18, fontweight='bold')
-        ax.tick_params(axis='x', labelsize=12)
-        ax.tick_params(axis='y', labelsize=12)
+        ax.set_xlabel('Topic', fontsize=20, fontweight='bold')
+        ax.tick_params(axis='x', labelsize=18)
+        ax.tick_params(axis='y', labelsize=18)
         ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
         ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
 
-    axes[0].set_ylabel('Model', fontsize=18, fontweight='bold')
+    axes[0].set_ylabel('Model', fontsize=20, fontweight='bold')
     plt.tight_layout()
     save_fig(fig, 'ci_por_area_com_vs_sem_retriever', cfg)
     plt.close()
@@ -430,16 +542,16 @@ def plot_ipi_com_vs_sem_retriever(df_ip: pd.DataFrame, cfg: DictConfig):
 
         ax.axvline(0, color='black', linestyle='--', linewidth=1.5, alpha=0.5)
         ax.set_yticks(y_pos)
-        ax.set_yticklabels(df_plot['modelo'], fontsize=13)
-        ax.set_xlabel('Ideological Position Index (IPI)', fontsize=18, fontweight='bold')
-        ax.tick_params(axis='x', labelsize=12)
+        ax.set_yticklabels(df_plot['modelo'], fontsize=18)
+        ax.set_xlabel('Ideological Position Index (IPI)', fontsize=20, fontweight='bold')
+        ax.tick_params(axis='x', labelsize=18)
         ax.grid(axis='x', alpha=0.3, linestyle=':')
         ax.set_xlim(-4, 4)
         ax.set_title(titles[mode], fontsize=22, fontweight='bold')
 
-    axes[0].set_ylabel('Model', fontsize=18, fontweight='bold')
+    axes[0].set_ylabel('Model', fontsize=20, fontweight='bold')
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc='upper center', bbox_to_anchor=(0.5, -0.02), ncol=3, frameon=False, fontsize=16)
+    fig.legend(handles, labels, loc='upper center', bbox_to_anchor=(0.5, -0.02), ncol=3, frameon=False, fontsize=18)
     plt.tight_layout()
     save_fig(fig, 'ipi_com_vs_sem_retriever', cfg)
     plt.close()
@@ -551,7 +663,7 @@ def plot_ipi_com_vs_sem_retriever_2(df_ip: pd.DataFrame, cfg: DictConfig):
                 ys,
                 xerr=xerrs,
                 fmt='o',
-                markersize=8,
+                markersize=10,
                 markerfacecolor=mfc,
                 markeredgecolor=mec,
                 markeredgewidth=1.8,
@@ -566,18 +678,18 @@ def plot_ipi_com_vs_sem_retriever_2(df_ip: pd.DataFrame, cfg: DictConfig):
 
     ax.axvline(0, color='black', linestyle='--', linewidth=1.5, alpha=0.5)
     ax.set_yticks(y_positions)
-    ax.set_yticklabels(y_labels, fontsize=10)
-    ax.set_xlabel('Ideological Position Index (IPI)', fontsize=16, fontweight='bold')
-    ax.set_ylabel('Model (modo)', fontsize=16, fontweight='bold')
-    ax.tick_params(axis='x', labelsize=12)
+    ax.set_yticklabels(y_labels, fontsize=18)
+    ax.set_xlabel('Ideological Position Index (IPI)', fontsize=20, fontweight='bold')
+    ax.set_ylabel('Model (modo)', fontsize=20, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=18)
     ax.grid(axis='x', alpha=0.3, linestyle=':')
     ax.set_xlim(-4, 4)
-    ax.set_title('IPI por modelo: comparação sem vs com retriever', fontsize=18, fontweight='bold')
+    ax.set_title('IPI por modelo: comparação sem vs com retriever', fontsize=22, fontweight='bold')
 
     # Legenda (cores = tendência; estilo = modo descrito nos rótulos do eixo Y)
     handles, legend_labels = ax.get_legend_handles_labels()
     if handles:
-        ax.legend(handles, legend_labels, loc='upper center', bbox_to_anchor=(0.5, -0.04), ncol=3, frameon=False, fontsize=13)
+        ax.legend(handles, legend_labels, loc='upper center', bbox_to_anchor=(0.5, -0.04), ncol=3, frameon=False, fontsize=18)
 
     plt.tight_layout()
     save_fig(fig, 'ipi_com_vs_sem_retriever_2', cfg)
@@ -632,16 +744,16 @@ def plot_ipi_media_tendencias_pre_pos_retriever(df_ip: pd.DataFrame, cfg: DictCo
                 labels_vals.append("")
             else:
                 labels_vals.append(f"{h:.2f}")
-        ax.bar_label(container, labels=labels_vals, padding=3, fontsize=11)
+        ax.bar_label(container, labels=labels_vals, padding=3, fontsize=18)
 
     ax.axhline(0, color='black', linestyle='--', linewidth=1.2, alpha=0.5)
-    ax.set_xlabel('User Type', fontsize=14, fontweight='bold')
-    ax.set_ylabel('Mean Ideological Position Index (IPI)', fontsize=14, fontweight='bold')
-    ax.tick_params(axis='x', labelsize=12)
-    ax.tick_params(axis='y', labelsize=12)
+    ax.set_xlabel('User Type', fontsize=20, fontweight='bold')
+    ax.set_ylabel('Mean Ideological Position Index (IPI)', fontsize=20, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=18)
+    ax.tick_params(axis='y', labelsize=18)
     ax.grid(axis='y', alpha=0.25, linestyle=':')
-    ax.legend(title=None, fontsize=12, frameon=False)
-    ax.set_title('Mean IPI by User Type: sem vs com retriever', fontsize=15, fontweight='bold')
+    ax.legend(title=None, fontsize=18, frameon=False)
+    ax.set_title('Mean IPI by User Type: sem vs com retriever', fontsize=22, fontweight='bold')
 
     plt.tight_layout()
     save_fig(fig, 'ipi_media_tendencias_pre_pos_retriever', cfg)
@@ -652,25 +764,14 @@ def plot_rag_main_effect_ci(df_ip: pd.DataFrame, cfg: DictConfig):
     if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
         return
 
-    df_use = df_ip.copy()
-    df_use['condicao'] = df_use.apply(_map_rag_condition, axis=1)
-    df_use = df_use[df_use['condicao'].notna()]
-    if df_use.empty:
-        return
-
-    df_ci = _compute_ci_from_ip(df_use, group_cols=['modelo', 'condicao'])
+    df_ci = _prepare_rag_ci_by_model(df_ip)
     if df_ci.empty:
         return
 
-    df_ci = df_ci.rename(columns={'chameleon_index': 'ci'})
-    summary = df_ci.groupby('condicao')['ci'].agg(['mean', 'std', 'count']).reset_index()
-    summary['sem'] = summary['std'] / summary['count'].clip(lower=1).pow(0.5)
-    summary['ci95'] = 1.96 * summary['sem']
+    summary = _prepare_rag_main_effect_summary(df_ci)
+    colors = [RAG_COLORS.get(c, "#64748b") for c in summary['condicao']]
 
-    summary = summary.sort_values('mean', ascending=False)
-    colors = ["#2f3b45" if c == "Baseline" else "#5a6f80" for c in summary['condicao']]
-
-    fig, ax = plt.subplots(figsize=(12, 7))
+    fig, ax = plt.subplots(figsize=(8, 10))
     ax.bar(
         summary['condicao'],
         summary['mean'],
@@ -679,10 +780,10 @@ def plot_rag_main_effect_ci(df_ip: pd.DataFrame, cfg: DictConfig):
         capsize=4,
         alpha=0.9,
     )
-    ax.set_ylabel('Chameleon Index (CI)', fontsize=14, fontweight='bold')
-    ax.set_xlabel('RAG Condition', fontsize=14, fontweight='bold')
-    ax.tick_params(axis='x', labelsize=12)
-    ax.tick_params(axis='y', labelsize=12)
+    ax.set_ylabel('Chameleon Index (CI)', fontsize=22, fontweight='bold')
+    ax.set_xlabel('RAG Condition', fontsize=22, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=18, rotation=25)
+    ax.tick_params(axis='y', labelsize=18)
     ax.grid(axis='y', alpha=0.3, linestyle=':')
     plt.tight_layout()
     save_fig(fig, 'rag_main_effect_ci', cfg)
@@ -696,24 +797,24 @@ def plot_rag_main_effect_ci_2(df_ip: pd.DataFrame, cfg: DictConfig):
     df_use = df_ip.copy()
     df_use['condicao'] = df_use.apply(_map_rag_condition, axis=1)
     df_use = df_use[df_use['condicao'].isin(["Baseline", "Top-1 Rel", "Top-3 Rel", "Top-5 Rel", "Top-3 Irrel"])].copy()
-    print(df_use['condicao'])
     if df_use.empty:
         return
 
     # Para Top-3 Irrel, criar uma coluna com identificação da URL
     df_use['condicao_url'] = df_use['condicao']
     
+    source_col = 'rag_context_group' if 'rag_context_group' in df_use.columns else 'rag_url'
     for idx, row in df_use[df_use['condicao'] == 'Top-3 Irrel'].iterrows():
-        rag_url = str(row.get('rag_url', '')).lower()
+        rag_url = str(row.get(source_col, '')).lower()
         if 'elevador' in rag_url:
             df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Elevador'
         elif 'fotossintese' in rag_url or 'fotosintese' in rag_url:
             df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Fotossíntese'
-        elif 'culinaria' in rag_url or 'culinária' in rag_url or 'francesa' in rag_url:
-            df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Culinária Francesa'
+        elif 'jogo_da_velha' in rag_url or 'jogo-da-velha' in rag_url:
+            df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Jogo da Velha'
         else:
             # Classificar qualquer outro como a primeira categoria padrão
-            df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Elevador'
+            df_use.loc[idx, 'condicao_url'] = 'Top-3 Irrel - Outro'
 
     df_ci = _compute_ci_from_ip(df_use, group_cols=['modelo', 'condicao_url'])
     if df_ci.empty:
@@ -733,7 +834,8 @@ def plot_rag_main_effect_ci_2(df_ip: pd.DataFrame, cfg: DictConfig):
         "Top-5 Rel": "#a85e1f",
         "Top-3 Irrel - Elevador": "#5a6f80",
         "Top-3 Irrel - Fotossíntese": "#5a6f80",
-        "Top-3 Irrel - Culinária Francesa": "#5a6f80"
+        "Top-3 Irrel - Jogo da Velha": "#5a6f80",
+        "Top-3 Irrel - Outro": "#5a6f80"
     }
 
     fig, ax = plt.subplots(figsize=(16, 7))
@@ -741,14 +843,17 @@ def plot_rag_main_effect_ci_2(df_ip: pd.DataFrame, cfg: DictConfig):
         data=df_ci,
         x='condicao',
         y='ci',
+        hue='condicao',
         order=cond_order,
+        hue_order=cond_order,
         palette=colors,
+        legend=False,
         ax=ax,
     )
-    ax.set_ylabel('Chameleon Index (CI)', fontsize=14, fontweight='bold')
-    ax.set_xlabel('RAG Condition', fontsize=14, fontweight='bold')
-    ax.tick_params(axis='x', labelsize=11)
-    ax.tick_params(axis='y', labelsize=12)
+    ax.set_ylabel('Chameleon Index (CI)', fontsize=20, fontweight='bold')
+    ax.set_xlabel('RAG Condition', fontsize=20, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=18)
+    ax.tick_params(axis='y', labelsize=18)
     ax.grid(axis='y', alpha=0.3, linestyle=':')
     plt.xticks(rotation=15, ha='right')
     plt.tight_layout()
@@ -760,56 +865,51 @@ def plot_rag_ipi_dumbbell(df_ip: pd.DataFrame, cfg: DictConfig):
     if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
         return
 
-    df_use = df_ip.copy()
-    df_use['condicao'] = df_use.apply(_map_rag_condition, axis=1)
-    df_use = df_use[df_use['condicao'].isin(["Baseline", "Top-1 Rel", "Top-3 Rel", "Top-5 Rel", "Top-3 Irrel"])].copy()
-    if df_use.empty:
+    df_ci = _prepare_rag_ci_by_model(df_ip)
+    required_ip_cols = {'esquerda', 'neutro', 'direita'}
+    if df_ci.empty or not required_ip_cols.issubset(set(df_ci.columns)):
         return
 
     df_mean = (
-        df_use.groupby(['condicao', 'tendencia'])['indice_polarizacao']
+        df_ci.groupby('condicao')[['esquerda', 'neutro', 'direita']]
         .mean()
         .reset_index()
     )
 
     # Calcular shift de left-right para ordenar por ordem crescente
-    df_shifts = df_mean.pivot(index='condicao', columns='tendencia', values='indice_polarizacao')
-    if not {'esquerda', 'direita'}.issubset(set(df_shifts.columns)):
-        return
-    df_shifts['shift'] = abs(df_shifts['esquerda'] - df_shifts['direita'])
-    cond_order = df_shifts.sort_values('shift')['shift'].index.tolist()
+    df_mean['shift'] = (df_mean['esquerda'] - df_mean['direita']).abs()
+    cond_order = df_mean.sort_values('shift')['condicao'].tolist()
 
     tend_order = ["esquerda", "neutro", "direita"]
-    colors = {"esquerda": "#e74c3c", "neutro": "#95a5a6", "direita": "#3498db"}
+    colors = USER_COLORS
     labels = {"esquerda": "Left-Wing User", "neutro": "No-Context User", "direita": "Right-Wing User"}
 
-    fig, ax = plt.subplots(figsize=(12, 8))
+    fig, ax = plt.subplots(figsize=(8, 10))
     y_positions = {c: i for i, c in enumerate(cond_order)}
 
     for cond in cond_order:
         subset = df_mean[df_mean['condicao'] == cond]
         if subset.empty:
             continue
-        xs = [
-            subset[subset['tendencia'] == t]['indice_polarizacao'].mean()
-            for t in tend_order
-        ]
+        row = subset.iloc[0]
+        xs = [row[t] for t in tend_order]
         ax.plot(xs, [y_positions[cond]] * len(xs), color='#b0b0b0', linewidth=2, zorder=1)
         for t, x in zip(tend_order, xs):
-            ax.scatter(x, y_positions[cond], color=colors[t], s=120, zorder=2)
+            ax.scatter(x, y_positions[cond], color=colors[t], s=170, zorder=2)
 
     ax.axvline(0, color='black', linestyle='--', linewidth=1.2, alpha=0.6)
     ax.set_yticks(list(y_positions.values()))
-    ax.set_yticklabels(cond_order, fontsize=12)
-    ax.set_xlabel('Ideological Position Index (IPI)', fontsize=14, fontweight='bold')
+    ax.set_yticklabels(cond_order, fontsize=20)
+    ax.set_xlabel('Ideological Position Index (IPI)', fontsize=22, fontweight='bold')
     ax.set_xlim(-4, 4)
+    ax.tick_params(axis='x', labelsize=18)
     ax.grid(axis='x', alpha=0.3, linestyle=':')
 
     handles = [
-        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=colors[t], markersize=10, label=labels[t])
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=colors[t], markersize=13, label=labels[t])
         for t in tend_order
     ]
-    ax.legend(handles=handles, loc='upper center', bbox_to_anchor=(0.5, -0.08), ncol=3, frameon=False)
+    ax.legend(handles=handles, loc='upper center', bbox_to_anchor=(0.5, -0.08), ncol=1, frameon=False, fontsize=18)
 
     plt.tight_layout()
     save_fig(fig, 'rag_ipi_dumbbell', cfg)
@@ -867,8 +967,8 @@ def plot_rag_topic_delta_ci(df_pares: pd.DataFrame, cfg: DictConfig):
     )
     ax.set_xlabel('')
     ax.set_ylabel('')
-    ax.tick_params(axis='x', labelsize=11)
-    ax.tick_params(axis='y', labelsize=11)
+    ax.tick_params(axis='x', labelsize=18)
+    ax.tick_params(axis='y', labelsize=18)
     plt.tight_layout()
     save_fig(fig, 'rag_topic_delta_ci', cfg)
     plt.close()
@@ -929,7 +1029,7 @@ def plot_topic_variation(df_pares: pd.DataFrame, cfg: DictConfig):
                 linewidths=0.5, linecolor='white', vmin=0, vmax=8)
     cbar = ax.collections[0].colorbar
     cbar.set_label('Chameleon Index (CI)', fontsize=18)
-    cbar.ax.tick_params(labelsize=14)
+    cbar.ax.tick_params(labelsize=18)
         
     # Labels and title
     ax.set_xlabel('Topic', fontsize=19, fontweight='bold')
@@ -984,8 +1084,8 @@ def plot_likert_distribution(df_validos: pd.DataFrame, cfg: DictConfig):
                   label=labels[tend], color=colors[tend], alpha=0.85)
     
     # Labels and formatting
-    ax.set_xlabel('Likert Scale Response', fontsize=17, fontweight='bold')
-    ax.set_ylabel('Response Count', fontsize=17, fontweight='bold')
+    ax.set_xlabel('Likert Scale Response', fontsize=20, fontweight='bold')
+    ax.set_ylabel('Response Count', fontsize=20, fontweight='bold')
     
     # Set x-axis ticks and labels
     ax.set_xticks(x_pos)
@@ -993,7 +1093,7 @@ def plot_likert_distribution(df_validos: pd.DataFrame, cfg: DictConfig):
     #Tamanho do eixo x
     ax.tick_params(axis='x', labelsize=19)
     # Add legend
-    ax.legend(loc='upper left', fontsize=15)
+    ax.legend(loc='upper left', fontsize=18)
     
     # Add grid
     ax.grid(axis='y', alpha=0.3, linestyle=':')
@@ -1061,8 +1161,8 @@ def plot_topic_dot_panel(df_pares: pd.DataFrame, cfg: DictConfig):
     ax.set_yticklabels(topic_order, fontsize=18)
     ax.set_xlabel('Ideological Position Index (IPI)', fontsize=19, fontweight='bold')
     ax.set_ylabel('Topic', fontsize=19, fontweight='bold')
-    ax.tick_params(axis='x', labelsize=16)
-    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.08), fontsize=17, ncol=3, frameon=False)
+    ax.tick_params(axis='x', labelsize=18)
+    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.08), fontsize=18, ncol=3, frameon=False)
     ax.grid(axis='x', alpha=0.3, linestyle=':')
     
     plt.tight_layout()

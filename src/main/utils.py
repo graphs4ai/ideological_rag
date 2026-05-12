@@ -28,6 +28,7 @@ cliente_maritaca = OpenAI(api_key=MARITACA_API_KEY, base_url="https://chat.marit
 
 gemini_semaphore = asyncio.Semaphore(10)
 deepinfra_semaphore = asyncio.Semaphore(10)
+maritaca_semaphore = asyncio.Semaphore(2)
 
 def gerar_chave_cache(modelo, afirmacao, temperatura, repeticao, tendencia_prompt, extra: str | None = None):
     """Gera uma chave única incluindo a repetição.
@@ -128,12 +129,14 @@ async def chamar_api_provider(abordagem, modelo, temperatura, system_prompt, use
             )
             response_content = deepinfra_resposta.choices[0].message.content
     elif abordagem == 'maritaca':
-        maritaca_resposta = cliente_maritaca.chat.completions.create(
-            model=modelo,
-            temperature=temperatura,
-            messages=[{"role": "system", "content": system_prompt}, {"role": "user", "content": user_prompt}]
-        )
-        response_content = maritaca_resposta.choices[0].message.content
+        async with maritaca_semaphore:
+            maritaca_resposta = await asyncio.to_thread(
+                cliente_maritaca.chat.completions.create,
+                model=modelo,
+                temperature=temperatura,
+                messages=[{"role": "system", "content": system_prompt}, {"role": "user", "content": user_prompt}]
+            )
+            response_content = maritaca_resposta.choices[0].message.content
     elif abordagem == 'grok':
         chat = client_grok.chat.create(model=modelo, temperature=temperatura)
         chat.append(system(system_prompt))
