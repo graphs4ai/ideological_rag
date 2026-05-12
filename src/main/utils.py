@@ -89,7 +89,6 @@ def atualizar_cache_e_salvar_se_necessario(CONTADOR_NOVAS_RESPOSTAS, chave, valo
             logger.error(f"Erro no salvamento incremental: {e}")
     return CONTADOR_NOVAS_RESPOSTAS
 
-
 async def chamar_api_provider(abordagem, modelo, temperatura, system_prompt, user_prompt):
     response_content = ""
     if abordagem == 'ollama':

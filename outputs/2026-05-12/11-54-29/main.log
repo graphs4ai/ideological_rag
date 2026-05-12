@@ -1,0 +1,81 @@
+[2026-05-12 11:54:29,681][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-12 11:54:29,682][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-12 11:54:29,731][__main__][INFO] - Cache carregado com 234458 entradas
+[2026-05-12 11:54:39,750][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:40,666][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:54:41,327][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:43,714][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 11:54:44,533][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:45,352][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:46,099][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 11:54:46,786][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:47,451][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:48,211][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 11:54:48,937][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:49,700][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:50,381][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:51,272][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 11:54:51,935][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:52,598][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:53,444][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 11:54:54,159][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:54,978][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 11:54:55,796][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:54:56,617][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 11:54:57,334][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:57,335][openai._base_client][INFO] - Retrying request to /embeddings in 0.419597 seconds
+[2026-05-12 11:54:58,122][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:54:58,870][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 11:54:59,689][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:54:59,691][openai._base_client][INFO] - Retrying request to /embeddings in 0.413303 seconds
+[2026-05-12 11:55:00,405][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:55:01,123][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:01,816][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:55:01,817][openai._base_client][INFO] - Retrying request to /embeddings in 0.444212 seconds
+[2026-05-12 11:55:02,573][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:03,477][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:04,172][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:05,280][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:55:06,004][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:55:06,729][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:55:06,731][openai._base_client][INFO] - Retrying request to /embeddings in 0.930183 seconds
+[2026-05-12 11:55:07,433][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:08,290][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:08,980][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:08,982][openai._base_client][INFO] - Retrying request to /embeddings in 0.959792 seconds
+[2026-05-12 11:55:09,719][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:55:10,453][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:55:11,265][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-12 11:55:11,322][__main__][INFO] - Cache salvo com 234498 entradas
+[2026-05-12 11:55:11,322][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:55:11,323][openai._base_client][INFO] - Retrying request to /embeddings in 0.987110 seconds
+[2026-05-12 11:55:12,069][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:12,797][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:13,519][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:14,228][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 11:55:14,946][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:15,666][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,670][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:15,671][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 11:55:16,484][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:17,200][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 11:55:17,918][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo

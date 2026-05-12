@@ -1,0 +1,219 @@
+[2026-05-12 14:29:27,474][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-12 14:29:27,474][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-12 14:29:27,527][__main__][INFO] - Cache carregado com 249462 entradas
+[2026-05-12 14:29:40,414][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:29:41,215][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:29:41,941][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:29:42,638][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 14:29:42,641][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 14:29:42,642][__main__][INFO] - ✓ [mistralai/Mixtral-8x7B-Instruct-v0.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:29:42,674][__main__][INFO] - ✓ [google/gemma-3-12b-it] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 14:29:42,718][__main__][INFO] - ✓ [google/gemma-3-4b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:29:42,724][__main__][INFO] - ✓ [google/gemma-3-4b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:29:42,729][__main__][INFO] - ✓ [google/gemma-3-4b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:29:42,770][__main__][INFO] - ✓ [google/gemma-3-12b-it] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:29:42,802][__main__][INFO] - ✓ [google/gemma-3-12b-it] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:29:43,162][__main__][INFO] - ✓ [meta-llama/Llama-4-Scout-17B-16E-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:29:43,504][__main__][INFO] - ✓ [Qwen/Qwen3-235B-A22B-Instruct-2507] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 14:29:43,582][__main__][INFO] - ✓ [Qwen/Qwen3-235B-A22B-Instruct-2507] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:29:43,583][__main__][INFO] - ✓ [Qwen/Qwen3-235B-A22B-Instruct-2507] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:29:43,698][__main__][INFO] - ✓ [meta-llama/Llama-4-Scout-17B-16E-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:29:43,871][__main__][INFO] - ✓ [meta-llama/Llama-4-Scout-17B-16E-Instruct] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 14:29:43,939][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-70B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:29:43,941][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-70B-Instruct] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:29:43,991][__main__][INFO] - ✓ [meta-llama/Meta-Llama-3.1-70B-Instruct] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:07,804][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:08,640][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:09,374][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:10,708][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:30:11,665][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:13,063][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 14:30:14,190][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:14,968][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:15,665][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:17,103][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:17,977][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:18,843][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:19,524][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:20,382][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:21,035][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:21,696][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:22,489][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:23,159][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:23,827][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-12 14:30:23,909][__main__][INFO] - Cache salvo com 249502 entradas
+[2026-05-12 14:30:23,909][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:24,701][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:30:25,368][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:26,033][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:27,294][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:28,525][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:29,301][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:30,253][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:31,244][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:30:31,938][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:32,711][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:33,551][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:34,216][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:34,218][openai._base_client][INFO] - Retrying request to /embeddings in 0.479939 seconds
+[2026-05-12 14:30:34,219][openai._base_client][INFO] - Retrying request to /embeddings in 0.452118 seconds
+[2026-05-12 14:30:35,422][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:36,111][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 14:30:36,925][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:36,930][__main__][INFO] - ✓ [Qwen/Qwen3-14B] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:36,931][openai._base_client][INFO] - Retrying request to /embeddings in 0.394720 seconds
+[2026-05-12 14:30:37,685][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:38,457][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:39,612][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:40,384][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:41,426][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:30:42,559][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:43,480][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:30:44,293][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:45,026][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:45,028][openai._base_client][INFO] - Retrying request to /embeddings in 0.831512 seconds
+[2026-05-12 14:30:45,029][openai._base_client][INFO] - Retrying request to /embeddings in 0.913770 seconds
+[2026-05-12 14:30:45,775][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:46,649][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:30:47,466][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:47,467][openai._base_client][INFO] - Retrying request to /embeddings in 0.961554 seconds
+[2026-05-12 14:30:48,172][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo
+[2026-05-12 14:30:48,870][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-12 14:30:49,531][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:50,265][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:51,359][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:30:52,026][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:53,099][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:30:53,936][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:55,045][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 14:30:55,051][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,052][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,052][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,052][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,052][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,052][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,052][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,052][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,052][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,052][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,053][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,054][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,054][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,054][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,054][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,055][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,056][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,056][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,056][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,056][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,056][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,059][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,059][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,059][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,059][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,059][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,059][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,059][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,059][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,060][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,060][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,060][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,060][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,071][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:55,922][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Concordo
+[2026-05-12 14:30:56,787][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-12 14:30:57,503][__main__][INFO] - Salvamento incremental (80 novas respostas)...
+[2026-05-12 14:30:57,577][__main__][INFO] - Cache salvo com 249542 entradas
+[2026-05-12 14:30:57,577][__main__][INFO] - ✓ [sabia-3.1] Temp=0.0 Rep=1 → Neutro
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,579][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
+[2026-05-12 14:30:57,580][__main__][ERROR] - Falha ao recuperar chunks do wiki_faiss_store: APITimeoutError: Request timed out.
