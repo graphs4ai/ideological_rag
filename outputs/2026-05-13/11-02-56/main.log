@@ -1,0 +1,11 @@
+[2026-05-13 11:02:56,154][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-13 11:02:56,155][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-13 11:02:56,205][__main__][INFO] - Cache carregado com 256378 entradas
+[2026-05-13 11:03:09,307][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:03:09,313][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:03:09,886][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:03:13,307][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 11:03:13,308][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:03:13,316][__main__][INFO] - ✓ [microsoft/phi-4] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 11:03:59,465][__main__][INFO] - Cache salvo com 256384 entradas
+[2026-05-13 11:03:59,466][__main__][INFO] - Coleta de dados concluída!

@@ -1,0 +1,48 @@
+[2026-05-13 13:00:49,769][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-13 13:00:49,770][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-13 13:00:49,821][__main__][INFO] - Cache carregado com 258420 entradas
+[2026-05-13 13:00:56,778][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:00:58,872][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:03,121][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:03,474][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 13:01:06,810][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:08,142][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:08,162][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:08,930][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 13:01:10,622][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:11,546][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:11,639][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:16,912][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:17,073][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 13:01:19,323][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 13:01:20,771][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:22,624][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 13:01:24,726][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 13:01:25,262][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:25,364][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:26,332][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:29,286][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:30,610][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:30,668][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:33,722][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 13:01:35,258][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 13:01:37,530][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:37,755][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:39,247][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 13:01:39,632][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:43,156][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:43,665][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:48,405][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 13:01:53,283][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 13:01:54,003][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:54,517][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:57,688][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:01:57,744][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:01:59,510][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:02:01,092][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:02:04,150][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-13 13:02:04,240][__main__][INFO] - Cache salvo com 258460 entradas
+[2026-05-13 13:02:04,240][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:02:04,961][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:02:05,085][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 13:02:07,725][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente

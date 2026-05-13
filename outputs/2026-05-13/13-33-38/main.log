@@ -1,0 +1,10 @@
+[2026-05-13 13:33:38,259][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-13 13:33:38,260][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-13 13:33:38,313][__main__][INFO] - Cache carregado com 260436 entradas
+[2026-05-13 13:33:42,688][__main__][INFO] - ✓ [gpt-4.1-nano] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:33:46,270][__main__][INFO] - ✓ [gpt-4.1-nano] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:33:48,852][__main__][INFO] - ✓ [gpt-4.1-nano] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:33:50,861][__main__][INFO] - ✓ [gpt-4.1-nano] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:33:52,677][__main__][INFO] - ✓ [gpt-4.1-nano] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 13:33:54,515][__main__][INFO] - ✓ [gpt-4.1-nano] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:33:57,084][__main__][INFO] - ✓ [gpt-4.1-nano] Temp=0.0 Rep=1 → Concordo

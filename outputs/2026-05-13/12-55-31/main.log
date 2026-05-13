@@ -1,0 +1,50 @@
+[2026-05-13 12:55:31,376][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-13 12:55:31,377][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-13 12:55:31,438][__main__][INFO] - Cache carregado com 258420 entradas
+[2026-05-13 12:55:40,540][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:55:46,676][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:55:54,984][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:56:02,869][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:56:08,300][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:56:13,774][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:56:19,834][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:56:29,493][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:56:32,874][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:56:44,140][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:56:50,898][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:56:58,064][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:57:05,334][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:57:11,992][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:57:16,735][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:57:21,206][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:57:27,661][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:57:30,626][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:57:30,630][openai._base_client][INFO] - Retrying request to /embeddings in 0.451768 seconds
+[2026-05-13 12:57:30,631][openai._base_client][INFO] - Retrying request to /embeddings in 0.429080 seconds
+[2026-05-13 12:57:30,631][openai._base_client][INFO] - Retrying request to /embeddings in 0.377545 seconds
+[2026-05-13 12:57:30,633][openai._base_client][INFO] - Retrying request to /embeddings in 0.444611 seconds
+[2026-05-13 12:57:39,536][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:57:46,305][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:57:53,555][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:58:00,427][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:58:03,805][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:58:11,636][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:58:20,599][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:58:24,612][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:58:32,275][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:58:37,596][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:58:41,282][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:58:48,854][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:58:51,999][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:58:56,248][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:59:03,859][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:59:13,609][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:59:20,410][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:59:58,448][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:59:58,459][openai._base_client][INFO] - Retrying request to /embeddings in 0.384417 seconds
+[2026-05-13 12:59:58,460][openai._base_client][INFO] - Retrying request to /embeddings in 0.490332 seconds
+[2026-05-13 12:59:58,460][openai._base_client][INFO] - Retrying request to /embeddings in 0.378916 seconds
+[2026-05-13 12:59:58,460][openai._base_client][INFO] - Retrying request to /embeddings in 0.473285 seconds
+[2026-05-13 13:00:05,482][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 13:00:15,443][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 13:00:22,979][__main__][INFO] - ✓ [grok-4-1-fast-reasoning] Temp=0.0 Rep=1 → Concordo fortemente

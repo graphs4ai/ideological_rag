@@ -12,7 +12,7 @@ RAG_COLORS = {
     "Top-1 Rel": "#7aa6c2",
     "Top-3 Rel": "#3f7f9f",
     "Top-5 Rel": "#1f5f7a",
-    "With relevant retriever": "#1f5f7a",
+    "With relevant retriever": "#3194bf",
     "Top-3 Irrel": "#c47a32",
     "Top-3 Irrel - Elevador": "#c47a32",
     "Top-3 Irrel - Fotossíntese": "#c47a32",
@@ -47,6 +47,7 @@ def _model_short_name(model_name: str) -> str:
     replacements = {
         "Meta-Llama-": "Llama-",
         "Instruct-2506": "Instruct",
+        "NVIDIA-Nemotron-Nano-12B-v2-VL" : "Nemotron-12B-v2",
     }
     for old, new in replacements.items():
         short = short.replace(old, new)
@@ -304,20 +305,30 @@ def _prepare_retriever_ci_comparison(df_ip: pd.DataFrame) -> pd.DataFrame:
 
     df_without = df_use[df_use['condicao'] == 'Baseline'].copy()
     df_with = df_use[df_use['condicao'].isin(['Top-1 Rel', 'Top-3 Rel', 'Top-5 Rel'])].copy()
+    df_frames = []
+
+    if not df_without.empty:
+        df_without_ci = _compute_ci_from_ip(df_without, group_cols=['modelo'])
+        if not df_without_ci.empty:
+            df_without_ci['retriever'] = 'Without retriever'
+            df_frames.append(df_without_ci[['modelo', 'retriever', 'chameleon_index']])
+
     if not df_with.empty:
         mode_col = 'top_n_chunks' if 'top_n_chunks' in df_with.columns else 'top_k'
-        with_mode = int(df_with[mode_col].dropna().astype(int).max())
-        df_with = df_with[df_with[mode_col].fillna(0).astype(int) == with_mode].copy()
+        df_with_ci = _compute_ci_from_ip(df_with, group_cols=['modelo', mode_col])
+        if not df_with_ci.empty:
+            df_with_ci_mean = (
+                df_with_ci.groupby('modelo', as_index=False)['chameleon_index']
+                .mean()
+            )
+            df_with_ci_mean['retriever'] = 'With relevant retriever'
+            df_frames.append(df_with_ci_mean[['modelo', 'retriever', 'chameleon_index']])
 
-    df_without['retriever'] = 'Without retriever'
-    df_with['retriever'] = 'With relevant retriever'
-    df_compare = pd.concat([df_without, df_with], ignore_index=True)
-    if df_compare.empty:
+    if not df_frames:
         return pd.DataFrame(columns=['modelo', 'retriever', 'chameleon_index'])
 
-    df_ci = _compute_ci_from_ip(df_compare, group_cols=['modelo', 'retriever'])
-    if not df_ci.empty:
-        df_ci['modelo_curto'] = df_ci['modelo'].map(_model_short_name)
+    df_ci = pd.concat(df_frames, ignore_index=True)
+    df_ci['modelo_curto'] = df_ci['modelo'].map(_model_short_name)
     return df_ci
 
 
@@ -344,7 +355,7 @@ def plot_ci_geral_por_modelo_com_vs_sem_retriever(df_ip: pd.DataFrame, cfg: Dict
     df_ci['modelo_curto'] = df_ci['modelo'].map(_model_short_name)
     label_by_model = df_ci.drop_duplicates('modelo').set_index('modelo')['modelo_curto'].to_dict()
 
-    fig, ax = plt.subplots(figsize=(11.5, max(9, 0.85 * len(order))))
+    fig, ax = plt.subplots(figsize=(11.5, max(9, 0.95 * len(order))))
     sns.barplot(
         data=df_ci,
         y='modelo',
@@ -790,6 +801,36 @@ def plot_rag_main_effect_ci(df_ip: pd.DataFrame, cfg: DictConfig):
     plt.close()
 
 
+def plot_rag_main_effect_ci_3(df_ip: pd.DataFrame, cfg: DictConfig):
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_ci = _prepare_rag_ci_by_model(df_ip)
+    if df_ci.empty:
+        return
+
+    summary = _prepare_rag_main_effect_summary(df_ci)
+    colors = [RAG_COLORS.get(c, "#64748b") for c in summary['condicao']]
+
+    fig, ax = plt.subplots(figsize=(8, 10))
+    ax.bar(
+        summary['condicao'],
+        summary['mean'],
+        yerr=summary['std'],
+        color=colors,
+        capsize=4,
+        alpha=0.9,
+    )
+    ax.set_ylabel('Chameleon Index (CI)', fontsize=22, fontweight='bold')
+    ax.set_xlabel('RAG Condition', fontsize=22, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=18, rotation=25)
+    ax.tick_params(axis='y', labelsize=18)
+    ax.grid(axis='y', alpha=0.3, linestyle=':')
+    plt.tight_layout()
+    save_fig(fig, 'rag_main_effect_ci_3', cfg)
+    plt.close()
+
+
 def plot_rag_main_effect_ci_2(df_ip: pd.DataFrame, cfg: DictConfig):
     if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
         return
@@ -913,6 +954,70 @@ def plot_rag_ipi_dumbbell(df_ip: pd.DataFrame, cfg: DictConfig):
 
     plt.tight_layout()
     save_fig(fig, 'rag_ipi_dumbbell', cfg)
+    plt.close()
+
+
+def plot_rag_ipi_dumbbell_2(df_ip: pd.DataFrame, cfg: DictConfig):
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_ci = _prepare_rag_ci_by_model(df_ip)
+    required_ip_cols = {'esquerda', 'neutro', 'direita'}
+    if df_ci.empty or not required_ip_cols.issubset(set(df_ci.columns)):
+        return
+
+    df_mean = (
+        df_ci.groupby('condicao')[['esquerda', 'neutro', 'direita']]
+        .mean()
+        .reset_index()
+    )
+
+    # Calcular shift de left-right para ordenar por ordem crescente
+    df_mean['shift'] = (df_mean['esquerda'] - df_mean['direita']).abs()
+    cond_order = df_mean.sort_values('shift')['condicao'].tolist()
+
+    tend_order = ["esquerda", "neutro", "direita"]
+    colors = USER_COLORS
+    labels = {"esquerda": "Left-Wing User", "neutro": "No-Context User", "direita": "Right-Wing User"}
+
+    fig, ax = plt.subplots(figsize=(11, 14))
+    x_positions = {c: i for i, c in enumerate(cond_order)}
+
+    for cond in cond_order:
+        subset = df_mean[df_mean['condicao'] == cond]
+        if subset.empty:
+            continue
+        row = subset.iloc[0]
+        ys = [row[t] for t in tend_order]
+        ax.plot([x_positions[cond]] * len(ys), ys, color='#b0b0b0', linewidth=2, zorder=1)
+        for t, y in zip(tend_order, ys):
+            ax.scatter(x_positions[cond], y, color=colors[t], s=170, zorder=2)
+
+    ax.axhline(0, color='black', linestyle='--', linewidth=1.2, alpha=0.6)
+    ax.set_xticks(list(x_positions.values()))
+    ax.set_xticklabels(cond_order, fontsize=22, rotation=15, ha='right')
+    ax.set_ylabel('Ideological Position Index (IPI)', fontsize=24, fontweight='bold')
+    ax.set_ylim(-4, 4)
+    ax.tick_params(axis='y', labelsize=22)
+    ax.grid(axis='y', alpha=0.3, linestyle=':')
+
+    handles = [
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=colors[t], markersize=14, label=labels[t])
+        for t in tend_order
+    ]
+    ax.legend(
+        handles=handles,
+        loc='upper center',
+        bbox_to_anchor=(0.5, -0.1),
+        ncol=3,
+        frameon=False,
+        fontsize=20,
+        columnspacing=1.6,
+        handletextpad=0.6,
+    )
+
+    plt.tight_layout(rect=[0, 0.08, 1, 1])
+    save_fig(fig, 'rag_ipi_dumbbell_2', cfg)
     plt.close()
 
 

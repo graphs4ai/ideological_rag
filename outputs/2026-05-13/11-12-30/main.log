@@ -1,0 +1,7 @@
+[2026-05-13 11:12:30,487][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-13 11:12:30,487][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-13 11:12:30,541][__main__][INFO] - Cache carregado com 256384 entradas
+[2026-05-13 11:12:34,802][openai._base_client][INFO] - Retrying request to /chat/completions in 0.449681 seconds
+[2026-05-13 11:12:34,929][openai._base_client][INFO] - Retrying request to /chat/completions in 0.468543 seconds
+[2026-05-13 11:12:35,470][openai._base_client][INFO] - Retrying request to /chat/completions in 0.471650 seconds
+[2026-05-13 11:12:36,111][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente

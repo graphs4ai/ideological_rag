@@ -1,0 +1,15 @@
+[2026-05-13 11:56:54,993][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-13 11:56:54,993][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-13 11:56:55,044][__main__][INFO] - Cache carregado com 256404 entradas
+[2026-05-13 11:56:59,104][openai._base_client][INFO] - Retrying request to /chat/completions in 0.410185 seconds
+[2026-05-13 11:56:59,393][openai._base_client][INFO] - Retrying request to /chat/completions in 0.494701 seconds
+[2026-05-13 11:56:59,566][openai._base_client][INFO] - Retrying request to /chat/completions in 0.485792 seconds
+[2026-05-13 11:56:59,778][openai._base_client][INFO] - Retrying request to /chat/completions in 0.389682 seconds
+[2026-05-13 11:57:00,438][openai._base_client][INFO] - Retrying request to /chat/completions in 0.420605 seconds
+[2026-05-13 11:57:00,661][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:00,842][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:00,926][openai._base_client][INFO] - Retrying request to /chat/completions in 0.473608 seconds
+[2026-05-13 11:57:00,979][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:01,216][openai._base_client][INFO] - Retrying request to /chat/completions in 0.418734 seconds
+[2026-05-13 11:57:01,871][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:02,080][openai._base_client][INFO] - Retrying request to /chat/completions in 0.471070 seconds

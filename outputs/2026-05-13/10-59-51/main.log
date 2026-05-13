@@ -1,0 +1,22 @@
+[2026-05-13 10:59:51,716][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-13 10:59:51,717][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-13 10:59:51,769][__main__][INFO] - Cache carregado com 254339 entradas
+[2026-05-13 11:00:54,473][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:00:54,686][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:00:54,687][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:00:54,687][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:54,689][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,085][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,197][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,199][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,200][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,206][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,206][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,207][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,270][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,271][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,271][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,272][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,283][__main__][INFO] - ✓ [nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:00:55,586][__main__][INFO] - Cache salvo com 254356 entradas
+[2026-05-13 11:00:55,586][__main__][INFO] - Coleta de dados concluída!

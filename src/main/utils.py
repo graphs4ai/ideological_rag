@@ -29,6 +29,8 @@ cliente_maritaca = OpenAI(api_key=MARITACA_API_KEY, base_url="https://chat.marit
 gemini_semaphore = asyncio.Semaphore(10)
 deepinfra_semaphore = asyncio.Semaphore(10)
 maritaca_semaphore = asyncio.Semaphore(2)
+grok_semaphore = asyncio.Semaphore(50)
+gpt_semaphore = asyncio.Semaphore(50)
 
 def gerar_chave_cache(modelo, afirmacao, temperatura, repeticao, tendencia_prompt, extra: str | None = None):
     """Gera uma chave única incluindo a repetição.
@@ -110,15 +112,21 @@ async def chamar_api_provider(abordagem, modelo, temperatura, system_prompt, use
             response_content = gemini_resposta.text
 
     elif abordagem in ['gpt', 'gpt-sem-temperature']:
-        kwargs = {
-            "model": modelo,
-            "input": [{"role": "system", "content": system_prompt}, {"role": "user", "content": user_prompt}]
-        }
-        if abordagem == 'gpt':
-             kwargs["temperature"] = temperatura
-        
-        gpt_resposta = client_openai.responses.create(**kwargs)
-        response_content = gpt_resposta.output_text
+        async with gpt_semaphore:
+            def _gpt_call():
+                kwargs = {
+                    "model": modelo,
+                    "input": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_prompt},
+                    ],
+                }
+                if abordagem == 'gpt':
+                    kwargs["temperature"] = temperatura
+
+                return client_openai.responses.create(**kwargs).output_text
+
+            response_content = await asyncio.to_thread(_gpt_call)
     
     elif abordagem == 'deepinfra':
         async with deepinfra_semaphore:
@@ -138,10 +146,13 @@ async def chamar_api_provider(abordagem, modelo, temperatura, system_prompt, use
             )
             response_content = maritaca_resposta.choices[0].message.content
     elif abordagem == 'grok':
-        chat = client_grok.chat.create(model=modelo, temperature=temperatura)
-        chat.append(system(system_prompt))
-        chat.append(user(user_prompt))
-        grok_resposta = chat.sample()
-        response_content = grok_resposta.content
+        async with grok_semaphore:
+            def _grok_call():
+                chat = client_grok.chat.create(model=modelo, temperature=temperatura)
+                chat.append(system(system_prompt))
+                chat.append(user(user_prompt))
+                return chat.sample().content
+
+            response_content = await asyncio.to_thread(_grok_call)
 
     return response_content

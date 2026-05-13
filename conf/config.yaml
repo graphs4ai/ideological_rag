@@ -13,15 +13,13 @@ MODELOS_A_AVALIAR:
   - ["meta-llama/Meta-Llama-3.1-70B-Instruct", "deepinfra"]
   - ["meta-llama/Llama-4-Scout-17B-16E-Instruct", "deepinfra"]
   - ["sabia-3.1", "maritaca"]
-
-  # - ["openai/gpt-oss-20b", "deepinfra"]
-  # - ["google/gemini-2.5-flash", "deepinfra"]
-  # - ["microsoft/phi-4", "deepinfra"]
-  # - ["nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL", "deepinfra"]
-  
-  # - ["gpt-5-nano", "gpt-sem-temperature"]
-  # - ["gpt-4.1-nano", "gpt"]
-  # - ["grok-4-1-fast-reasoning", "grok"]
+  - ["nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL", "deepinfra"]
+  - ["microsoft/phi-4", "deepinfra"]
+  - ["openai/gpt-oss-20b", "deepinfra"]
+  - ["google/gemini-2.5-flash", "deepinfra"]
+  - ["gpt-5-nano", "gpt-sem-temperature"]
+  - ["gpt-4.1-nano", "gpt"]
+  - ["grok-4-1-fast-reasoning", "grok"]
 
 TEMPERATURES: [0.0]
 REPETICOES_POR_TEMP: 1

@@ -1,0 +1,1266 @@
+[2026-05-13 11:57:30,709][__main__][INFO] - Retrieval ativado: store='wiki_faiss_store', top_n=[0, 1, 3, 5], emb_model='google/embeddinggemma-300m'
+[2026-05-13 11:57:30,710][__main__][INFO] - Carregadas 56 perguntas de dados/pairs.json
+[2026-05-13 11:57:30,764][__main__][INFO] - Cache carregado com 256404 entradas
+[2026-05-13 11:57:36,351][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:36,719][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:37,745][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:38,423][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:57:38,759][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:38,763][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:40,652][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 11:57:40,939][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:41,481][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:43,132][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:44,915][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:57:45,657][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:45,676][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:46,528][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:46,943][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 11:57:48,658][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:48,853][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:50,738][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:50,927][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:57:51,147][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:51,509][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:57:52,289][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:57:52,962][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:57:55,139][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:57:55,485][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:55,565][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:55,676][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:59,636][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:57:59,761][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:00,715][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:58:01,906][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:02,756][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:58:04,137][openai._base_client][INFO] - Retrying request to /chat/completions in 0.419550 seconds
+[2026-05-13 11:58:04,371][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:06,172][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:06,706][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:11,069][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:58:12,172][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:12,344][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:12,666][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:13,913][__main__][INFO] - Salvamento incremental (40 novas respostas)...
+[2026-05-13 11:58:14,013][__main__][INFO] - Cache salvo com 256444 entradas
+[2026-05-13 11:58:14,013][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:58:14,296][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:14,821][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:15,788][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:19,735][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:20,047][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:20,507][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:20,598][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:58:21,279][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:58:21,289][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:58:23,401][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:26,272][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:27,379][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:27,426][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:28,379][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:28,383][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:58:31,010][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:31,311][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:31,757][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:32,372][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:32,559][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:32,871][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:33,806][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:34,931][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:35,243][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:36,229][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:37,288][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:58:38,925][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:40,331][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:41,141][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 11:58:41,249][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:41,996][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:43,670][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:44,354][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:46,005][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:58:46,603][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:47,017][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:58:47,058][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:47,237][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:49,532][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:49,934][__main__][INFO] - Salvamento incremental (80 novas respostas)...
+[2026-05-13 11:58:50,008][__main__][INFO] - Cache salvo com 256484 entradas
+[2026-05-13 11:58:50,008][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:51,960][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 11:58:52,751][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:53,310][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:54,781][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:58:55,411][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:58:55,646][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:56,773][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:56,998][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:58:57,399][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:57,542][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:57,726][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:58:58,152][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:00,354][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:00,578][openai._base_client][INFO] - Retrying request to /chat/completions in 0.423698 seconds
+[2026-05-13 11:59:00,871][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:01,104][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:01,178][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:01,792][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:02,250][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:02,446][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:59:03,297][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:59:04,422][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:04,539][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:04,588][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:04,697][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:05,074][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:59:06,468][openai._base_client][INFO] - Retrying request to /chat/completions in 0.466921 seconds
+[2026-05-13 11:59:07,493][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:07,810][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:08,385][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:09,606][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:09,785][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:10,309][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:11,221][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:11,516][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:11,987][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:59:12,699][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:59:13,452][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:14,343][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:59:15,257][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:59:16,097][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:17,427][__main__][INFO] - Salvamento incremental (120 novas respostas)...
+[2026-05-13 11:59:17,503][__main__][INFO] - Cache salvo com 256524 entradas
+[2026-05-13 11:59:17,503][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:59:17,648][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:17,908][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:19,284][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:19,941][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:20,508][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:20,962][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:22,036][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:22,254][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:22,445][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:22,736][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:23,206][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:24,626][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:59:25,209][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:25,574][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:26,643][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:26,707][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:27,397][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:27,462][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:59:27,783][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:27,900][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:28,688][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:29,716][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:30,435][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:31,458][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:31,697][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:32,481][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:32,742][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:32,746][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:33,198][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:34,325][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:34,836][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:35,346][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:35,660][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:36,205][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:36,331][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:37,387][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:37,570][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:38,420][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:39,184][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:40,718][__main__][INFO] - Salvamento incremental (160 novas respostas)...
+[2026-05-13 11:59:40,796][__main__][INFO] - Cache salvo com 256564 entradas
+[2026-05-13 11:59:40,796][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:40,920][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:41,798][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:59:41,933][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:42,143][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:42,814][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:43,338][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:43,371][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:44,152][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:44,461][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:45,699][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:45,824][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:46,122][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:46,576][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:59:46,667][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 11:59:47,128][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:47,819][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:47,955][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:49,996][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:50,005][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 11:59:50,503][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 11:59:50,914][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:52,144][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:52,655][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:54,352][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:54,355][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:54,471][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:56,650][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 11:59:57,669][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:00,125][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:00,383][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:01,030][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:00:01,166][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:02,077][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:00:03,816][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:04,328][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:04,838][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:05,362][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:05,367][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:00:05,888][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:00:06,276][__main__][INFO] - Salvamento incremental (200 novas respostas)...
+[2026-05-13 12:00:06,349][__main__][INFO] - Cache salvo com 256604 entradas
+[2026-05-13 12:00:06,350][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:06,992][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:07,344][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:00:08,322][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:00:08,860][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:09,439][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:09,967][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:00:10,140][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:11,939][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:12,045][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:12,705][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:13,238][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:13,631][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:15,095][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:15,898][openai._base_client][INFO] - Retrying request to /chat/completions in 0.431434 seconds
+[2026-05-13 12:00:17,959][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:18,124][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:18,608][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:20,044][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:20,818][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:21,616][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:22,454][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:00:24,242][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:27,754][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:27,909][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:28,795][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:29,056][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:29,315][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:29,819][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:29,852][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:00:30,850][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:00:33,513][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:35,064][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:00:35,577][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:00:35,873][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:37,096][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:37,608][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:38,434][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:00:38,435][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:38,436][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:38,582][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:39,524][__main__][INFO] - Salvamento incremental (240 novas respostas)...
+[2026-05-13 12:00:39,628][__main__][INFO] - Cache salvo com 256644 entradas
+[2026-05-13 12:00:39,628][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:40,719][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:00:41,025][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:41,353][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:42,728][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:00:42,731][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:00:43,651][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:44,034][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:44,571][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:45,082][openai._base_client][INFO] - Retrying request to /chat/completions in 0.410969 seconds
+[2026-05-13 12:00:45,240][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:45,244][openai._base_client][INFO] - Retrying request to /chat/completions in 0.436609 seconds
+[2026-05-13 12:00:46,043][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:46,170][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:46,658][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:47,308][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:49,180][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:50,252][openai._base_client][INFO] - Retrying request to /chat/completions in 0.419409 seconds
+[2026-05-13 12:00:50,293][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:50,451][openai._base_client][INFO] - Retrying request to /chat/completions in 0.442877 seconds
+[2026-05-13 12:00:51,350][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:51,671][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:00:54,197][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:54,720][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:56,656][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:57,270][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:58,397][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:00:58,401][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:00,240][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:00,294][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:00,961][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:01,559][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:02,017][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:04,437][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:06,794][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:07,528][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:08,123][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:08,189][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:08,842][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:08,845][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:10,479][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:12,015][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:12,089][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:12,127][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:12,261][__main__][INFO] - Salvamento incremental (280 novas respostas)...
+[2026-05-13 12:01:12,332][__main__][INFO] - Cache salvo com 256684 entradas
+[2026-05-13 12:01:12,333][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:12,503][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:13,858][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:13,862][openai._base_client][INFO] - Retrying request to /chat/completions in 0.435363 seconds
+[2026-05-13 12:01:14,778][openai._base_client][INFO] - Retrying request to /chat/completions in 0.462366 seconds
+[2026-05-13 12:01:15,497][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:16,259][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:16,522][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:16,669][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:01:18,054][openai._base_client][INFO] - Retrying request to /chat/completions in 0.397965 seconds
+[2026-05-13 12:01:18,767][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:18,896][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:01:19,339][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:19,515][openai._base_client][INFO] - Retrying request to /chat/completions in 0.835507 seconds
+[2026-05-13 12:01:20,019][openai._base_client][INFO] - Retrying request to /chat/completions in 0.429203 seconds
+[2026-05-13 12:01:20,339][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:21,428][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:21,775][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:21,911][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:22,563][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:23,382][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:23,774][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:25,634][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:28,501][openai._base_client][INFO] - Retrying request to /chat/completions in 0.410544 seconds
+[2026-05-13 12:01:28,565][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:29,113][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:29,833][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:29,977][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:01:30,651][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:01:32,005][openai._base_client][INFO] - Retrying request to /chat/completions in 0.415721 seconds
+[2026-05-13 12:01:32,192][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:32,702][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:32,923][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:33,170][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:33,493][openai._base_client][INFO] - Retrying request to /chat/completions in 0.499462 seconds
+[2026-05-13 12:01:33,826][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:34,542][openai._base_client][INFO] - Retrying request to /chat/completions in 0.467993 seconds
+[2026-05-13 12:01:34,597][openai._base_client][INFO] - Retrying request to /chat/completions in 0.437165 seconds
+[2026-05-13 12:01:34,781][openai._base_client][INFO] - Retrying request to /chat/completions in 0.398136 seconds
+[2026-05-13 12:01:35,874][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:36,202][openai._base_client][INFO] - Retrying request to /chat/completions in 0.853919 seconds
+[2026-05-13 12:01:37,000][openai._base_client][INFO] - Retrying request to /chat/completions in 0.961532 seconds
+[2026-05-13 12:01:39,049][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:39,050][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:39,212][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:39,386][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:01:40,996][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:40,999][openai._base_client][INFO] - Retrying request to /chat/completions in 0.486888 seconds
+[2026-05-13 12:01:41,311][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:42,224][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:42,372][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:42,940][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:45,684][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:01:45,734][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:45,798][__main__][INFO] - Salvamento incremental (320 novas respostas)...
+[2026-05-13 12:01:45,856][__main__][INFO] - Cache salvo com 256724 entradas
+[2026-05-13 12:01:45,856][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:46,319][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:01:46,350][openai._base_client][INFO] - Retrying request to /chat/completions in 0.448270 seconds
+[2026-05-13 12:01:46,572][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:47,096][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:48,220][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:50,065][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:50,333][openai._base_client][INFO] - Retrying request to /chat/completions in 0.408686 seconds
+[2026-05-13 12:01:50,339][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:50,502][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:50,772][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:01:50,937][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:51,853][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:52,056][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:56,090][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:57,585][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:01:57,590][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:58,916][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:01:59,715][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:00,451][openai._base_client][INFO] - Retrying request to /chat/completions in 0.488715 seconds
+[2026-05-13 12:02:02,370][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:02,582][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:02:03,216][openai._base_client][INFO] - Retrying request to /chat/completions in 0.852648 seconds
+[2026-05-13 12:02:03,217][openai._base_client][INFO] - Retrying request to /chat/completions in 0.494642 seconds
+[2026-05-13 12:02:04,184][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:02:04,189][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:05,469][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:05,980][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:06,307][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:02:07,622][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:02:07,809][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:07,943][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:08,846][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:02:10,230][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:10,392][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:11,307][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:02:12,023][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:12,433][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:12,437][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:02:12,822][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:13,033][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:14,072][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:14,075][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:02:14,171][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:16,197][openai._base_client][INFO] - Retrying request to /chat/completions in 0.467057 seconds
+[2026-05-13 12:02:19,088][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:19,162][__main__][INFO] - Salvamento incremental (360 novas respostas)...
+[2026-05-13 12:02:19,225][__main__][INFO] - Cache salvo com 256764 entradas
+[2026-05-13 12:02:19,225][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:20,109][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:20,318][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:21,749][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:22,114][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:23,289][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:24,413][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:02:24,829][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:25,949][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:27,074][openai._base_client][INFO] - Retrying request to /chat/completions in 0.379058 seconds
+[2026-05-13 12:02:27,690][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:30,249][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:31,348][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:31,503][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:31,992][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:02:32,929][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:33,989][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:36,496][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:36,674][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:37,417][openai._base_client][INFO] - Retrying request to /chat/completions in 0.476193 seconds
+[2026-05-13 12:02:37,515][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:02:37,554][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:37,936][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:39,260][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:39,760][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:40,695][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:41,413][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:41,414][openai._base_client][INFO] - Retrying request to /chat/completions in 0.435524 seconds
+[2026-05-13 12:02:41,881][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:42,356][openai._base_client][INFO] - Retrying request to /chat/completions in 0.474022 seconds
+[2026-05-13 12:02:42,854][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:44,278][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:45,303][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:02:47,965][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:02:48,112][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:50,016][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:50,019][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:50,296][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:50,935][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:51,041][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:02:54,011][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:56,287][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:57,938][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:02:58,128][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:02:58,548][__main__][INFO] - Salvamento incremental (400 novas respostas)...
+[2026-05-13 12:02:58,606][__main__][INFO] - Cache salvo com 256804 entradas
+[2026-05-13 12:02:58,606][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:00,869][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:01,586][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:01,697][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:01,788][openai._base_client][INFO] - Retrying request to /chat/completions in 0.817350 seconds
+[2026-05-13 12:03:02,690][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:03,325][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:03:03,354][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:04,452][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:05,783][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:03:06,309][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:03:06,354][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:07,319][openai._base_client][INFO] - Retrying request to /chat/completions in 0.382163 seconds
+[2026-05-13 12:03:08,139][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:11,109][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:12,952][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:13,463][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:14,281][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:17,355][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:17,996][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:03:18,891][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:18,979][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:19,365][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:20,528][openai._base_client][INFO] - Retrying request to /chat/completions in 0.423244 seconds
+[2026-05-13 12:03:21,656][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:22,060][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:23,191][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:03:23,396][openai._base_client][INFO] - Retrying request to /chat/completions in 0.453557 seconds
+[2026-05-13 12:03:24,626][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:24,864][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:25,121][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:25,300][openai._base_client][INFO] - Retrying request to /chat/completions in 0.486856 seconds
+[2026-05-13 12:03:27,084][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:27,798][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:03:28,313][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:03:28,594][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:03:31,485][openai._base_client][INFO] - Retrying request to /chat/completions in 0.397214 seconds
+[2026-05-13 12:03:31,598][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:32,293][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:33,189][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:03:33,383][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:33,900][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:34,661][openai._base_client][INFO] - Retrying request to /chat/completions in 0.409067 seconds
+[2026-05-13 12:03:35,979][openai._base_client][INFO] - Retrying request to /chat/completions in 0.392894 seconds
+[2026-05-13 12:03:36,809][openai._base_client][INFO] - Retrying request to /chat/completions in 0.883374 seconds
+[2026-05-13 12:03:37,526][openai._base_client][INFO] - Retrying request to /chat/completions in 0.755278 seconds
+[2026-05-13 12:03:38,755][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:41,725][openai._base_client][INFO] - Retrying request to /chat/completions in 0.401161 seconds
+[2026-05-13 12:03:42,751][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:46,129][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:03:46,254][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:46,383][__main__][INFO] - Salvamento incremental (440 novas respostas)...
+[2026-05-13 12:03:46,448][__main__][INFO] - Cache salvo com 256844 entradas
+[2026-05-13 12:03:46,448][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:03:46,618][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:50,533][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:51,457][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:52,173][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:52,176][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:52,992][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:55,130][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:57,189][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:57,638][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:57,811][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:03:58,726][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:04:00,253][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:01,299][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:04,563][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:04,649][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:04:04,853][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:05,567][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:06,016][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:04:06,033][openai._base_client][INFO] - Retrying request to /chat/completions in 0.383391 seconds
+[2026-05-13 12:04:07,327][openai._base_client][INFO] - Retrying request to /chat/completions in 0.796982 seconds
+[2026-05-13 12:04:08,388][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:04:08,416][openai._base_client][INFO] - Retrying request to /chat/completions in 0.401720 seconds
+[2026-05-13 12:04:08,903][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:09,371][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:09,684][openai._base_client][INFO] - Retrying request to /chat/completions in 0.478391 seconds
+[2026-05-13 12:04:10,911][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:04:12,038][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:12,042][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:12,856][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:14,188][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:16,080][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:16,500][openai._base_client][INFO] - Retrying request to /chat/completions in 0.380907 seconds
+[2026-05-13 12:04:17,737][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:19,203][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:21,220][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:22,073][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:23,320][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:26,068][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:26,289][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:26,886][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:27,296][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:29,139][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:29,734][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:30,157][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:33,848][__main__][INFO] - Salvamento incremental (480 novas respostas)...
+[2026-05-13 12:04:33,926][__main__][INFO] - Cache salvo com 256884 entradas
+[2026-05-13 12:04:33,927][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:34,669][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:35,036][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:36,819][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:04:36,998][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:38,355][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:39,046][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:04:39,198][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:40,200][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:43,647][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:44,415][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:45,420][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:04:46,160][openai._base_client][INFO] - Retrying request to /chat/completions in 0.383207 seconds
+[2026-05-13 12:04:46,416][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:46,512][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:46,740][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:46,778][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:47,772][openai._base_client][INFO] - Retrying request to /chat/completions in 0.406150 seconds
+[2026-05-13 12:04:47,838][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:49,332][openai._base_client][INFO] - Retrying request to /chat/completions in 0.444122 seconds
+[2026-05-13 12:04:49,932][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:50,846][openai._base_client][INFO] - Retrying request to /chat/completions in 0.468056 seconds
+[2026-05-13 12:04:50,907][openai._base_client][INFO] - Retrying request to /chat/completions in 0.778738 seconds
+[2026-05-13 12:04:51,209][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:53,921][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:54,125][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:55,301][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:55,629][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:55,678][openai._base_client][INFO] - Retrying request to /chat/completions in 0.498852 seconds
+[2026-05-13 12:04:56,993][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:04:58,071][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:00,138][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:05:00,351][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:05:01,086][openai._base_client][INFO] - Retrying request to /chat/completions in 0.818103 seconds
+[2026-05-13 12:05:01,393][openai._base_client][INFO] - Retrying request to /chat/completions in 0.915071 seconds
+[2026-05-13 12:05:07,438][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:07,898][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:08,462][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:08,608][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:09,452][openai._base_client][INFO] - Retrying request to /chat/completions in 0.403183 seconds
+[2026-05-13 12:05:10,303][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:05:10,505][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:10,509][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:13,172][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:13,990][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:15,935][openai._base_client][INFO] - Retrying request to /chat/completions in 0.474538 seconds
+[2026-05-13 12:05:16,017][openai._base_client][INFO] - Retrying request to /chat/completions in 0.487096 seconds
+[2026-05-13 12:05:16,793][openai._base_client][INFO] - Retrying request to /chat/completions in 0.414626 seconds
+[2026-05-13 12:05:18,494][openai._base_client][INFO] - Retrying request to /chat/completions in 0.836487 seconds
+[2026-05-13 12:05:20,238][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:22,283][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:22,347][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:25,255][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:25,258][__main__][INFO] - Salvamento incremental (520 novas respostas)...
+[2026-05-13 12:05:25,327][__main__][INFO] - Cache salvo com 256924 entradas
+[2026-05-13 12:05:25,327][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:25,329][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:25,709][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:26,295][openai._base_client][INFO] - Retrying request to /chat/completions in 0.492823 seconds
+[2026-05-13 12:05:26,331][openai._base_client][INFO] - Retrying request to /chat/completions in 0.413087 seconds
+[2026-05-13 12:05:28,430][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:28,743][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:29,249][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:30,989][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:34,675][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:34,845][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:35,148][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:36,417][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:36,522][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:37,441][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:38,516][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:40,615][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:41,006][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:41,273][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:42,663][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:43,893][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:45,221][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:46,758][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:46,761][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:46,841][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:49,115][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:49,374][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:49,491][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:51,469][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:53,809][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:05:54,715][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:55,485][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:56,378][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:05:56,834][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:57,511][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:57,919][openai._base_client][INFO] - Retrying request to /chat/completions in 0.421717 seconds
+[2026-05-13 12:05:59,566][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:05:59,571][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:06:00,587][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:00,652][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:02,016][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:02,937][openai._base_client][INFO] - Retrying request to /chat/completions in 0.446886 seconds
+[2026-05-13 12:06:03,749][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:04,679][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:04,808][__main__][INFO] - Salvamento incremental (560 novas respostas)...
+[2026-05-13 12:06:04,878][__main__][INFO] - Cache salvo com 256964 entradas
+[2026-05-13 12:06:04,878][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:06:06,255][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:07,038][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:07,853][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:09,474][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:10,676][openai._base_client][INFO] - Retrying request to /chat/completions in 0.488981 seconds
+[2026-05-13 12:06:11,431][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:11,583][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:11,847][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:14,716][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:15,637][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:15,640][openai._base_client][INFO] - Retrying request to /chat/completions in 0.394478 seconds
+[2026-05-13 12:06:16,252][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:16,255][openai._base_client][INFO] - Retrying request to /chat/completions in 0.486246 seconds
+[2026-05-13 12:06:18,708][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:20,861][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:20,873][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:21,677][openai._base_client][INFO] - Retrying request to /chat/completions in 0.845588 seconds
+[2026-05-13 12:06:23,932][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:25,262][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:06:26,592][openai._base_client][INFO] - Retrying request to /chat/completions in 0.469557 seconds
+[2026-05-13 12:06:29,155][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:29,234][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:29,311][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:30,793][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:30,795][openai._base_client][INFO] - Retrying request to /chat/completions in 0.414022 seconds
+[2026-05-13 12:06:31,052][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:31,245][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:06:36,017][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:36,020][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:36,221][openai._base_client][INFO] - Retrying request to /chat/completions in 0.999752 seconds
+[2026-05-13 12:06:36,488][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:37,231][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:37,624][openai._base_client][INFO] - Retrying request to /chat/completions in 0.428120 seconds
+[2026-05-13 12:06:38,984][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:41,750][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:41,754][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:42,874][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:06:43,593][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:06:45,290][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:45,666][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:45,834][__main__][ERROR] - Erro ao consultar o modelo google/gemini-2.5-flash (tentativa 1/3): Error code: 500 - {'error': {'message': '[{\n  "error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n]'}}
+[2026-05-13 12:06:45,834][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-13 12:06:46,766][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:47,585][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:48,055][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:48,673][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:49,325][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:50,249][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:06:50,318][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:51,272][__main__][INFO] - Salvamento incremental (600 novas respostas)...
+[2026-05-13 12:06:51,329][__main__][INFO] - Cache salvo com 257004 entradas
+[2026-05-13 12:06:51,329][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:51,393][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:06:53,626][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:54,954][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:06:55,004][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:06:55,118][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:55,271][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:55,475][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:56,697][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:58,542][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:06:59,155][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:06:59,600][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:00,796][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:01,237][openai._base_client][INFO] - Retrying request to /chat/completions in 0.387097 seconds
+[2026-05-13 12:07:01,958][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:03,765][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:05,404][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:06,530][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:07,163][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:07,489][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:10,048][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:11,377][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:11,407][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:14,313][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:14,776][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:16,097][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:16,975][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:21,174][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:21,579][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:23,734][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:07:24,963][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:25,060][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:07:25,883][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:27,420][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:07:27,932][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:29,006][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:29,442][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:31,540][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:31,749][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:07:34,689][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:34,736][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:34,921][__main__][INFO] - Salvamento incremental (640 novas respostas)...
+[2026-05-13 12:07:34,981][__main__][INFO] - Cache salvo com 257044 entradas
+[2026-05-13 12:07:34,981][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:35,920][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:38,890][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:39,813][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:39,929][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:07:39,939][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:07:40,310][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:41,307][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:07:41,857][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:46,222][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:46,225][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:49,130][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:07:49,948][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:50,768][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:51,485][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:52,407][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:52,816][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:54,925][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:07:55,153][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:07:55,990][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:00,700][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:08:01,316][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:01,426][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:02,545][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:02,548][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:04,284][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:04,671][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:04,755][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:06,744][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:07,035][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:08,995][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:09,532][openai._base_client][INFO] - Retrying request to /chat/completions in 0.399338 seconds
+[2026-05-13 12:08:09,882][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:10,199][openai._base_client][INFO] - Retrying request to /chat/completions in 0.448765 seconds
+[2026-05-13 12:08:11,965][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:08:16,880][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:17,682][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:17,965][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:08:19,133][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:19,477][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:25,686][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:25,959][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:25,966][__main__][INFO] - Salvamento incremental (680 novas respostas)...
+[2026-05-13 12:08:26,023][__main__][INFO] - Cache salvo com 257084 entradas
+[2026-05-13 12:08:26,023][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:26,180][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:26,413][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:27,426][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:28,041][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:28,860][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:31,727][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:31,835][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:32,075][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:32,957][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:33,524][openai._base_client][INFO] - Retrying request to /chat/completions in 0.474549 seconds
+[2026-05-13 12:08:34,479][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:35,927][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:35,931][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:37,975][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:38,183][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:40,637][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:42,480][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:42,993][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:44,732][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:08:46,170][openai._base_client][INFO] - Retrying request to /chat/completions in 0.434066 seconds
+[2026-05-13 12:08:46,274][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:47,395][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:48,215][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:48,496][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:49,239][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:49,272][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:49,479][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:49,728][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:50,332][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:51,798][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:52,924][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:53,019][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:53,641][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:53,655][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:53,740][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:54,462][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:54,465][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:55,952][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:56,612][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:58,763][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:58,766][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:59,096][__main__][INFO] - Salvamento incremental (720 novas respostas)...
+[2026-05-13 12:08:59,150][__main__][INFO] - Cache salvo com 257124 entradas
+[2026-05-13 12:08:59,151][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:08:59,620][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:00,263][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:01,937][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:02,859][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:02,863][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:09:02,864][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:05,215][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:05,218][openai._base_client][INFO] - Retrying request to /chat/completions in 0.400981 seconds
+[2026-05-13 12:09:05,913][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:06,090][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:07,018][openai._base_client][INFO] - Retrying request to /chat/completions in 0.423317 seconds
+[2026-05-13 12:09:07,131][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:08,695][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:08,720][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:08,907][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:10,640][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:10,846][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:11,248][openai._base_client][INFO] - Retrying request to /chat/completions in 0.448622 seconds
+[2026-05-13 12:09:14,123][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:15,248][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:15,349][openai._base_client][INFO] - Retrying request to /chat/completions in 0.755638 seconds
+[2026-05-13 12:09:15,761][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:16,273][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:17,864][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:19,039][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:19,546][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:19,921][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:21,147][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:22,053][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:22,217][__main__][ERROR] - Erro ao consultar o modelo google/gemini-2.5-flash (tentativa 1/3): Error code: 500 - {'error': {'message': '[{\n  "error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n]'}}
+[2026-05-13 12:09:22,218][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-13 12:09:22,326][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:24,466][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:25,385][openai._base_client][INFO] - Retrying request to /chat/completions in 0.381092 seconds
+[2026-05-13 12:09:25,421][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:26,509][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:26,662][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:27,638][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:09:28,150][openai._base_client][INFO] - Retrying request to /chat/completions in 0.485146 seconds
+[2026-05-13 12:09:28,201][openai._base_client][INFO] - Retrying request to /chat/completions in 0.390586 seconds
+[2026-05-13 12:09:30,323][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:32,453][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:32,456][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:33,273][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:35,534][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:36,652][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:09:37,981][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:38,248][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:39,211][__main__][INFO] - Salvamento incremental (760 novas respostas)...
+[2026-05-13 12:09:39,266][__main__][INFO] - Cache salvo com 257164 entradas
+[2026-05-13 12:09:39,266][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:39,377][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:40,644][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:41,360][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:41,473][openai._base_client][INFO] - Retrying request to /chat/completions in 0.449556 seconds
+[2026-05-13 12:09:41,568][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:41,623][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:44,534][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:46,070][openai._base_client][INFO] - Retrying request to /chat/completions in 0.488540 seconds
+[2026-05-13 12:09:46,088][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:46,842][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:47,335][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:51,600][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:09:52,831][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:09:52,835][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:09:53,008][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:09:53,492][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:53,713][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:58,053][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:58,360][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:58,631][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:09:59,391][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:01,328][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:02,149][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:02,537][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:03,069][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:10:03,313][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:03,684][openai._base_client][INFO] - Retrying request to /chat/completions in 0.464709 seconds
+[2026-05-13 12:10:04,316][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:10:04,540][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:04,812][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:05,745][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:05,755][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:07,472][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:10:07,983][openai._base_client][INFO] - Retrying request to /chat/completions in 0.468971 seconds
+[2026-05-13 12:10:08,395][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:10:09,215][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:09,514][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:09,937][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:11,261][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:11,774][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:12,538][openai._base_client][INFO] - Retrying request to /chat/completions in 0.378566 seconds
+[2026-05-13 12:10:12,540][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:14,848][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:10:16,177][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:16,797][__main__][INFO] - Salvamento incremental (800 novas respostas)...
+[2026-05-13 12:10:16,867][__main__][INFO] - Cache salvo com 257204 entradas
+[2026-05-13 12:10:16,868][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:19,465][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:20,454][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:20,938][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:23,756][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:24,984][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:25,165][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:10:25,428][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:25,901][openai._base_client][INFO] - Retrying request to /chat/completions in 0.486820 seconds
+[2026-05-13 12:10:26,398][openai._base_client][INFO] - Retrying request to /chat/completions in 0.402328 seconds
+[2026-05-13 12:10:27,542][openai._base_client][INFO] - Retrying request to /chat/completions in 0.824877 seconds
+[2026-05-13 12:10:27,805][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:30,042][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:30,153][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:30,927][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:31,036][openai._base_client][INFO] - Retrying request to /chat/completions in 0.397407 seconds
+[2026-05-13 12:10:32,665][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:32,967][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:33,541][openai._base_client][INFO] - Retrying request to /chat/completions in 0.492614 seconds
+[2026-05-13 12:10:34,389][openai._base_client][INFO] - Retrying request to /chat/completions in 0.491560 seconds
+[2026-05-13 12:10:34,943][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:36,657][openai._base_client][INFO] - Retrying request to /chat/completions in 0.917534 seconds
+[2026-05-13 12:10:37,168][openai._base_client][INFO] - Retrying request to /chat/completions in 0.776300 seconds
+[2026-05-13 12:10:37,286][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:37,345][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:37,669][openai._base_client][INFO] - Retrying request to /chat/completions in 0.492645 seconds
+[2026-05-13 12:10:38,000][openai._base_client][INFO] - Retrying request to /chat/completions in 0.423145 seconds
+[2026-05-13 12:10:38,938][openai._base_client][INFO] - Retrying request to /chat/completions in 0.899000 seconds
+[2026-05-13 12:10:41,572][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:42,084][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:42,245][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:43,520][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:43,635][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:45,052][openai._base_client][INFO] - Retrying request to /chat/completions in 0.431767 seconds
+[2026-05-13 12:10:45,167][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:10:45,772][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:47,719][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:49,254][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:49,257][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:50,583][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:10:50,639][openai._base_client][INFO] - Retrying request to /chat/completions in 0.486009 seconds
+[2026-05-13 12:10:50,773][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:52,632][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:53,555][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:54,076][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:54,679][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:55,559][openai._base_client][INFO] - Retrying request to /chat/completions in 0.844544 seconds
+[2026-05-13 12:10:57,139][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:10:57,264][__main__][ERROR] - Erro ao consultar o modelo google/gemini-2.5-flash (tentativa 1/3): Error code: 500 - {'error': {'message': '[{\n  "error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n]'}}
+[2026-05-13 12:10:57,264][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-13 12:10:58,982][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:10:59,360][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:00,091][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:11:02,871][openai._base_client][INFO] - Retrying request to /chat/completions in 0.429311 seconds
+[2026-05-13 12:11:03,179][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:03,592][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:04,510][openai._base_client][INFO] - Retrying request to /chat/completions in 0.439263 seconds
+[2026-05-13 12:11:04,511][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:11:05,738][openai._base_client][INFO] - Retrying request to /chat/completions in 0.823958 seconds
+[2026-05-13 12:11:07,023][openai._base_client][INFO] - Retrying request to /chat/completions in 0.434394 seconds
+[2026-05-13 12:11:07,550][__main__][INFO] - Salvamento incremental (840 novas respostas)...
+[2026-05-13 12:11:07,631][__main__][INFO] - Cache salvo com 257244 entradas
+[2026-05-13 12:11:07,632][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:07,633][openai._base_client][INFO] - Retrying request to /chat/completions in 0.417772 seconds
+[2026-05-13 12:11:08,072][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:08,396][openai._base_client][INFO] - Retrying request to /chat/completions in 0.976321 seconds
+[2026-05-13 12:11:09,016][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:11:10,040][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:10,551][openai._base_client][INFO] - Retrying request to /chat/completions in 0.463094 seconds
+[2026-05-13 12:11:10,720][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:10,942][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:12,358][openai._base_client][INFO] - Retrying request to /chat/completions in 0.857270 seconds
+[2026-05-13 12:11:13,315][__main__][ERROR] - Erro ao consultar o modelo google/gemini-2.5-flash (tentativa 1/3): Error code: 500 - {'error': {'message': '[{\n  "error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n]'}}
+[2026-05-13 12:11:13,315][__main__][INFO] - Fazendo retry 2/3 após erro...
+[2026-05-13 12:11:14,240][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:11:15,472][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:16,490][openai._base_client][INFO] - Retrying request to /chat/completions in 0.375278 seconds
+[2026-05-13 12:11:16,602][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:17,925][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:11:18,224][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:18,636][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:19,437][openai._base_client][INFO] - Retrying request to /chat/completions in 0.433662 seconds
+[2026-05-13 12:11:21,408][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:11:22,329][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:23,559][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:11:23,562][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:24,682][openai._base_client][INFO] - Retrying request to /chat/completions in 0.478641 seconds
+[2026-05-13 12:11:25,169][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:25,914][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:28,270][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:29,190][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:29,838][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:30,446][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:11:31,238][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:32,773][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:34,385][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:34,883][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:37,098][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:38,817][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:38,912][openai._base_client][INFO] - Retrying request to /chat/completions in 0.396035 seconds
+[2026-05-13 12:11:39,587][openai._base_client][INFO] - Retrying request to /chat/completions in 0.375875 seconds
+[2026-05-13 12:11:40,362][openai._base_client][INFO] - Retrying request to /chat/completions in 0.423989 seconds
+[2026-05-13 12:11:40,893][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:41,250][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:41,743][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:42,023][openai._base_client][INFO] - Retrying request to /chat/completions in 0.432071 seconds
+[2026-05-13 12:11:42,308][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:11:44,346][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:45,370][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:45,823][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:45,876][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:11:46,046][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:11:48,339][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:48,546][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:48,784][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:50,079][__main__][INFO] - Salvamento incremental (880 novas respostas)...
+[2026-05-13 12:11:50,155][__main__][INFO] - Cache salvo com 257284 entradas
+[2026-05-13 12:11:50,155][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:50,183][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:50,441][openai._base_client][INFO] - Retrying request to /chat/completions in 0.409523 seconds
+[2026-05-13 12:11:51,308][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:51,708][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:52,121][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:53,253][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:53,687][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:55,608][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:11:59,808][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:12:00,523][openai._base_client][INFO] - Retrying request to /chat/completions in 0.408870 seconds
+[2026-05-13 12:12:01,109][openai._base_client][INFO] - Retrying request to /chat/completions in 0.477907 seconds
+[2026-05-13 12:12:01,713][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:03,657][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:03,661][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:04,417][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:04,748][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:05,244][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:06,054][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:06,270][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:12:06,521][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:06,591][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:06,892][openai._base_client][INFO] - Retrying request to /chat/completions in 0.377490 seconds
+[2026-05-13 12:12:07,317][openai._base_client][INFO] - Retrying request to /chat/completions in 0.422454 seconds
+[2026-05-13 12:12:10,150][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:10,219][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:11,073][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:11,511][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:11,831][openai._base_client][INFO] - Retrying request to /chat/completions in 0.469805 seconds
+[2026-05-13 12:12:12,035][openai._base_client][INFO] - Retrying request to /chat/completions in 0.455272 seconds
+[2026-05-13 12:12:12,273][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:14,860][openai._base_client][INFO] - Retrying request to /chat/completions in 0.875174 seconds
+[2026-05-13 12:12:18,241][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:18,245][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:18,854][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:20,594][openai._base_client][INFO] - Retrying request to /chat/completions in 0.409744 seconds
+[2026-05-13 12:12:21,188][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:22,131][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:23,155][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:25,409][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:25,505][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:26,227][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:26,868][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:27,003][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:28,992][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:29,914][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:30,913][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:31,011][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:31,033][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:12:31,498][__main__][INFO] - Salvamento incremental (920 novas respostas)...
+[2026-05-13 12:12:31,578][__main__][INFO] - Cache salvo com 257324 entradas
+[2026-05-13 12:12:31,578][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:12:31,961][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:33,424][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:33,533][openai._base_client][INFO] - Retrying request to /chat/completions in 0.423550 seconds
+[2026-05-13 12:12:35,340][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:36,243][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:36,775][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:36,814][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:37,318][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:37,325][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:38,145][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:40,348][openai._base_client][INFO] - Retrying request to /chat/completions in 0.480112 seconds
+[2026-05-13 12:12:40,507][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:12:41,169][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:41,998][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:44,456][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:44,967][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:46,709][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:48,756][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:12:50,495][openai._base_client][INFO] - Retrying request to /chat/completions in 0.457710 seconds
+[2026-05-13 12:12:51,931][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:53,466][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:55,034][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:56,706][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:12:57,359][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:58,177][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:12:59,383][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:12:59,414][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:01,390][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:01,932][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:02,048][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:13:02,484][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:13:04,013][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:04,349][openai._base_client][INFO] - Retrying request to /chat/completions in 0.392837 seconds
+[2026-05-13 12:13:06,470][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:08,417][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:08,929][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:09,237][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:09,240][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:13:10,874][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:13,129][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:13,947][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:17,631][openai._base_client][INFO] - Retrying request to /chat/completions in 0.382682 seconds
+[2026-05-13 12:13:18,380][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:18,628][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:20,295][__main__][INFO] - Salvamento incremental (960 novas respostas)...
+[2026-05-13 12:13:20,357][__main__][INFO] - Cache salvo com 257364 entradas
+[2026-05-13 12:13:20,357][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:22,376][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:23,367][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:24,085][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:25,006][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:28,078][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:28,331][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:28,454][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:29,640][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:32,839][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:35,042][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:35,406][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:36,476][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:36,886][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:36,999][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:37,807][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:37,810][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:40,225][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:40,648][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:13:41,081][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:41,587][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:13:43,438][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:13:44,154][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:13:44,974][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:46,510][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:46,572][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:46,578][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:13:47,066][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:13:47,196][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:47,713][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo
+[2026-05-13 12:13:48,084][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:48,512][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:48,621][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:50,356][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:50,420][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:51,220][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:51,426][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:52,246][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:52,279][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:53,473][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:53,754][__main__][INFO] - Salvamento incremental (1000 novas respostas)...
+[2026-05-13 12:13:53,809][__main__][INFO] - Cache salvo com 257404 entradas
+[2026-05-13 12:13:53,810][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:13:53,811][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:54,710][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:55,216][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:56,238][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:57,057][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:58,018][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:13:58,805][openai._base_client][INFO] - Retrying request to /chat/completions in 0.439977 seconds
+[2026-05-13 12:14:00,044][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:14:00,926][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:00,967][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:01,664][openai._base_client][INFO] - Retrying request to /chat/completions in 0.469813 seconds
+[2026-05-13 12:14:02,027][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:04,021][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:04,098][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:14:05,865][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:05,923][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:05,927][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:14:06,887][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:08,014][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:09,038][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:10,883][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:11,304][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:12,008][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:12,338][openai._base_client][INFO] - Retrying request to /chat/completions in 0.434772 seconds
+[2026-05-13 12:14:12,344][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:12,403][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:12,525][openai._base_client][INFO] - Retrying request to /chat/completions in 0.469135 seconds
+[2026-05-13 12:14:13,027][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:13,231][openai._base_client][INFO] - Retrying request to /chat/completions in 0.421765 seconds
+[2026-05-13 12:14:14,566][openai._base_client][INFO] - Retrying request to /chat/completions in 0.433565 seconds
+[2026-05-13 12:14:14,726][openai._base_client][INFO] - Retrying request to /chat/completions in 0.860715 seconds
+[2026-05-13 12:14:14,857][openai._base_client][INFO] - Retrying request to /chat/completions in 0.945319 seconds
+[2026-05-13 12:14:14,968][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:14:16,414][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:16,549][openai._base_client][INFO] - Retrying request to /chat/completions in 0.455140 seconds
+[2026-05-13 12:14:16,830][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:19,157][openai._base_client][INFO] - Retrying request to /chat/completions in 0.977282 seconds
+[2026-05-13 12:14:19,228][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:19,505][openai._base_client][INFO] - Retrying request to /chat/completions in 0.757423 seconds
+[2026-05-13 12:14:19,988][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:14:20,182][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:20,494][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:21,224][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo fortemente
+[2026-05-13 12:14:22,350][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:22,466][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Discordo
+[2026-05-13 12:14:23,690][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:27,377][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:27,884][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:27,915][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:28,017][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:31,365][__main__][INFO] - Salvamento incremental (1040 novas respostas)...
+[2026-05-13 12:14:31,417][__main__][INFO] - Cache salvo com 257444 entradas
+[2026-05-13 12:14:31,417][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:32,763][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:35,766][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:35,982][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:36,106][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Neutro
+[2026-05-13 12:14:36,892][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:38,633][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:41,525][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:42,265][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:43,856][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:44,675][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:46,518][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:48,318][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:48,681][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:49,180][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:49,225][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:49,522][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:52,838][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:53,071][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
+[2026-05-13 12:14:53,889][__main__][INFO] - ✓ [google/gemini-2.5-flash] Temp=0.0 Rep=1 → Concordo fortemente
