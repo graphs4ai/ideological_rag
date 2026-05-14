@@ -355,7 +355,7 @@ def plot_ci_geral_por_modelo_com_vs_sem_retriever(df_ip: pd.DataFrame, cfg: Dict
     df_ci['modelo_curto'] = df_ci['modelo'].map(_model_short_name)
     label_by_model = df_ci.drop_duplicates('modelo').set_index('modelo')['modelo_curto'].to_dict()
 
-    fig, ax = plt.subplots(figsize=(11.5, max(9, 0.95 * len(order))))
+    fig, ax = plt.subplots(figsize=(11.5, max(9, 0.75 * len(order))))
     sns.barplot(
         data=df_ci,
         y='modelo',
@@ -779,10 +779,11 @@ def plot_rag_main_effect_ci(df_ip: pd.DataFrame, cfg: DictConfig):
     if df_ci.empty:
         return
 
+
     summary = _prepare_rag_main_effect_summary(df_ci)
     colors = [RAG_COLORS.get(c, "#64748b") for c in summary['condicao']]
 
-    fig, ax = plt.subplots(figsize=(8, 10))
+    fig, ax = plt.subplots(figsize=(8, 8))
     ax.bar(
         summary['condicao'],
         summary['mean'],
@@ -980,7 +981,7 @@ def plot_rag_ipi_dumbbell_2(df_ip: pd.DataFrame, cfg: DictConfig):
     colors = USER_COLORS
     labels = {"esquerda": "Left-Wing User", "neutro": "No-Context User", "direita": "Right-Wing User"}
 
-    fig, ax = plt.subplots(figsize=(11, 14))
+    fig, ax = plt.subplots(figsize=(11, 8))
     x_positions = {c: i for i, c in enumerate(cond_order)}
 
     for cond in cond_order:
@@ -997,7 +998,16 @@ def plot_rag_ipi_dumbbell_2(df_ip: pd.DataFrame, cfg: DictConfig):
     ax.set_xticks(list(x_positions.values()))
     ax.set_xticklabels(cond_order, fontsize=22, rotation=15, ha='right')
     ax.set_ylabel('Ideological Position Index (IPI)', fontsize=24, fontweight='bold')
-    ax.set_ylim(-4, 4)
+    y_values = df_mean[tend_order].to_numpy(dtype=float).ravel()
+    y_values = y_values[np.isfinite(y_values)]
+    if y_values.size > 0:
+        y_min = float(y_values.min())
+        y_max = float(y_values.max())
+        if np.isclose(y_min, y_max):
+            y_pad = max(0.2, abs(y_min) * 0.05 + 0.1)
+        else:
+            y_pad = 0.05 * (y_max - y_min)
+        ax.set_ylim(y_min - y_pad, y_max + y_pad)
     ax.tick_params(axis='y', labelsize=22)
     ax.grid(axis='y', alpha=0.3, linestyle=':')
 
