@@ -1,83 +1,193 @@
-# Ideological Chameleon
+# Ideological RAG
 
-Research project investigating the behavior of language models (LLMs) regarding political positions in the Brazilian context.
+Research project for evaluating how context retrieved from Wikipedia changes the ideological behavior of language models on Brazilian political statements.
 
-## Description
+The experiment compares LLM responses across conditions without retrieval, with relevant retrieval, and with irrelevant retrieval. Responses are collected on a Likert scale and then converted into metrics such as the **Ideological Position Index (IPI)** and the **Chameleon Index (CI)**.
 
-This project evaluates how different LLMs respond to political statements when exposed to prompts simulating users with different ideological orientations (left, right, or neutral). The goal is to measure the **Ideological Position Index (IPI)** and the **Chameleon Index (CI)** to analyze whether models adapt their responses according to the political bias suggested in the prompt.
+## Objective
 
-## Features
+This project investigates whether adding external context through RAG reduces, increases, or reorganizes models' ideological adaptation when they answer pairs of political statements.
 
-- **Statement pair generation**: Creates pairs of political statements about Brazilian topics using LLMs
-- **Statement validation**: Validates whether generated statements are effectively aligned with expected political spectrums
-- **Response collection**: Evaluates multiple models at different temperatures and prompt conditions
-- **Statistical analysis**: Calculates polarization indices and generates result visualizations
+Each model answers the same statements under three user profiles:
 
-## Project Structure
+- a user identified with the political left;
+- a user identified with the political right;
+- a neutral user, with no explicit ideological context.
 
+For each statement, the model must answer with exactly one of the following options:
+
+- `Discordo fortemente`
+- `Discordo`
+- `Neutro`
+- `Concordo`
+- `Concordo fortemente`
+
+## Experimental Design
+
+The input data is stored in `dados/pairs.json`. Each item contains:
+
+- `pair_id`: pair identifier;
+- `eixo`: thematic axis;
+- `p_minus`: statement associated with one position;
+- `p_plus`: opposing statement;
+- `wiki`: Wikipedia page used to retrieve relevant context.
+
+The RAG conditions are defined in `conf/config.yaml`:
+
+- `top_k = 0`: baseline without retrieval;
+- `top_k = 1, 3, 5`: relevant retrieval from the pair's Wikipedia page;
+- `top_k = 3` with irrelevant URLs: irrelevant-context controls.
+
+The Wikipedia FAISS index is stored in `wiki_faiss_store/` and used by `src/main/wiki_retrieval.py`.
+
+## Metrics
+
+### Ideological Position Index (IPI)
+
+IPI is computed from the average difference between responses to each `P+` and `P-` pair, aggregated by model, ideological tendency, and RAG condition.
+
+### Chameleon Index (CI)
+
+CI measures how much a model's response changes as a function of the user's ideological profile. It is computed as:
+
+```text
+CI = |IPI_left - IPI_neutral| + |IPI_right - IPI_neutral|
 ```
+
+A higher CI indicates greater model sensitivity to the user's ideological framing.
+
+## Structure
+
+```text
 .
-├── main.py                  # Main script for collecting LLM responses
-├── create_pairs.py          # Political statement pair generation
-├── validate_pairs.py        # Validation of generated statements
-├── run_analysis.py          # Statistical analysis and chart generation
-├── conf/                    # Configuration files (YAML)
-├── dados/                   # Input and output data
-├── src/                     # Modular source code
-│   ├── analysis/           # Analysis modules (statistics, charts)
-│   └── main/               # General utilities
-├── outputs/                 # Execution results
-└── analises_figures/        # Generated figures (PDF, PNG, SVG)
+├── main.py                         # Collects model responses with/without RAG
+├── run_analysis.py                 # Processes responses and generates figures
+├── validate_pairs.py               # Auxiliary pair validation
+├── merge_caches.py                 # Utility for merging caches
+├── conf/
+│   ├── config.yaml                 # Models, prompts, RAG settings, collection files
+│   ├── analysis_config.yaml        # Analysis and figure settings
+│   └── validate_config.yaml        # Validation settings
+├── dados/
+│   ├── pairs.json                  # Political statement pairs
+│   ├── respostas.csv               # Collected responses
+│   └── cache*.pkl                  # API call caches
+├── src/
+│   ├── main/
+│   │   ├── utils.py                # API clients, cache, response validation
+│   │   └── wiki_retrieval.py       # FAISS retrieval + embeddings
+│   └── analysis/
+│       ├── processing.py           # Cleaning and IPI computation
+│       ├── plotting.py             # Figures
+│       └── statistics.py           # Auxiliary statistics
+├── tests/                          # Unit tests
+├── wiki_faiss_store/               # Local Wikipedia index
+└── analises_figures/               # Figures in PNG, SVG, and PDF
 ```
 
-## Configuration
+## Installation
 
-Project configurations are in YAML files in the `conf/` folder:
+The project uses Pixi to manage the environment.
 
-- `config.yaml`: Models to evaluate, temperatures, ideological prompts
-- `analysis_config.yaml`: Settings for analysis and chart generation
-- `create_and_validate_pairs_config.yaml`: Settings for pair creation
-- `validate_config.yaml`: Settings for validation
+```bash
+pixi install
+```
 
-## Evaluated Models
+Main dependencies:
 
-The project evaluates several language models, including:
+- Python 3.12
+- pandas
+- scipy
+- seaborn/matplotlib
+- hydra-core
+- openai
+- google-genai
+- xai-sdk
+- faiss-cpu
 
-- **Brazilian models**: Maritaca (Sabia-3.1)
-- **Google**: Gemma (multiple versions), Gemini
-- **Meta**: LLaMA (multiple versions)
-- **Mistral AI**: Mixtral, Mistral Small
-- **OpenAI**: GPT (multiple versions)
-- **Qwen**, **DeepSeek**, **Microsoft Phi**, **NVIDIA Nemotron**, **Grok**
+## Environment Variables
 
-## Thematic Axes
+Create a `.env` file with the keys required by the providers used in `conf/config.yaml`:
 
-Political statements cover 7 thematic axes:
+```text
+OPEN_AI_API_KEY=...
+DEEPINFRA_API_KEY=...
+GEMINI_API_KEY=...
+GROK_API_KEY=...
+MARITACA_API_KEY=...
+OLLAMA_HOST=...
+```
 
-1. Social Policies
-2. Economy
-3. Public Security
-4. Environment
-5. Democratic Institutions
-6. Corruption and Justice
-7. Education and Culture
+`DEEPINFRA_API_KEY` is also used for query embeddings in Wikipedia retrieval when `WIKI_EMBEDDING_MODEL` points to a model served by DeepInfra.
 
-## Data Output
+## How to Run
 
-- **Responses**: CSV with all model responses (`dados/respostas_finais.csv`)
-- **Validated pairs**: JSON with validated statement pairs
-- **Analyses**: Charts in multiple formats (PDF, PNG, SVG)
-- **Cache**: Caching system to optimize API requests
+### Collect responses
 
-## Technologies
+```bash
+pixi run start
+```
 
-- **Python 3.12**
-- **Hydra**: Configuration management
-- **Pandas**: Data manipulation
-- **Seaborn/Matplotlib**: Visualization
-- **LLM APIs**: OpenAI, DeepInfra, Maritaca, Grok, Google
+This command runs `main.py`, reads `dados/pairs.json`, queries the models defined in `conf/config.yaml`, and saves:
 
-## Author
+- responses to `dados/respostas.csv`;
+- cache data to `dados/cache.pkl`.
+
+### Generate analyses and figures
+
+```bash
+pixi run analises
+```
+
+This command runs `run_analysis.py`, reads `dados/respostas.csv`, and saves figures to:
+
+- `analises_figures/png/`
+- `analises_figures/svg/`
+- `analises_figures/pdf/`
+
+## Main Configuration
+
+In `conf/config.yaml`:
+
+- `MODELOS_A_AVALIAR`: `[model, provider]` pairs;
+- `TEMPERATURES`: evaluated temperatures;
+- `REPETICOES_POR_TEMP`: repetitions per temperature;
+- `ARQUIVO_PERGUNTAS`: JSON file with political statement pairs;
+- `ARQUIVO_CACHE`: response cache;
+- `ARQUIVO_SAIDA`: final CSV output;
+- `PROMPT_ESQUERDA`, `PROMPT_DIREITA`, `PROMPT_NEUTRO`: user profiles;
+- `TOP_N_CHUNKS`: relevant-retrieval conditions;
+- `WIKI_STORE_DIR`: FAISS index directory;
+- `WIKI_EMBEDDING_MODEL`: embedding model for queries;
+- `WIKI_IRRELEVANT_URLS`: pages used as irrelevant controls.
+
+In `conf/analysis_config.yaml`:
+
+- `paths.input_file`: CSV used for analysis;
+- `paths.output_dir`: figure output directory;
+- `analysis.likert_map`: Likert-to-numeric mapping;
+- `analysis.save_plots`: controls whether figures are saved.
+
+## Supported Providers
+
+The code currently supports calls to:
+
+- DeepInfra
+- OpenAI
+- Google Gemini
+- xAI/Grok
+- Maritaca
+- Ollama
+
+The provider for each model is defined in the second position of each entry in `MODELOS_A_AVALIAR`.
+
+## Notes
+
+- Collection is asynchronous and uses provider-specific semaphores to control concurrency.
+- The cache includes the RAG context in the hash, preventing response reuse when the retrieved context changes.
+- Relevant retrieval is restricted to the Wikipedia page associated with the statement pair; irrelevant controls use manually defined URLs.
+- Figures and statistics are derived from valid responses after Likert mapping.
+
+## Authors
 
 Anderson Soares (a241149@dac.unicamp.br)
-Bruno Veiga (b.veiga74@gmail.com)
