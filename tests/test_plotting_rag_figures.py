@@ -3,12 +3,15 @@ import unittest
 import pandas as pd
 
 from src.analysis.plotting import (
+    _baseline_first_order,
     _compute_ci_by_condition,
     _map_rag_condition,
+    _paired_wilcoxon_ci,
     _model_short_name,
     _prepare_rag_ci_by_model,
     _prepare_rag_main_effect_summary,
     _prepare_retriever_ci_comparison,
+    _summarize_retriever_ci_reduction,
 )
 
 
@@ -91,6 +94,55 @@ class RagCiAggregationTests(unittest.TestCase):
 
         self.assertEqual(out["condicao"].tolist(), ["Baseline", "Top-3 Rel"])
 
+    def test_paired_wilcoxon_uses_greater_when_first_condition_median_is_higher(self):
+        df_ci = pd.DataFrame(
+            {
+                "condicao": ["Baseline", "Top-3 Rel"] * 3,
+                "modelo": ["m1", "m1", "m2", "m2", "m3", "m3"],
+                "chameleon_index": [5.0, 2.0, 6.0, 3.0, 7.0, 4.0],
+            }
+        )
+
+        out = _paired_wilcoxon_ci(df_ci, "Baseline", "Top-3 Rel")
+
+        self.assertEqual(out["alternative"], "greater")
+        self.assertEqual(out["n_pairs"], 3)
+        self.assertLessEqual(out["p_value"], 0.25)
+
+    def test_paired_wilcoxon_uses_less_when_first_condition_median_is_lower(self):
+        df_ci = pd.DataFrame(
+            {
+                "condicao": ["Top-3 Rel", "Baseline"] * 3,
+                "modelo": ["m1", "m1", "m2", "m2", "m3", "m3"],
+                "chameleon_index": [2.0, 5.0, 3.0, 6.0, 4.0, 7.0],
+            }
+        )
+
+        out = _paired_wilcoxon_ci(df_ci, "Top-3 Rel", "Baseline")
+
+        self.assertEqual(out["alternative"], "less")
+        self.assertEqual(out["n_pairs"], 3)
+        self.assertLessEqual(out["p_value"], 0.25)
+
+    def test_baseline_first_order_keeps_baseline_as_reference(self):
+        out = _baseline_first_order(["Top-3 Rel", "Baseline", "Top-1 Rel"])
+
+        self.assertEqual(out, ["Baseline", "Top-3 Rel", "Top-1 Rel"])
+
+    def test_paired_wilcoxon_accepts_two_sided_alternative(self):
+        df_ci = pd.DataFrame(
+            {
+                "condicao": ["Baseline", "Top-3 Rel"] * 3,
+                "modelo": ["m1", "m1", "m2", "m2", "m3", "m3"],
+                "chameleon_index": [5.0, 2.0, 6.0, 3.0, 7.0, 4.0],
+            }
+        )
+
+        out = _paired_wilcoxon_ci(df_ci, "Baseline", "Top-3 Rel", alternative="two-sided")
+
+        self.assertEqual(out["alternative"], "two-sided")
+        self.assertEqual(out["n_pairs"], 3)
+
     def test_prepare_retriever_ci_comparison_uses_only_relevant_rag(self):
         df_ip = pd.DataFrame(
             {
@@ -109,6 +161,29 @@ class RagCiAggregationTests(unittest.TestCase):
         self.assertEqual(set(out["retriever"]), {"Without retriever", "With relevant retriever"})
         with_retriever = out[out["retriever"] == "With relevant retriever"]["chameleon_index"].iloc[0]
         self.assertAlmostEqual(with_retriever, 4.0)
+
+    def test_summarize_retriever_ci_reduction_uses_decreased_models_only(self):
+        df_ci = pd.DataFrame(
+            {
+                "modelo": ["m1", "m1", "m2", "m2", "m3", "m3"],
+                "retriever": [
+                    "Without retriever",
+                    "With relevant retriever",
+                    "Without retriever",
+                    "With relevant retriever",
+                    "Without retriever",
+                    "With relevant retriever",
+                ],
+                "chameleon_index": [10.0, 5.0, 20.0, 10.0, 10.0, 12.0],
+            }
+        )
+
+        out = _summarize_retriever_ci_reduction(df_ci)
+
+        self.assertEqual(out["n_decreased"], 2)
+        self.assertEqual(out["n_total"], 3)
+        self.assertAlmostEqual(out["mean_pct"], 50.0)
+        self.assertAlmostEqual(out["std_pct"], 0.0)
 
 
 if __name__ == "__main__":

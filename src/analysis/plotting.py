@@ -5,6 +5,7 @@ import numpy as np
 import os
 import re
 from omegaconf import DictConfig
+from scipy.stats import wilcoxon
 
 RAG_COLORS = {
     "Baseline": "#334155",
@@ -73,6 +74,70 @@ def _prepare_rag_main_effect_summary(df_ci: pd.DataFrame) -> pd.DataFrame:
     summary["sem"] = summary["std"] / summary["count"].clip(lower=1).pow(0.5)
     summary["ci95"] = 1.96 * summary["sem"].fillna(0)
     return summary.sort_values("mean", ascending=False).reset_index(drop=True)
+
+
+def _p_value_stars(p_value: float) -> str:
+    if pd.isna(p_value):
+        return "n.s."
+    if p_value < 0.0001:
+        return "***"
+    if p_value < 0.001:
+        return "**"
+    if p_value < 0.01:
+        return "*"
+    return "n.s."
+
+
+def _paired_wilcoxon_ci(
+    df_ci: pd.DataFrame,
+    cond_a: str,
+    cond_b: str,
+    alternative: str | None = None,
+) -> dict:
+    """Paired Wilcoxon over model-level CI, using a directional median test."""
+    paired = (
+        df_ci[df_ci["condicao"].isin([cond_a, cond_b])]
+        .pivot_table(index="modelo", columns="condicao", values="chameleon_index", aggfunc="mean")
+        .dropna(subset=[cond_a, cond_b])
+    )
+    if len(paired) < 2:
+        return {
+            "cond_a": cond_a,
+            "cond_b": cond_b,
+            "p_value": np.nan,
+            "alternative": None,
+            "n_pairs": len(paired),
+        }
+
+    median_a = paired[cond_a].median()
+    median_b = paired[cond_b].median()
+    alternative = alternative or ("greater" if median_a >= median_b else "less")
+
+    try:
+        result = wilcoxon(
+            paired[cond_a],
+            paired[cond_b],
+            alternative=alternative,
+            zero_method="wilcox",
+            method="auto",
+        )
+        p_value = float(result.pvalue)
+    except ValueError:
+        p_value = np.nan
+
+    return {
+        "cond_a": cond_a,
+        "cond_b": cond_b,
+        "p_value": p_value,
+        "alternative": alternative,
+        "n_pairs": len(paired),
+    }
+
+
+def _baseline_first_order(cond_order: list[str]) -> list[str]:
+    if "Baseline" not in cond_order:
+        return cond_order
+    return ["Baseline"] + [cond for cond in cond_order if cond != "Baseline"]
 
 def save_fig(fig, name: str, cfg: DictConfig):
     if cfg.analysis.save_plots:
@@ -332,6 +397,36 @@ def _prepare_retriever_ci_comparison(df_ip: pd.DataFrame) -> pd.DataFrame:
     return df_ci
 
 
+def _summarize_retriever_ci_reduction(df_ci: pd.DataFrame) -> dict:
+    paired = (
+        df_ci.pivot_table(index='modelo', columns='retriever', values='chameleon_index', aggfunc='mean')
+        .dropna(subset=['Without retriever', 'With relevant retriever'])
+    )
+    if paired.empty:
+        return {
+            'n_decreased': 0,
+            'n_total': 0,
+            'mean_pct': np.nan,
+            'std_pct': np.nan,
+        }
+
+    decreased = paired[paired['With relevant retriever'] < paired['Without retriever']].copy()
+    valid_denominator = decreased['Without retriever'] != 0
+    decreased = decreased[valid_denominator]
+    reductions_pct = (
+        (decreased['Without retriever'] - decreased['With relevant retriever'])
+        / decreased['Without retriever']
+        * 100
+    )
+
+    return {
+        'n_decreased': int((paired['With relevant retriever'] < paired['Without retriever']).sum()),
+        'n_total': int(len(paired)),
+        'mean_pct': float(reductions_pct.mean()) if not reductions_pct.empty else np.nan,
+        'std_pct': float(reductions_pct.std(ddof=1)) if len(reductions_pct) > 1 else 0.0,
+    }
+
+
 def plot_ci_geral_por_modelo_com_vs_sem_retriever(df_ip: pd.DataFrame, cfg: DictConfig):
     """CI geral por modelo, comparando com vs sem retriever."""
     if df_ip.empty:
@@ -342,6 +437,21 @@ def plot_ci_geral_por_modelo_com_vs_sem_retriever(df_ip: pd.DataFrame, cfg: Dict
     if df_ci.empty:
         print("Aviso: não foi possível calcular CI (faltam tendências esquerda/neutro/direita).")
         return
+
+    reduction_summary = _summarize_retriever_ci_reduction(df_ci)
+    if pd.isna(reduction_summary['mean_pct']):
+        print(
+            "Dos "
+            f"{reduction_summary['n_decreased']}/{reduction_summary['n_total']} "
+            "modelos que diminuíram, não foi possível calcular a redução média percentual."
+        )
+    else:
+        print(
+            "Dos "
+            f"{reduction_summary['n_decreased']}/{reduction_summary['n_total']} "
+            "modelos que diminuíram houve uma redução média de "
+            f"{reduction_summary['mean_pct']:.1f}% +- {reduction_summary['std_pct']:.1f}%."
+        )
 
     # Ordena modelos pela média de CI (desc)
     order = (
@@ -802,6 +912,266 @@ def plot_rag_main_effect_ci(df_ip: pd.DataFrame, cfg: DictConfig):
     plt.close()
 
 
+def plot_rag_main_effect_ci_box_plot(df_ip: pd.DataFrame, cfg: DictConfig):
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_ci = _prepare_rag_ci_by_model(df_ip)
+    if df_ci.empty:
+        return
+
+    summary = _prepare_rag_main_effect_summary(df_ci)
+    cond_order = summary['condicao'].tolist()
+    if len(cond_order) < 2:
+        return
+
+    df_plot = df_ci[df_ci['condicao'].isin(cond_order)].copy()
+    df_plot['condicao'] = pd.Categorical(df_plot['condicao'], categories=cond_order, ordered=True)
+    colors = [RAG_COLORS.get(c, "#64748b") for c in cond_order]
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    sns.boxplot(
+        data=df_plot,
+        x='condicao',
+        y='chameleon_index',
+        hue='condicao',
+        order=cond_order,
+        hue_order=cond_order,
+        palette=colors,
+        legend=False,
+        width=0.58,
+        showfliers=False,
+        ax=ax,
+    )
+    sns.stripplot(
+        data=df_plot,
+        x='condicao',
+        y='chameleon_index',
+        order=cond_order,
+        color="#111827",
+        alpha=0.55,
+        size=5,
+        jitter=0.12,
+        ax=ax,
+    )
+
+    y_min = df_plot['chameleon_index'].min()
+    y_max = df_plot['chameleon_index'].max()
+    y_range = max(y_max - y_min, 1.0)
+    bracket_height = 0.035 * y_range
+    bracket_gap = 0.075 * y_range
+    top_y = y_max + bracket_gap
+
+    for i, (cond_a, cond_b) in enumerate(zip(cond_order[:-1], cond_order[1:])):
+        test = _paired_wilcoxon_ci(df_ci, cond_a, cond_b)
+        p_value = test["p_value"]
+        stars = _p_value_stars(p_value)
+        p_text = "p = n/a" if pd.isna(p_value) else f"p = {p_value:.3g}"
+        y = top_y + i * (bracket_gap + bracket_height)
+
+        ax.plot(
+            [i, i, i + 1, i + 1],
+            [y, y + bracket_height, y + bracket_height, y],
+            color="#111827",
+            linewidth=1.3,
+        )
+        ax.text(
+            i + 0.5,
+            y + bracket_height + 0.01 * y_range,
+            f"{stars}\n{p_text}",
+            ha='center',
+            va='bottom',
+            fontsize=13,
+            color="#111827",
+        )
+
+    ax.set_ylim(y_min - 0.05 * y_range, top_y + len(cond_order) * (bracket_gap + bracket_height))
+    ax.set_ylabel('Chameleon Index (CI)', fontsize=22, fontweight='bold')
+    ax.set_xlabel('RAG Condition', fontsize=22, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=18, rotation=25)
+    ax.tick_params(axis='y', labelsize=18)
+    ax.grid(axis='y', alpha=0.3, linestyle=':')
+    plt.tight_layout()
+    save_fig(fig, 'rag_main_effect_ci_box_plot', cfg)
+    plt.close()
+
+
+def plot_rag_main_effect_ci_box_plot_2(df_ip: pd.DataFrame, cfg: DictConfig):
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_ci = _prepare_rag_ci_by_model(df_ip)
+    if df_ci.empty:
+        return
+
+    summary = _prepare_rag_main_effect_summary(df_ci)
+    cond_order = summary['condicao'].tolist()
+    if "Baseline" not in cond_order or len(cond_order) < 2:
+        return
+
+    cond_order = _baseline_first_order(cond_order)
+    df_plot = df_ci[df_ci['condicao'].isin(cond_order)].copy()
+    df_plot['condicao'] = pd.Categorical(df_plot['condicao'], categories=cond_order, ordered=True)
+    colors = [RAG_COLORS.get(c, "#64748b") for c in cond_order]
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    sns.boxplot(
+        data=df_plot,
+        x='condicao',
+        y='chameleon_index',
+        hue='condicao',
+        order=cond_order,
+        hue_order=cond_order,
+        palette=colors,
+        legend=False,
+        width=0.58,
+        showfliers=False,
+        ax=ax,
+    )
+    sns.stripplot(
+        data=df_plot,
+        x='condicao',
+        y='chameleon_index',
+        order=cond_order,
+        color="#111827",
+        alpha=0.55,
+        size=5,
+        jitter=0.12,
+        ax=ax,
+    )
+
+    y_min = df_plot['chameleon_index'].min()
+    y_max = df_plot['chameleon_index'].max()
+    y_range = max(y_max - y_min, 1.0)
+    bracket_height = 0.035 * y_range
+    bracket_gap = 0.075 * y_range
+    top_y = y_max + bracket_gap
+
+    baseline = "Baseline"
+    comparison_conds = [cond for cond in cond_order if cond != baseline]
+    for i, cond in enumerate(comparison_conds):
+        x_baseline = cond_order.index(baseline)
+        x_cond = cond_order.index(cond)
+        test = _paired_wilcoxon_ci(df_ci, baseline, cond)
+        p_value = test["p_value"]
+        stars = _p_value_stars(p_value)
+        y = top_y + i * (bracket_gap + bracket_height)
+
+        ax.plot(
+            [x_baseline, x_baseline, x_cond, x_cond],
+            [y, y + bracket_height, y + bracket_height, y],
+            color="#111827",
+            linewidth=1.3,
+        )
+        ax.text(
+            (x_baseline + x_cond) / 2,
+            y + bracket_height + 0.01 * y_range,
+            stars,
+            ha='center',
+            va='bottom',
+            fontsize=13,
+            color="#111827",
+        )
+
+    ax.set_ylim(y_min - 0.05 * y_range, top_y + len(comparison_conds) * (bracket_gap + bracket_height))
+    ax.set_ylabel('Chameleon Index (CI)', fontsize=22, fontweight='bold')
+    ax.set_xlabel('RAG Condition', fontsize=22, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=18, rotation=25)
+    ax.tick_params(axis='y', labelsize=18)
+    ax.grid(axis='y', alpha=0.3, linestyle=':')
+    plt.tight_layout()
+    save_fig(fig, 'rag_main_effect_ci_box_plot_2', cfg)
+    plt.close()
+
+
+def plot_rag_main_effect_ci_box_plot_3(df_ip: pd.DataFrame, cfg: DictConfig):
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_ci = _prepare_rag_ci_by_model(df_ip)
+    if df_ci.empty:
+        return
+
+    summary = _prepare_rag_main_effect_summary(df_ci)
+    cond_order = summary['condicao'].tolist()
+    if "Baseline" not in cond_order or len(cond_order) < 2:
+        return
+
+    cond_order = _baseline_first_order(cond_order)
+    df_plot = df_ci[df_ci['condicao'].isin(cond_order)].copy()
+    df_plot['condicao'] = pd.Categorical(df_plot['condicao'], categories=cond_order, ordered=True)
+    colors = [RAG_COLORS.get(c, "#64748b") for c in cond_order]
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    sns.boxplot(
+        data=df_plot,
+        x='condicao',
+        y='chameleon_index',
+        hue='condicao',
+        order=cond_order,
+        hue_order=cond_order,
+        palette=colors,
+        legend=False,
+        width=0.58,
+        showfliers=False,
+        ax=ax,
+    )
+    sns.stripplot(
+        data=df_plot,
+        x='condicao',
+        y='chameleon_index',
+        order=cond_order,
+        color="#111827",
+        alpha=0.55,
+        size=5,
+        jitter=0.12,
+        ax=ax,
+    )
+
+    y_min = df_plot['chameleon_index'].min()
+    y_max = df_plot['chameleon_index'].max()
+    y_range = max(y_max - y_min, 1.0)
+    bracket_height = 0.035 * y_range
+    bracket_gap = 0.075 * y_range
+    top_y = y_max + bracket_gap
+
+    baseline = "Baseline"
+    comparison_conds = [cond for cond in cond_order if cond != baseline]
+    for i, cond in enumerate(comparison_conds):
+        x_baseline = cond_order.index(baseline)
+        x_cond = cond_order.index(cond)
+        test = _paired_wilcoxon_ci(df_ci, baseline, cond, alternative="two-sided")
+        p_value = test["p_value"]
+        stars = _p_value_stars(p_value)
+        y = top_y + i * (bracket_gap + bracket_height)
+
+        ax.plot(
+            [x_baseline, x_baseline, x_cond, x_cond],
+            [y, y + bracket_height, y + bracket_height, y],
+            color="#111827",
+            linewidth=1.3,
+        )
+        ax.text(
+            (x_baseline + x_cond) / 2,
+            y + bracket_height + 0.01 * y_range,
+            stars,
+            ha='center',
+            va='bottom',
+            fontsize=13,
+            color="#111827",
+        )
+
+    ax.set_ylim(y_min - 0.05 * y_range, top_y + len(comparison_conds) * (bracket_gap + bracket_height))
+    ax.set_ylabel('Chameleon Index (CI)', fontsize=22, fontweight='bold')
+    ax.set_xlabel('RAG Condition', fontsize=22, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=18, rotation=25)
+    ax.tick_params(axis='y', labelsize=18)
+    ax.grid(axis='y', alpha=0.3, linestyle=':')
+    plt.tight_layout()
+    save_fig(fig, 'rag_main_effect_ci_box_plot_3', cfg)
+    plt.close()
+
+
 def plot_rag_main_effect_ci_3(df_ip: pd.DataFrame, cfg: DictConfig):
     if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
         return
@@ -1028,6 +1398,110 @@ def plot_rag_ipi_dumbbell_2(df_ip: pd.DataFrame, cfg: DictConfig):
 
     plt.tight_layout(rect=[0, 0.08, 1, 1])
     save_fig(fig, 'rag_ipi_dumbbell_2', cfg)
+    plt.close()
+
+
+def plot_rag_ipi_dumbbell_3(df_ip: pd.DataFrame, cfg: DictConfig):
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_ci = _prepare_rag_ci_by_model(df_ip)
+    required_ip_cols = {'esquerda', 'neutro', 'direita'}
+    if df_ci.empty or not required_ip_cols.issubset(set(df_ci.columns)):
+        return
+
+    tend_order = ["esquerda", "neutro", "direita"]
+    df_mean = (
+        df_ci.groupby('condicao')[tend_order]
+        .mean()
+        .reset_index()
+    )
+    df_std = (
+        df_ci.groupby('condicao')[tend_order]
+        .std()
+        .fillna(0)
+        .reset_index()
+    )
+
+    # Maior amplitude à esquerda: Baseline costuma ser a primeira condição.
+    df_mean['shift'] = (df_mean['esquerda'] - df_mean['direita']).abs()
+    cond_order = df_mean.sort_values('shift', ascending=False)['condicao'].tolist()
+
+    colors = USER_COLORS
+    labels = {"esquerda": "Left-Wing User", "neutro": "No-Context User", "direita": "Right-Wing User"}
+
+    fig, ax = plt.subplots(figsize=(11, 8))
+    x_positions = {c: i for i, c in enumerate(cond_order)}
+
+    for cond in cond_order:
+        mean_subset = df_mean[df_mean['condicao'] == cond]
+        std_subset = df_std[df_std['condicao'] == cond]
+        if mean_subset.empty or std_subset.empty:
+            continue
+
+        mean_row = mean_subset.iloc[0]
+        std_row = std_subset.iloc[0]
+        ys = [mean_row[t] for t in tend_order]
+        yerrs = [std_row[t] for t in tend_order]
+        x = x_positions[cond]
+
+        ax.plot([x] * len(ys), ys, color='#b0b0b0', linewidth=2, zorder=1)
+        for t, y, yerr in zip(tend_order, ys, yerrs):
+            ax.errorbar(
+                x,
+                y,
+                yerr=yerr,
+                fmt='o',
+                color=colors[t],
+                ecolor=colors[t],
+                markersize=11,
+                elinewidth=1.8,
+                capsize=4,
+                capthick=1.6,
+                alpha=0.95,
+                zorder=2,
+            )
+
+    ax.axhline(0, color='black', linestyle='--', linewidth=1.2, alpha=0.6)
+    ax.set_xticks(list(x_positions.values()))
+    ax.set_xticklabels(cond_order, fontsize=22, rotation=15, ha='right')
+    ax.set_ylabel('Ideological Position Index (IPI)', fontsize=24, fontweight='bold')
+
+    y_mean_values = df_mean[tend_order].to_numpy(dtype=float).ravel()
+    y_std_values = df_std[tend_order].to_numpy(dtype=float).ravel()
+    lower_values = y_mean_values - y_std_values
+    upper_values = y_mean_values + y_std_values
+    y_values = np.concatenate([lower_values, upper_values])
+    y_values = y_values[np.isfinite(y_values)]
+    if y_values.size > 0:
+        y_min = float(y_values.min())
+        y_max = float(y_values.max())
+        if np.isclose(y_min, y_max):
+            y_pad = max(0.2, abs(y_min) * 0.05 + 0.1)
+        else:
+            y_pad = 0.05 * (y_max - y_min)
+        ax.set_ylim(y_min - y_pad, y_max + y_pad)
+
+    ax.tick_params(axis='y', labelsize=22)
+    ax.grid(axis='y', alpha=0.3, linestyle=':')
+
+    handles = [
+        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=colors[t], markersize=14, label=labels[t])
+        for t in tend_order
+    ]
+    ax.legend(
+        handles=handles,
+        loc='upper center',
+        bbox_to_anchor=(0.5, -0.1),
+        ncol=3,
+        frameon=False,
+        fontsize=20,
+        columnspacing=1.6,
+        handletextpad=0.6,
+    )
+
+    plt.tight_layout(rect=[0, 0.08, 1, 1])
+    save_fig(fig, 'rag_ipi_dumbbell_3', cfg)
     plt.close()
 
 
