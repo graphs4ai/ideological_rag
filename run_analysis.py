@@ -35,6 +35,7 @@ def main(cfg: DictConfig) -> None:
     plotting.plot_rag_main_effect_ci_box_plot(df_ip, cfg)
     plotting.plot_rag_main_effect_ci_box_plot_2(df_ip, cfg)
     plotting.plot_rag_main_effect_ci_box_plot_3(df_ip, cfg)
+    plotting.plot_rag_main_effect_ci_box_plot_4(df_ip, cfg)
     # plotting.plot_rag_main_effect_ci_2(df_ip, cfg)
     # plotting.plot_rag_main_effect_ci_3(df_ip, cfg)
     # plotting.plot_rag_ipi_dumbbell(df_ip, cfg)

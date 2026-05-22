@@ -88,6 +88,32 @@ def _p_value_stars(p_value: float) -> str:
     return "n.s."
 
 
+def _holm_adjust_pvalues(p_values: list[float]) -> list[float]:
+    """Holm (step-down Bonferroni) adjustment.
+
+    - Keeps the input order.
+    - Ignores NaNs in the multiplicity count and returns NaN for them.
+    """
+    adjusted: list[float] = [np.nan for _ in p_values]
+    valid_idx = [i for i, p in enumerate(p_values) if not pd.isna(p)]
+    m = len(valid_idx)
+    if m == 0:
+        return adjusted
+
+    sorted_pairs = sorted(((float(p_values[i]), i) for i in valid_idx), key=lambda t: t[0])
+
+    prev = 0.0
+    for rank, (p, orig_i) in enumerate(sorted_pairs):
+        factor = m - rank
+        adj_p = factor * p
+        if adj_p < prev:
+            adj_p = prev
+        prev = adj_p
+        adjusted[orig_i] = float(min(adj_p, 1.0))
+
+    return adjusted
+
+
 def _paired_wilcoxon_ci(
     df_ci: pd.DataFrame,
     cond_a: str,
@@ -1098,6 +1124,7 @@ def plot_rag_main_effect_ci_box_plot_3(df_ip: pd.DataFrame, cfg: DictConfig):
         return
 
     cond_order = _baseline_first_order(cond_order)
+    cond_order = ['Baseline', 'Top-3 Irrel', 'Top-1 Rel', 'Top-3 Rel', 'Top-5 Rel']
     df_plot = df_ci[df_ci['condicao'].isin(cond_order)].copy()
     df_plot['condicao'] = pd.Categorical(df_plot['condicao'], categories=cond_order, ordered=True)
     colors = [RAG_COLORS.get(c, "#64748b") for c in cond_order]
@@ -1169,6 +1196,103 @@ def plot_rag_main_effect_ci_box_plot_3(df_ip: pd.DataFrame, cfg: DictConfig):
     ax.grid(axis='y', alpha=0.3, linestyle=':')
     plt.tight_layout()
     save_fig(fig, 'rag_main_effect_ci_box_plot_3', cfg)
+    plt.close()
+
+
+def plot_rag_main_effect_ci_box_plot_4(df_ip: pd.DataFrame, cfg: DictConfig):
+    """Same as plot_3, but with Holm correction over Baseline comparisons."""
+    if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
+        return
+
+    df_ci = _prepare_rag_ci_by_model(df_ip)
+    if df_ci.empty:
+        return
+
+    summary = _prepare_rag_main_effect_summary(df_ci)
+    cond_order = summary['condicao'].tolist()
+    if "Baseline" not in cond_order or len(cond_order) < 2:
+        return
+
+    cond_order = _baseline_first_order(cond_order)
+    cond_order = ['Baseline', 'Top-3 Irrel', 'Top-1 Rel', 'Top-3 Rel', 'Top-5 Rel']
+    df_plot = df_ci[df_ci['condicao'].isin(cond_order)].copy()
+    df_plot['condicao'] = pd.Categorical(df_plot['condicao'], categories=cond_order, ordered=True)
+    colors = [RAG_COLORS.get(c, "#64748b") for c in cond_order]
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    sns.boxplot(
+        data=df_plot,
+        x='condicao',
+        y='chameleon_index',
+        hue='condicao',
+        order=cond_order,
+        hue_order=cond_order,
+        palette=colors,
+        legend=False,
+        width=0.58,
+        showfliers=False,
+        ax=ax,
+    )
+    sns.stripplot(
+        data=df_plot,
+        x='condicao',
+        y='chameleon_index',
+        order=cond_order,
+        color="#111827",
+        alpha=0.55,
+        size=5,
+        jitter=0.12,
+        ax=ax,
+    )
+
+    y_min = df_plot['chameleon_index'].min()
+    y_max = df_plot['chameleon_index'].max()
+    y_range = max(y_max - y_min, 1.0)
+    bracket_height = 0.035 * y_range
+    bracket_gap = 0.075 * y_range
+    top_y = y_max + bracket_gap
+
+    baseline = "Baseline"
+    comparison_conds = [cond for cond in cond_order if cond != baseline]
+
+    raw_p_values: list[float] = []
+    for cond in comparison_conds:
+        test = _paired_wilcoxon_ci(df_ci, baseline, cond, alternative="two-sided")
+        raw_p_values.append(test["p_value"])
+
+    holm_p_values = _holm_adjust_pvalues(raw_p_values)
+
+    for i, cond in enumerate(comparison_conds):
+        x_baseline = cond_order.index(baseline)
+        x_cond = cond_order.index(cond)
+        p_adj = holm_p_values[i]
+        stars = _p_value_stars(p_adj)
+        y = top_y + i * (bracket_gap + bracket_height)
+
+        ax.plot(
+            [x_baseline, x_baseline, x_cond, x_cond],
+            [y, y + bracket_height, y + bracket_height, y],
+            color="#111827",
+            linewidth=1.3,
+        )
+        ax.text(
+            (x_baseline + x_cond) / 2,
+            y + bracket_height + 0.01 * y_range,
+            stars,
+            ha='center',
+            va='bottom',
+            fontsize=13,
+            color="#111827",
+        )
+
+    ax.set_ylim(y_min - 0.05 * y_range, top_y + len(comparison_conds) * (bracket_gap + bracket_height))
+    ax.set_ylabel('Chameleon Index (CI)', fontsize=22, fontweight='bold')
+    ax.set_xlabel('RAG Condition', fontsize=22, fontweight='bold')
+    ax.tick_params(axis='x', labelsize=18, rotation=25)
+    ax.tick_params(axis='y', labelsize=18)
+    ax.grid(axis='y', alpha=0.3, linestyle=':')
+    plt.tight_layout()
+    save_fig(fig, 'rag_main_effect_ci_box_plot_4', cfg)
     plt.close()
 
 
@@ -1426,6 +1550,7 @@ def plot_rag_ipi_dumbbell_3(df_ip: pd.DataFrame, cfg: DictConfig):
     # Maior amplitude à esquerda: Baseline costuma ser a primeira condição.
     df_mean['shift'] = (df_mean['esquerda'] - df_mean['direita']).abs()
     cond_order = df_mean.sort_values('shift', ascending=False)['condicao'].tolist()
+    cond_order = ['Baseline', 'Top-3 Irrel', 'Top-1 Rel', 'Top-3 Rel', 'Top-5 Rel']
 
     colors = USER_COLORS
     labels = {"esquerda": "Left-Wing User", "neutro": "No-Context User", "direita": "Right-Wing User"}
