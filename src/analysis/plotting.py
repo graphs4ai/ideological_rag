@@ -6,6 +6,7 @@ import os
 import re
 from omegaconf import DictConfig
 from scipy.stats import wilcoxon
+from statsmodels.stats.multitest import multipletests
 
 RAG_COLORS = {
     "Baseline": "#334155",
@@ -88,28 +89,22 @@ def _p_value_stars(p_value: float) -> str:
     return "n.s."
 
 
-def _holm_adjust_pvalues(p_values: list[float]) -> list[float]:
-    """Holm (step-down Bonferroni) adjustment.
+def _bonferroni_adjust_pvalues(p_values: list[float]) -> list[float]:
+    """bonferroni adjustment via statsmodels.
 
     - Keeps the input order.
     - Ignores NaNs in the multiplicity count and returns NaN for them.
     """
     adjusted: list[float] = [np.nan for _ in p_values]
     valid_idx = [i for i, p in enumerate(p_values) if not pd.isna(p)]
-    m = len(valid_idx)
-    if m == 0:
+    if not valid_idx:
         return adjusted
 
-    sorted_pairs = sorted(((float(p_values[i]), i) for i in valid_idx), key=lambda t: t[0])
+    valid_pvals = np.array([float(p_values[i]) for i in valid_idx], dtype=float)
+    _, pvals_adj, _, _ = multipletests(valid_pvals, method="bonferroni")
 
-    prev = 0.0
-    for rank, (p, orig_i) in enumerate(sorted_pairs):
-        factor = m - rank
-        adj_p = factor * p
-        if adj_p < prev:
-            adj_p = prev
-        prev = adj_p
-        adjusted[orig_i] = float(min(adj_p, 1.0))
+    for i, adj in zip(valid_idx, pvals_adj):
+        adjusted[i] = float(adj)
 
     return adjusted
 
@@ -1169,6 +1164,7 @@ def plot_rag_main_effect_ci_box_plot_3(df_ip: pd.DataFrame, cfg: DictConfig):
         x_cond = cond_order.index(cond)
         test = _paired_wilcoxon_ci(df_ci, baseline, cond, alternative="two-sided")
         p_value = test["p_value"]
+        # print(f"Comparing {baseline} vs {cond}: p-value = {p_value:.4g}")
         stars = _p_value_stars(p_value)
         y = top_y + i * (bracket_gap + bracket_height)
 
@@ -1200,7 +1196,7 @@ def plot_rag_main_effect_ci_box_plot_3(df_ip: pd.DataFrame, cfg: DictConfig):
 
 
 def plot_rag_main_effect_ci_box_plot_4(df_ip: pd.DataFrame, cfg: DictConfig):
-    """Same as plot_3, but with Holm correction over Baseline comparisons."""
+    """Same as plot_3, but with Bonferroni correction over Baseline comparisons."""
     if df_ip.empty or 'top_k' not in df_ip.columns or 'rag_relevante' not in df_ip.columns:
         return
 
@@ -1260,12 +1256,18 @@ def plot_rag_main_effect_ci_box_plot_4(df_ip: pd.DataFrame, cfg: DictConfig):
         test = _paired_wilcoxon_ci(df_ci, baseline, cond, alternative="two-sided")
         raw_p_values.append(test["p_value"])
 
-    holm_p_values = _holm_adjust_pvalues(raw_p_values)
+    # print(f"Raw p-values for comparisons vs Baseline: {raw_p_values}")
+    bonferroni_p_values = _bonferroni_adjust_pvalues(raw_p_values)
+    # print(f"Bonferroni-adjusted p-values for comparisons vs Baseline: {bonferroni_p_values}")
+
+    # print(f"Raw p-values for comparisons vs Baseline: {raw_p_values}")
+    # print(f"Bonferroni-adjusted p-values for comparisons vs Baseline: {bonferroni_p_values}")
 
     for i, cond in enumerate(comparison_conds):
+        # print(f"Comparing {baseline} vs {cond}: Bonferroni-adjusted p-value = {bonferroni_p_values[i]:.4g}")
         x_baseline = cond_order.index(baseline)
         x_cond = cond_order.index(cond)
-        p_adj = holm_p_values[i]
+        p_adj = bonferroni_p_values[i]
         stars = _p_value_stars(p_adj)
         y = top_y + i * (bracket_gap + bracket_height)
 

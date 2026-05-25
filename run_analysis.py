@@ -26,21 +26,21 @@ def main(cfg: DictConfig) -> None:
         return
 
     # Figuras comparativas com vs sem retriever
-    plotting.plot_ci_geral_por_modelo_com_vs_sem_retriever(df_ip, cfg)
+    # plotting.plot_ci_geral_por_modelo_com_vs_sem_retriever(df_ip, cfg)
     # plotting.plot_ci_por_area_com_vs_sem_retriever(df_pares, cfg)
     # plotting.plot_ipi_com_vs_sem_retriever(df_ip, cfg)
     # plotting.plot_ipi_com_vs_sem_retriever_2(df_ip, cfg)
     # plotting.plot_ipi_media_tendencias_pre_pos_retriever(df_ip, cfg)
-    plotting.plot_rag_main_effect_ci(df_ip, cfg)
-    plotting.plot_rag_main_effect_ci_box_plot(df_ip, cfg)
-    plotting.plot_rag_main_effect_ci_box_plot_2(df_ip, cfg)
+    # plotting.plot_rag_main_effect_ci(df_ip, cfg)
+    # plotting.plot_rag_main_effect_ci_box_plot(df_ip, cfg)
+    # plotting.plot_rag_main_effect_ci_box_plot_2(df_ip, cfg)
     plotting.plot_rag_main_effect_ci_box_plot_3(df_ip, cfg)
     plotting.plot_rag_main_effect_ci_box_plot_4(df_ip, cfg)
     # plotting.plot_rag_main_effect_ci_2(df_ip, cfg)
     # plotting.plot_rag_main_effect_ci_3(df_ip, cfg)
     # plotting.plot_rag_ipi_dumbbell(df_ip, cfg)
-    plotting.plot_rag_ipi_dumbbell_2(df_ip, cfg)
-    plotting.plot_rag_ipi_dumbbell_3(df_ip, cfg)
+    # plotting.plot_rag_ipi_dumbbell_2(df_ip, cfg)
+    # plotting.plot_rag_ipi_dumbbell_3(df_ip, cfg)
     # plotting.plot_rag_topic_delta_ci(df_pares, cfg)
 
     # Figura original. Se houver múltiplos modos, roda só no baseline (top_n_chunks==0) para não misturar.
